@@ -12,4 +12,3 @@ else:
         for u in i.keys():
             if u == myky:
                 print(os.popen("pip install --upgrade "+i[u]).read())
-
