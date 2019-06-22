@@ -1,8 +1,8 @@
 import json
 import os
-
-# 读取指令而不是返回值是要用os.popen().read()，否则只会返回返回值
-f = json.loads(os.popen("pip list -o --format json").read())
+import pysnooper
+@pysnooper()
+f = json.loads(os.popen("pip list -o --format json").read())# 读取指令而不是返回值是要用os.popen().read()，否则只会返回返回值
 if len(f) == 0:  # 确定是不是已经全部更新完毕
     print("all module is updated")
 else:
