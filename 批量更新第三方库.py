@@ -3,7 +3,7 @@ import os
 import pysnooper
 
 @pysnooper.snoop()
-def xvc():
+def level_up():
 
 
     # 读取指令而不是返回值是要用os.popen().read()，否则只会返回返回值
@@ -13,8 +13,8 @@ def xvc():
         print("all module is updated")
     else:
         for i in f:
-            myky = 'name'
+            module_name = 'name'
             for u in i.keys():
-                if u == myky:
+                if u == module_name:
                     print(os.popen("pip install --upgrade "+i[u]).read())
-xvc()
+level_up()
