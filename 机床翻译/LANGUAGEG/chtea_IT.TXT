@@ -1,0 +1,527 @@
+ 526 Channel machine data
+20000 Nome del canale
+20050 Abbinamento asse geometrico ad asse canale
+20060 Nome dell' asse di geometria nel canale
+20070 Numero asse macchina valido nel canale
+20080 Nome dell'asse di canale nel canale
+20082 Nome asse di default per variabili assi nel canale
+20090 Condizione di default del mandrino master nel canale
+20092 Abil./Inibiz. del convertitore mandrino.
+20094 Funzione M per commutaz.dell'asse in funzionamento controllato
+20095 Funz. M per commut.dell'asse in funzion.controllato (modo ext.)
+20096 Significato ampliamenti indirizzi per T, M, cambio UT
+20098 Visualizzare l'asse sull'HMI
+20100 Asse di geomet.con funz.di asse in piano
+20106 Prog-Events ignorano il blocco singolo
+20107 Prog-Events ignorano il blocco lettura
+20108 Event. comand. richiamo progr.
+20109 Proprietà del Prog-Events
+20110 Definiz. condiz. di default del controllore dopo Reset/fine TP
+20112 Definizione condizione di default del controllore dopo NC-START
+20114 Interruzione MDA con cambio modo operativo
+20116 Elaborare il programma di interrupt nonostante il blocco lettura
+20117 Elab.complet.il progr.di interrupt nonostante il blocco singolo
+20118 Consentire il cambio automatico dell'asse geometrico
+20120 Correz. lungh. utensile all'avviamento (Reset/fine partprogram)
+20121 Utensile preselezionato in caso di RESET
+20122 Utensile attivo con RESET/START con gestione utensili
+20123 Valore preselezionato di $P_USEKT con RESET
+20124 Numero del portautensile
+20125 Gestione dell'errore per la funzione CUTMOD
+20126 Portautensile attivo con RESET
+20127 Inizializzazione CUTMOD con POWERON
+20128 Istruzioni di cambio UT al PLC dopo ricerca blocco
+20130 Correz.lungh. tagliente UT all'avviam. (Reset/fine partprogramm)
+20132 Correzione cumulat. effettiva con RESET
+20140 Blocco dati trasformazione all'avviam. (Reset/fine partprogramm)
+20144 Scelta funzione della trasformazione cinematica
+20150 Condizione di default dei gruppi G
+20152 Comportamento reset dei gruppi G
+20154 Condizione di default dei gruppi G nella modalità ISO
+20156 Comportamento al reset di gruppi G esterni
+20160 Numero di blocchi con C-Spline
+20170 Percorso massimo di un blocco NC in compressione
+20172 Scostamento max. ammesso avanzamento vettoriale in compressione
+20178 Percorso max. di movimento per livellamento dell'orientamento
+20180 Incremento asse rotante del portautensile orientabile
+20182 Offset asse rotante del portautensile orientabile
+20184 Numero del Frame base per la conferma dell'offset della tavola
+20188 Limite traslazione lineare fine TCARR
+20190 Limite della traslazione rotat. fine TCARR
+20200 Blocchi vuoti con smussi/raccordi
+20201 Caratteristica smusso/raccordo
+20202 Numero max. dei blocchi senza movimento con WAB
+20204 Inversione della direzione con WAB
+20210 Angolo massimo per blocchi di compensaz. con correz. raggio UT
+20220 Valore massimo per DISC
+20230 Angolo max. per calcolo punto di intersez. con correz. raggio UT
+20240 Blocchi per calcolo anticipato profilo con corr. raggio utensile
+20250 Numero max. di blocchi senza movimento con CRU
+20252 Numero massimo di blocchi con esclusione della correzione
+20254 Correz. raggio ut.in tempo reale ammessa
+20256 Possibile raggiungimento del punto di intersezione per polinomi
+20260 Controllo della velocità per Spline
+20262 Errore relativo ammesso della velocità vettoriale con Spline
+20270 Condizione di default tagliente utensile senza programmazione
+20272 Condiz. di default della correzione cumulativa senza programma
+20310 Attivazione delle funzioni della gestione utensili
+20320 Sorveglianza del tempo per l'utensile nel portautensile
+20350 Attivazione sorveglianza utensile. 0/1: sorveglianza off/on.
+20360 Definizione dei parametri utensile
+20370 Numero tipo utensile per utensili profilo
+20372 Verifica checksum per utensili profilo
+20380 Gestione della correzione lunghezza utensile con G43 / G44
+20382 Attivazione correzione lunghezza utensile
+20384 Correzione lunghezza utensile contemporanea in più assi
+20390 Attivazione della compensazione temperatura per lunghezza UT
+20392 Max. compensazione di temperatura per lunghezza utensile
+20396 Sovrapposizione volantino in direzione dell'utensile
+20400 Look Ahead, velocità nel blocco successivo
+20430 Numero dei valori del selettore dell'override con Look Ahead
+20440 Valori del selettore dell'override con Look Ahead
+20450 Fattore di alleggerimento del tempo ciclo del blocco
+20455 Funzioni speciali del Look Ahead
+20460 Fattore di livellamento per Look Ahead
+20462 Spianamento con velocità programmata
+20464 Comportamento sul profilo
+20465 Adattamento della dinamica del percorso
+20470 Precisione programmabile del profilo
+20480 Comportamento del raccordo con G64x
+20482 Modo del compressore
+20484 Prestazione del compressore
+20488 Impostazione per interpolazione Spline
+20490 G641/G642 indipend. da fattore Overload
+20500 Tempo minimo a velocità costante
+20550 Condiz. stop preciso con G00 e G01
+20552 Condizione di arresto preciso con passaggio G00-G01
+20600 Svincolo max. rispetto al profilo
+20602 Influenza della curvatura del profilo sulla dinamica del profilo
+20603 Influenza della curvatura del profilo sullo strappo
+20610 Riserva di accelerazione per movimenti sovrapposti
+20620 Limitazione incremento volantino per assi geometrici
+20621 Limitazione incremento volantino per assi di orientamento
+20622 Sovrapposizione velocità vettoriale
+20623 Sovrapposizione velocità di orientamento
+20624 Definizione comportam.movimento volantino specifico per canale
+20650 Comportamento in accelerazione dell'asse durante la filettatura
+20660 Determinazione dell'angolo di svincolo (filettatura)
+20700 Blocco start NC senza punto di riferim.
+20730 Rapporto d'interpolazione con G0
+20732 Comportamento in interpolazione con G00
+20734 Maschera funzioni per linguaggio esterno
+20750 G0 logico con G96, G961
+20800 Fine sottoprogramma al PLC
+20850 Emissione di M19 al PLC con SPOS/SPOS
+20900 Tabelle di curve con salto asse a seguire
+20905 Tipo di memoria standard per tabelle curve
+21000 Costante di sorveglianza del punto finale
+21010 Fattore di sorveglianza del punto finale
+21015 Sorveglianza del punto finale su evolvente
+21016 Limitazione autom. dell'angolo con interpolazione ad evolvente
+21020 Verifica del raggio utensile con limitazione del campo di lavoro
+21050 Soglia di intervento per sorveglianza tunnel del profilo
+21060 Reazione all'intervento della sorveglianza tunnel del profilo
+21070 Assegnazione uscita analogica per emissione errore di profilo
+21080 Angolo minimo (tangente al percorso/orientamento UT) con CRU 3D
+21082 Angolo min.tra vettore normale alla superficie e orientamento UT
+21084 Angolo min.tra vettore norm.a superf.e vett. tangente al profilo
+21090 Entità max.angolo di anticipo consentito per progr.orientamento
+21092 Entità max.angolo laterale consentito per programm.orientamento
+21094 Impostazione per orientamento relativo al percorso ORIPATH
+21100 Definizione dell'angolo per programmazione orientamento
+21102 Definizione degli assi di orientamento tramite codice G
+21103 Definizione dell'angolo di orientamento tramite codice G
+21104 Codice G per interpolazione dell'orientamento
+21106 Sistemi di coordinate per JOG cartesiano
+21108 Comportam.con interpolazione grossolana nella posizione del polo
+21110 Sistema di coordinate con definizione automatica del Frame
+21120 Definizione assi di riferimento per assi orientamento
+21130 Definizione assi di riferimento per assi orientamento
+21150 Rapido manuale per assi di orientamento
+21155 Velocità convenzionale per assi di orientamento
+21160 Rapido convenzionale per assi geometrici
+21165 Velocità convenzionale per assi geometrici
+21170 Accelerazione per assi di orientamento
+21180 Verifica limiti software per assi di orientamento
+21186 Offset degli assi rotanti TOCARR dallo SO
+21190 Effetto della correzione in direzione dell'utensile
+21194 Velocità correzione online in direzione dell'utensile
+21196 Accelerazione correzione online in direzione dell'utensile
+21200 Percorso per svincolo rapido dal profilo
+21202 Distacco veloce con specularità
+21204 Comportam. in arresto con svincolo rapido
+21210 Assegn.HW del byte ester. di ingresso NCK p. interrupt progr. NC
+21220 Assegnazione periferia NCK per 'più avanzamenti nel blocco'
+21230 Comportamento memoria per 'più avanzamenti nel blocco'
+21240 Azioni sincrone protette
+21300 Def.coppie mandrini sincroni, nr.asse macch.:slave[0], master[1]
+21310 Tipo di accoppiamento per funzionamento mandrini sincroni
+21320 Comportam. di cambio blocco per funzionamento mandrini sincroni
+21330 Comportamento per interruzione accoppiamento:
+21340 Modifica dei parametri di accoppiamento non possibile
+21380 Tempo di ritardo per assi ESR
+21381 Tempo ESR per frenata interpolatoria
+21400 Nr.versione pacchetto di digitalizzazione (protocollo SCAN-Link)
+21420 Disposizione degli assi del sensore in digitalizzazione
+21422 Precarica in direzione Z per la compensazione del sensore
+21424 Risoluzione del sensore in digitalizzazione
+21430 Flessione minima del sensore per la digitalizzazione
+21432 Valore tipico di flessione per la digitalizzazione
+21434 Flessione del sensore che ha provocato un'emergenza
+21436 Flessione del sensore che provoca emergenza
+21440 Finestra di posiz. In per digitalizzaz.
+21450 Velocità rapida tipica durante la digitalizzazione
+21460 Accelerazione vettoriale massima durante la digitalizzazione
+21462 Accelerazione vettoriale max. per posizionam.in digitalizzazione
+21464 Accelerazione vettoriale max. nella funzione di digitalizzazione
+21470 Fattore proporzionale per il funzionamento manuale
+21472 Fattore proporzionale per regolazione del sensore
+21474 Costante di tempo per regolazione del sensore
+21476 Vettore dalla presa utensile alla presa della sonda di tastatura
+21500 Offset posiz.vertic.asse di rettifica per rettifiche Centerless
+21501 Offset posiz.orizzon.asse di rettifica per rettifiche Centerless
+21502 Offset posiz.verticale asse di regolaz.per rettifiche Centerless
+21504 Offset verticale della riga per rettifiche Centerless
+21506 Offset orizzontale della riga per rettifiche Centerless
+21508 Componente verticale del vettore direzionale della riga per Q1
+21510 Componente orizzontale del vettore direzionale della riga per Q1
+21512 Componente verticale del vettore direzionale della riga per Q2
+21514 Componente orizzontale del vettore direzionale della riga per Q2
+21516 Angolo del passo della riga per rettifiche Centerless
+21518 Lim.super.contatto riga con pezzo da rettif.su rettif.Centerless
+21520 Lim.infer.contatto riga con pezzo da rettif.su rettif.Centerless
+21522 Definizione del mandrino di rettifica per rettifiche Centerless
+21524 Definizione del rullo conduttore per rettifiche Centerless
+21526 Logica speciale per G0 con rettifiche Centerless
+22000 Gruppo di funzioni ausiliarie
+22010 Tipo di funzione ausiliaria
+22020 Ampliamento funzioni ausiliarie
+22030 Valore di funzione ausiliaria
+22035 Specifica-emissione
+22040 Gruppi predefiniti funzioni ausiliarie
+22050 Tipo predefinito funzioni ausiliarie
+22060 Ampliam.predefinito funzioni ausiliarie
+22070 Valore predefinito funzione ausiliaria
+22080 Specifica-emissione
+22100 Ritardo cambio blocco con funzioni ausiliarie veloci.
+22110 Formato dati delle funzioni ausiliarie H (Integer/Real)
+22200 Punto di emissione delle funzioni M
+22210 Punto di emissione delle funzioni S (per valori vedere DM 22200)
+22220 Punto di emissione delle funzioni T (per valori vedere DM 22200)
+22230 Punto di emissione delle funzioni H (per valori vedere DM 22200)
+22240 Punto di emissione delle funzioni F (per valori vedere DM 22200)
+22250 Punto di emissione delle funzioni D (per valori vedere DM 22200)
+22252 Istante di emissione delle funzioni DL
+22254 Ulteriori funzioni M per arresto programma.
+22256 Ulteriori funzioni M per arresto condizionato.
+22260 Punto di emissione delle funzioni E.
+22300 Emissione funz.ausil. dopo ricerca bl.
+22400 Funzione S valida dopo RESET
+22410 Funzione F valida dopo RESET
+22420 Impostazione base per l'istruzione FGROUP
+22500 Funzioni G a PLC
+22510 Codici G emessi all'interconness.NCK-PLC con cambio blocco/RESET
+22512 Invio di istruzioni G al PLC di un linguaggio NC esterno
+22515 Comportamento trasferimento gruppo G al PLC
+22530 Codice M durante cambio portautensile
+22532 Codice M per commutazione assi di geom.
+22534 Codice M per cambio trasformatore
+22550 Nuova correzione utensile con funzione M
+22560 Funzione M per cambio utensile
+22562 Comport.con errore durante cambio utens.
+22600 Velocità in ricerca tipo 5
+22601 Fattore di velocità ricerca tipo 5
+22620 Posizione di base con start speciali
+22621 abilita $MC_START_MODE_MASK_PRT
+22622 Consentire start programma pezzo via PLC.
+22680 Inibire indicatore di interruzione
+22700 Rappresentaz.dati di diagnost. Start con TRACE_STARTTRACE_EVENT.
+22702 Condizioni per l'avvio della rappresentazione del Trace
+22704 Condizioni per Stop della registrazione del Trace
+22706 CommandSequenceStep con il quale termina la registrazione.
+22708 Selezione dei contenuti del Trace.
+22710 Definizione dei dati di Trace
+22712 Indice per la registrazione dei dati di Trace
+22714 Attivazione della diagnosi
+22800 Attivazione dell'emissione del Trace per il compressore
+22900 Direz.(interna/esterna) nella quale è attivo il sett.di protez.3
+22910 Risoluzione di impostazione per il fattore di scala
+22914 Attivazione del fattore di scala assiale ( G51 )
+22920 Attivazione avanzamenti  fissi F1 - F9
+22930 Assegnazione di un asse canale parallelo all'asse geometrico
+24000 Componenti del Frame per G58 e G59
+24002 Frame specifico per canale attivo dopo Reset
+24004 Resettare il Frame specifico per canale dopo Power On
+24006 Frame di sistema attivi dopo reset
+24007 Cancellazione frame di sistema con Reset
+24008 Resettare il Frame di sistema dopo Power On
+24010 Modo di Reset per il Frame programmabile
+24020 Posizioni con disattivazione Frame
+24030 Impostazione del sistema di coordinate ENS
+24040 Adattamenti dei frame attivi
+24050 Salvataggio ed attivazione dei frame di mantenimento dati
+24100 Definizione della trasformazione 1 nel canale
+24110 Assegnazione assi per la 1. trasformazione nel canale
+24120 Assegnaz. di assi GEO agli assi canale per la trasformazione 1
+24130 Trattamento utensile con 1° trasf. attivo
+24200 Definizione della 2. trasformazione nel canale
+24210 Assegnazione asse per la trasformazione 2
+24220 Assegnaz. di assi GEO agli assi canale per la trasformazione 2
+24230 Gestione utensile con 2. trasformazione attiva
+24300 Definizione della 3. trasformazione nel canale
+24310 Assegnazione asse per la trasformazione 3
+24320 Assegnaz. di assi GEO agli assi canale per la trasformazione 3
+24330 Gestione dell'utensile con 3. trasformazione attiva
+24400 Definizione della 4. trasformazione nel canale
+24410 Assegnazione assi per la 4. trasformazione nel canale
+24420 Assegnaz. di assi GEO agli assi canale per la trasformazione 4
+24426 Gestione dell'utensile con 4. trasformazione attiva
+24430 Tipo della trasformazione 5 nel canale
+24432 Assegnazione asse per la trasformazione 5
+24434 Abbinamento assi geometrici ad assi canale per trasformazione 5
+24436 Gestione dell'utensile con 5. trasformazione attiva
+24440 Tipo della trasformazione 6 nel canale
+24442 Assegnazione asse per la trasformazione 6
+24444 Abbinamento assi geometrici ad assi canale per trasformazione 6
+24446 Gestione dell'utensile con 6. trasformazione attiva
+24450 Tipo della trasformazione 7 nel canale
+24452 Assegnazione asse per la trasformazione 7
+24454 Abbinamento assi geometrici ad assi canale per trasformazione 7
+24456 Gestione dell'utensile con 7. trasformazione attiva
+24460 Tipo della trasformazione 8 nel canale
+24462 Abbinamento assi per trasformazione 8
+24464 Abbinamento assi geometrici ad assi canale per trasformazione 8
+24466 Gestione dell'utensile con 8. trasformazione attiva
+24470 Tipo della trasformazione 9 nel canale
+24472 Assegnazione asse per la trasformazione 9
+24474 Abbinamento assi geometrici ad assi canale per trasformazione 9
+24476 Gestione dell'utensile con 9. trasformazione attiva
+24480 Trasformazione 10 nel canale
+24482 Assegnazione asse per la trasformazione 10
+24484 Abbinamento assi geometrici ad assi canale per trasformazione 10
+24486 Gestione dell'utensile con 10. trasformazione attiva
+24500 Vettore di traslazione della trasformazione 1 a 5 assi
+24510 Offset di posizione assi rotanti 1/2/3 per trasformaz.1 a 5 assi
+24520 Segno degli assi rotanti 1/2/3 per la trasformazione 1 a 5 assi
+24530 Definiz. del settore del polo per la trasformazione 1 a 5 assi
+24540 Toll.angolo finale per interp.attrav.il polo della trafo 5 assi
+24542 Tolleranza angolo finale con interpolazione polare
+24550 Vettore utensile base per attivazione della trafo 1 a 5 assi
+24558 Vettore traslazione cinematica su tavola
+24560 Vettore trasl. cinematica della 1. trasformaz. 5 assi nel canale
+24561 Vettore del disassamento cinematico
+24562 Offset punto di orientam.dell'asse rotante con Trafo 1 a 5 assi
+24564 Angolo Nutating Head per trasformazione 5 assi
+24566 Assi di orientamento virtuali
+24570 Direzione del 1. asse rotante
+24572 Direzione del 2. asse rotante
+24573 Direzione del 3. asse rotante
+24574 Vettore orientamento di base dell'utensile con Trafo a 5 assi
+24576 Vettore normale all'utensile con trasformazione a 6 assi
+24580 Direzione vettore di orientamento per la prima Trafo a 5 assi
+24582 Nr. TCARR per la 1. trasformazione a 5 assi
+24585 Abbinamento asse di orientamento/asse canale trasformazione 1
+24590 Offset degli assi rotanti della trasformazione da SO
+24600 Vettore di traslazione della 2. trasformazione 5 assi nel canale
+24610 Offset di posizione degli assi rotanti 1/2/3
+24620 Segno degli assi rotanti 1/2/3 per la trasformazione 2 a 5 assi
+24630 Definiz. del settore del polo per la trasformazione 2 a 5 assi
+24640 Toll.angolo finale per interp.attrav.il polo della trafo 5 assi
+24642 Tolleranza angolo finale con interpolazione polare
+24650 Vettore UT base con attivazione della trasformazione 2 a 5 assi
+24658 Vettore traslazione cinematica su tavola
+24660 Vettore trasl. cinematica della 2° trasformaz. 5 assi nel canale
+24661 Vettore del disassamento cinematico
+24662 Offset punto di orientam. 2.trafo a 5 assi con asse lin.orient.
+24664 Angolo Nutating Head
+24666 Assi di orientamento virtuali
+24670 Direzione del 1° asse rotante
+24672 Direzione del 2° asse rotante
+24673 Direzione del 3° asse rotante
+24674 Orientamento di base dell'utensile
+24676 Vettore normale all'utensile
+24680 Direzione vettore di orientamento
+24682 Nr. TCARR per la 2. trasformazione 5 assi
+24685 Abbinamento asse di orientamento/asse canale trasformazione 1
+24690 Offset degli assi rotanti della trasformazione da SO
+24700 Angolo tra asse cartesiano e asse reale (inclinato)
+24710 Vettore utensile base per la 1.trasformazione TRAANG
+24720 Riserva di velocità per 1.trasformazione TRAANG
+24721 Riserva di accelerazione asse parallelo per 1. trasformaz.TRAANG
+24750 Angolo tra asse cartesiano e asse reale (inclinato)
+24760 Vettore utensile base per la 2.trasformazione TRAANG
+24770 Riserva di velocità per 2. trasformazione TRAANG
+24771 Riserva di accelerazione asse parallelo per 2.trasformaz.TRAANG.
+24800 Offset dell'asse rotante per la 1.trasformazione TRACYL
+24805 Traslazione asse rotante TRACYL 1
+24808 Selezione del modo TRACYL
+24810 Segno dell'asse rotante per la 1. trasformazione TRACYL
+24820 Vettore utensile base per la 1.trasformazione TRACYL
+24850 Offset dell'asse rotante per la 2.trasformazione TRACYL
+24855 Traslazione asse rotante TRACYL 2
+24858 Selezione del modo TRACYL
+24860 Segno dell'asse rotante per la 2. trasformazione TRACYL
+24870 Vettore utensile base per la 2.trasformazione TRACYL
+24900 Offset dell'asse rotante per la 1.trasformazione TRANSMIT
+24905 Traslazione asse rotante TRANSMIT 1
+24910 Segno dell'asse rotante per la 1. trasformazione TRANSMIT
+24911 Limitaz.del campo di lavoro prima/dopo il polo, 1.trafo TRANSMIT
+24920 Vettore utensile base per la 1.trasformazione TRANSMIT
+24950 Offset dell'asse rotante per la 2.trasformazione TRANSMIT
+24955 Traslazione asse rotante TRANSMIT 2
+24960 Segno dell'asse rotante per la 2. trasformazione TRANSMIT
+24961 Limitaz.del campo di lavoro prima/dopo il polo, 2.trafo TRANSMIT
+24970 Vettore utensile base per la 2.trasformazione TRANSMIT
+24995 Concatenamento trasformazione
+24996 Concatenamento trasformazione
+24997 Concatenamento trasformazione
+24998 Concatenamento trasformazione
+26000 Assegnazione hardware del byte di ingresso per controllo corsa
+26002 Assegnazione hardware del byte di uscita per controllo corsa
+26004 Maschera per bit di uscita veloci
+26006 Maschera per bit di ingresso veloci
+26008 Definizione delle funzioni M
+26010 Definizione degli assi di punzonatura e roditura
+26012 Attivazione delle funzioni di punzonatura e roditura
+26014 Attivazione della suddivisione automatica del percorso
+26016 Comportam. singoli assi con suddivisione automatica del percorso
+26018 Tempo di ritardo per punzonatura/roditura con G603
+26020 Allarme contatto difett.del segnale punz
+27100 Parametrizzare visualizzazione blocco con valori assoluti
+27200 HMI Info (senza unità fisiche)
+27201 HMI Info di stato (senza unità fisiche)
+27202 HMI Info (posizioni lin.)
+27203 HMI Info di stato (posizioni lin.)
+27204 HMI Info (velocità lineari)
+27205 HMI Info di stato (velocità lineari)
+27206 HMI Info (velocità di taglio)
+27207 HMI Info di stato (velocità di taglio)
+27208 HMI Info (avanzamento)
+27209 HMI Info di stato <avanzamento)
+27400 Informazione versione OEM
+27800 Tecnologia nel canale
+27860 Attiv.misurazione tempo ciclo programma
+27880 Attivazione del contatore pezzi
+27882 Conteggio pezzi con istruzione M definita dall'utente
+27900 Percentuale del buffer IPO per l'abilitazione del file di log
+28000 Dimensione memoria per REORG (DRAM)
+28010 Numero di blocchi per le variabili utente locali con REORG
+28020 Numero di variabili utente locali (DRAM)
+28030 Numero di variabili utente locali per
+28040 Dimensione memoria per le variabili utente locali (DRAM)
+28050 Numero dei parametri R specifici per canale (SRAM)
+28060 Numero di blocchi NC nel buffer IPO (DRAM)
+28070 Numero di blocchi per la preparazione del blocco (DRAM).
+28080 Numero di Frame impostabili (SRAM)
+28081 Numero dei frame base (SRAM)
+28082 Frame di sistema (SRAM)
+28083 Frame di sistema (SRAM)
+28085 Assegnazione di un'unità TO ad un canale (SRAM)
+28090 Numero di elementi del blocco per i cicli compilati (DRAM)
+28100 Dimensione memoria del blocco per cicli compilati (DRAM), in kB
+28105 Memoria Heap in kByte per applicaz. con cicli compilati (DRAM)
+28150 Numero di elementi per la scrittura di variabili PLC
+28160 Numero di elementi per la scrittura di variabili NCU Link
+28180 Dimensione del buffer dei dati di Trace
+28200 Nr.di file per settori di protezione specifici per canale (SRAM)
+28210 Nr. settori di protezione contemporaneamente attivi in un canale
+28212 Elementi per settori di protezione attivi (DRAM)
+28250 Numero di elementi per le espressioni in azioni sincrone
+28251 Numero di elementi per le espressioni in azioni sincrone Safety
+28252 Numero di elementi FCTDEF
+28254 Dimensione di $AC_PARAM.
+28255 $AC_PARAM[] viene memorizzato nella SRAM
+28256 Dimensione di $AC_MARKER
+28257 $AC_MARKER[] viene memorizzato nella SRAM
+28258 Numero di variabili temporali $AC_TIMER (DRAM)
+28260 Numero delle variabili FIFO per azioni sincrone
+28262 Memorizzazione delle variabili FIFO da parametro R
+28264 Lunghezza delle variabili FIFO $AC_FIFO1-$AC_FIFO10
+28266 Modo dell'elaborazione FIFO
+28274 Numero $AC_SYSTEM_ PARAM per azioni sincrone al movimento
+28276 Numero $AC_SYSTEM_MARKER per azioni sincrone al movimento
+28290 Abilitare la correzione raggio utensile per utensili del profilo
+28300 Attivazione del protocollo per uno User.
+28301 Numero tipi Event OEM ETP.
+28302 Numero tipi di eventi standard ETP.
+28400 Attivare visualizzaz. blocco con val. ass.
+28402 Dimensionare la capacità buffer di upload
+28450 Buffer per variazione dati utensile (DRAM)
+28500 Dimensioni dello stack del task di preparazione (DRAM)
+28520 Nr. massimo dei polinomi assiali per blocco
+28530 Nr.elementi di memoria per limitazione della velocità vettoriale
+28535 Nr. di elementi di memoria per profili di avanzamento
+28540 Nr. di elementi di memoria per rappresent. funzione lungh. arco
+28550 Memoria disponibile per blocchi interni
+28560 Ripristino dei dati dopo una simulazione.
+28580 Impostazione per orientamento relativo al percorso ORIPATH
+28590 Impostazione per livellamento dell'orientamento
+28600 Nr. limitaz.campo di lavoro specifiche per sistema di coordinate
+29000 Dato opzionale
+42000 Angolo iniziale per filettatura
+42010 Comportamento in accelerazione dell'asse durante la filettatura
+42100 Avanzamento per ciclo prova
+42101 Modo per ciclo di test della velocità
+42110 Valore di default per avanzamento vettoriale
+42120 Avanzamento vettoriale nei blocchi di accostamento
+42122 Override rapido supplementare impostabile tramite operatività
+42125 sincronizzazione nei blocchi di accostamento
+42140 Fattore di scala di default per indirizzo P
+42150 Fattore di rotazione di default per indirizzo R
+42160 Avanzamenti fissi F1 - F9
+42162 Distanza utensile della testa a doppio revolver
+42200 Attivare modo debug per SBL2
+42300 Rapp.trasf.per funzion.con mandrini sincroni, numerat., denomin.
+42400 Tempo di sosta per punzonatura e roditura
+42402 Tempo di ritardo (punzonatura/roditura) con G603
+42404 Tempo minimo tra 2 colpi in secondi
+42440 Spostamenti origine in frame
+42442 Correzioni lunghezza utensile
+42444 Modo di accostamento in seguito a ricerca con calcolo
+42450 Precisione del profilo
+42460 Avanzamento vettoriale minimo con CPRECON
+42465 Deviazione massima dal profilo durante il raccordo
+42466 Scostamento max. per orientamento utensile durante raccordo
+42470 Velocità limite su spigoli per compressore
+42471 Raggio di curvatura minimo
+42475 Max.scostamento profilo con compressore
+42476 scostamento massimo dell'orientamento utensile con compressore
+42477 scostamento massimo della rotazione utensile con compressore
+42480 Reazione su allarme con correzione raggio UT e stop elaborazione
+42490 Comport. di svincolo della correzione raggio UT con stop elabor.
+42494 Comport. accostamento/svincolo con correzione raggio UT 2-1/2D
+42496 Comportamento della correzione raggio UT con profilo chiuso
+42500 Accelerazione vettoriale massima
+42502 Valutazione SD SC_SD_MAX_PATH_ACCEL
+42510 Strappo massimo riferito al percorso come dato setting
+42512 Valutazione SD SD_MAX_PATH_JERK
+42520 Inizio riduzione avanzamento con G62.
+42522 Fine riduzione avanzamento con G62.
+42524 Override riduzione avanzamento con G62.
+42526 Riconoscimento spigolo con G62.
+42528 Riduzione avanzamento su cerchi con correzione raggio utensile
+42600 Controllo avanzamento al giro in JOG
+42650 Sistema di coordinate per movimento manuale cartesiano
+42660 Definizione della cinematica virtuale per JOG
+42670 Tratti di percorso per livellamento dell'orientamento
+42672 Tolleranza per livellamento dell'orientamento
+42674 Tratti di percorso per livellamento orientamento con raccordo
+42676 Tolleranza per livellamento orientamento con raccordo
+42678 Tolleranza per livellamento dell'orientamento
+42700 Percorso programma per richiamo esterno sottoprogramma EXTCALL
+42750 Abilitare visualizzazione blocco base
+42800 Conversione numero mandrino.
+42900 Cambio segno lunghezza utensile con specularità
+42910 Cambio segno usura utensile con specularità
+42920 Segno dell'usura per utensili con posizione del tagliente
+42930 Segno dell'usura
+42935 Trasformazioni per componenti utensili
+42940 Cambio delle componenti utensili alla commutazione del piano
+42950 Abbinamento compensazione lunghezza UT indipendente dal tipo UT
+42960 Compensazione di temperatura riferita all'utensile
+42970 Limite superiore del valore di correzione $AA_TOFF
+42974 Traslazione fine TCARR on / off
+42980 Definizione del Frame con TOFRAME, TOROT e PAROT
+42984 Variazione di $P_AD[2] oppure $P_AD[11
+42990 numero massimo di blocchi nel buffer IPO
+42995 Angolo del cono

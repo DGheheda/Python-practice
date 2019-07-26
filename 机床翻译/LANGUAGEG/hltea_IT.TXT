@@ -1,0 +1,206 @@
+ 205 HLA machine data
+5001 Clock regolatore di velocità
+5002 Clock di sorveglianza
+5003 Configurazione STS
+5004 Configurazione della struttura
+5005 Impulsi trasduttore sist.misura rotativo
+5008 Correzione errore fase trasduttore
+5011 Configurazione acquisizione valore reale
+5012 Selettore di funzione
+5021 Risol. multiturn trasd.assoluto motore
+5022 Tacche della traccia assoluta del motore
+5023 Diagnostica sist.misura motore traccia ass.
+5024 Suddivisione reticolo riga lineare
+5025 Numero di serie sistema di misura motore
+5027 Configurazione trasduttore IM
+5028 IM lunghezza telegramma SSI
+5040 Zero pistone a zero macchina
+5041 Zero macchina con zero valore reale di posizione
+5042 Zero macchina con zero valore reale di posizione
+5046 Numero max di test SSI
+5047 Limite con varianza
+5100 Modulo elasticità dell'olio idraulico
+5101 Pressione del sistema
+5102 Pressione precomando
+5106 Numero di codice della valvola
+5107 Flusso volume nominale della valvola
+5108 Pressione nom.di rilascio della valvola
+5109 Tensione nominale della valvola
+5110 Flusso volumetrico diseccitaz. valvola
+5111 Tensione di diseccitazione della valvola
+5112 Rapporto flusso volum. A/B della valvola
+5113 Configurazione della valvola
+5114 Frequenza propria della valvola
+5115 Attenuazione della valvola
+5131 Diametro pistone del cilindro
+5132 Diametro stelo pistone del cilindro A
+5133 Diametro stelo pistone del cilindro B
+5134 Corsa pistone
+5135 Volume neutro cilindro lato A
+5136 Volume neutro cilindro lato B
+5140 Configuraz.collegamento cilindro-valvola
+5141 Lunghezza conduttura lato A
+5142 Lunghezza conduttura lato B
+5143 Diametro interno conduttura A e B
+5150 Massa spostata dell'azionamento
+5151 Posiz.di montaggio lato A del cilindro
+5152 Fissaggio del cilindro
+5160 Posizione pistone min.frequenza propria
+5161 Attenuazione dell'azionamento
+5162 Frequenza propria dell'azionamento A
+5163 Frequenza propria dell'azionamento
+5164 Frequenza propria dell'azionamento B
+5180 Attenuazione richiesta sistema regolato
+5200 Nr.filtri grand.regolata regol.velocità
+5201 Tipo filtro grandezza regolata regol.vel
+5202 Freq.intrins filtro 1 grand.regol.veloc.
+5203 Attenuaz.filtro 1 grand.regolat.velocità
+5204 Freq.intrin. filtro 2 grand.regol.veloc.
+5205 Attenuaz.filtro 2 grand.regolat.velocità
+5210 Freq. blocco filtro 1 grand.regol.veloc.
+5211 Largh.banda filtro 1 grand.regol.veloc.
+5212 Larg.banda filt.cont.grand.reg.1reg.vel.
+5213 Freq.blocco filtro 2 grand.regol.veloc.
+5214 Largh.banda filtro 2 grand.regol.veloc.
+5215 Larg.banda filt.cont.grand.reg.2reg.vel.
+5230 Soglia di limitazione forza per il peso
+5231 Limitazione di forza del peso
+5232 Soglia di velocità della frizione
+5233 Anticipo disinserzione frizione
+5234 Velocità forza di attrito >0
+5235 Velocità forza di attrito <0
+5240 Guadagno di sistema regolatore potenza
+5241 Configurazione regolatore di potenza
+5242 Amplificazione P regolatore di potenza
+5243 Attenuaz.componente P regolatore potenza
+5244 Tempo di integraz.regolatore di potenza
+5245 Cost.tempo di attenuaz. regol.potenza
+5246 Tempo azione derivativa regolat.potenza
+5247 Fattore precomando regolatore di potenza
+5260 Numero filtri precomando regolat. forza
+5261 Tipo filtro precomando regolatore forza
+5264 Frequenza propria PT2 fattore precom. 1
+5265 Attenuazione PT2 fattore precomando 1
+5268 Frequenza di blocco filtro precomando 1
+5269 Larghezza banda filtro precomando 1
+5270 Larghezza banda filtro precomando 1
+5280 Numero filtri delle grandezze regolate
+5281 Tipo filtro grandezza regolata
+5284 Frequenza propria filtro grand.regol. 1
+5285 Attenuazione filtro grandezza regolata 1
+5288 Fequenza di blocco filtro grand.regol.1
+5289 Larghezza banda filtro grandezza misur.1
+5290 Largh.banda contat.filtro grand.regol.1
+5401 Velocità utile massima
+5402 Tempo di fermata con blocco regolatore
+5404 Intervallo di tempo blocco potenza
+5406 Amplificaz. P regolatore di velocità A
+5407 Amplificazione P regolatore di velocità
+5408 Amplificaz. P regolatore di velocità B
+5409 Tempo di ripristino regolatore velocità
+5413 Scelta adaption regolatore velocità
+5414 Frequenza intrin. modello di riferimento
+5415 Attenuazione modello di riferimento
+5420 Velocità max. modo messa a punto
+5421 Costante di tempo retroazione integrat.
+5422 Soglia di velocità ritorno integratore
+5430 Costante di attenuaz.regolatore velocità
+5431 Set-up-time del regolatore di velocità A
+5432 Set-up-time del regolatore di velocità
+5433 Set-up-time del regolatore di velocità B
+5435 Guadagno del sistema
+5440 limite posit.valore riferimento velocità
+5441 limite negat.valore riferimento velocità
+5460 Passo della compensazione dell'attrito
+5461 Campo effetto compensazione dell'attrito
+5462 Fattore adattamento superficie positivo
+5463 Fattore adattamento superficie negativo
+5464 Compens. flessione corrente volume pos.
+5465 Compensaz. flessione tensione positiva
+5466 Campo arrotondam.compensazione flessione
+5467 Compens. flessione corrente volume neg.
+5468 Compensaz. flessione tensione negativa
+5470 Compensazione dell'offset
+5474 Limitazione tensione di regolazione
+5475 Limitazione tensione di regolazione
+5476 Inversione della grandezza regolata
+5480 Compens.fless.corrente volum.pos.sett.0
+5481 Compens.flessione tens.posit.settore 0
+5482 Compens.flessione arrotond.settore 0
+5483 Compens.fless.corrente volum.neg.sett.0
+5484 Compens.fless.tensione negat.settore 0
+5485 Compens.fless.corrente volum.pos.saturaz
+5486 Compens.flessione tens.posit.saturazione
+5487 Compens.fless.corrente volum.neg.saturaz
+5488 Compens.flessione tensione negat.saturaz
+5500 Numero filtri velocità
+5501 Tipo filtro di velocità
+5502 PT1-costante di tempo filtro velocità 1
+5506 PT2-frequenza propria filtro velocità 1
+5507 PT2-attenuazione filtro velocità 1
+5514 Frequenza di blocco BSP filtro veloc. 1
+5515 Larghezza banda BSP filtro velocità 1
+5516 Larghezza banda numerat.filtro veloc. 1
+5520 frequenza propria BSP filtro velocità 1
+5522 Costante tempo filtro val. reale velocità
+5530 Commutazione sicurezza
+5531 Tempo di blocco della grandezza regolata
+5532 Tempo di blocco abilitazione potenza
+5550 Val.di rifer.sensore pressione A con 10V
+5551 Compensaz.offset per sensore pressione A
+5552 Val.di rifer.sensore pressione B con 10V
+5553 Compensaz.offset per sensore pressione B
+5600 Allarmi escludibili (Power-On)
+5601 Allarmi escludibili (Reset)
+5605 Tempo del regolat.di velocità in limitaz
+5606 Soglia regolat. velocità in saturazione
+5609 Veloc.max. di misura della riga lineare
+5610 Funzioni di diagnostica
+5612 Progett. reazione cancellaz. allarmi-PO
+5613 Reazione disins.progettata allarmi RESET
+5614 Interv.di tempo sorvegl.cursore valvola
+5620 Bits funzioni di segnalazione variabile
+5621 Nr del segnale per funz.di segn. variab.
+5622 Indirizzo funzione segnalaz. variabile
+5623 Soglia funzioni di segnalazione variab.
+5624 Isteresi funzioni segnalazione variabile
+5625 Ritardo eccitazione funz.segnal.variab.
+5626 Ritardo diseccitaz.funz.segnalaz.variab.
+5648 Valvola-Idi-Parametro2
+5649 Valvola-Idi-Parametro2
+5650 Gestione diagnostica
+5651 Nr. del segnale per memoria min./max
+5652 Cella di memoria per memoria min./max
+5653 Valore minimo memoria Min/Max
+5654 Valore massimo memoria Min/Max
+5655 Segmento cella di memoria monitor
+5656 Indirizzo cella memoria monitor
+5657 Monitor visualizzazione valori
+5658 Monitor impostazione valori
+5659 Monitorizzazione accettazione valore
+5700 Stato degli ingressi binari
+5704 Valore reale di pressione A
+5705 Valore reale di pressione B
+5706 Valore di riferimento velocità
+5707 Valore reale velocità
+5708 Valore reale forza cilindro
+5709 Valenza per la rappresent. tensione
+5710 Valenza rappresentazione pressione
+5711 Valenza rappresentazione velocità
+5713 Valenza per la rappresentazione forza
+5714 Valenza rappresentazione posizione
+5715 Tensione riferim.posiz.cursore valvola
+5716 Tensione val. reale posiz.cursore valvola
+5717 Valore di rif. della forza del cilindro
+5720 Parametri di diagnostica CRC
+5725 Normalizz. interfaccia val. rif. potenza
+5730 Visualizzazione del modo operativo
+5731 Immagine ZK1 registro PO
+5732 Immagine ZK1 registro RES
+5735 Carico del processore
+5740 Val. reale di posiz. riferito a zero macchina
+5741 Posiz. pistone riferita a zero pistone
+5790 Tipo circuito di mis.del sistema di mis.
+5797 Versione dei dati
+5798 Data del firmware
+5799 Versione del firmware

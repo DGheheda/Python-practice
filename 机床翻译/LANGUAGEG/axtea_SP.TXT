@@ -1,0 +1,428 @@
+ 427 Axis machine data
+30100 Asignación de consigna: Nº segmento de bus
+30110 Asignación de consigna: Nº del módulo
+30120 Asignación de consigna: salida en módulo de accionamiento/módulo
+30130 Clase de salida de la consigna
+30132 El eje es virtual.
+30134 La salida de consigna es unipolar
+30200 Número del captador
+30210 Asignación de valor real: Nº segmento de bus
+30220 Asignación de valor real: nº accionamiento/nº circuito de medida
+30230 Asign. valor real: entrada en mód. accionam./tarj. circuito med.
+30240 Tipo de encoder para captar valor real (posición actual)
+30242 Captador independiente
+30244 Tipo encoder medida axial
+30250 Posición captador interna
+30260 Capatador absoluto: relación resolución absoluta-incremental
+30270 Captador abs. : Ampliación campo desplaz.
+30280 Nº del accionamiento para el 2º circuito de medida del accmto.
+30300 Eje giratorio/cabezal
+30310 Conversión módulo para eje giratorio/cabezal
+30320 V isualización módulo 360 grados con eje giratorio o cabezal
+30330 Tamaño del campo módulo
+30340 Posición inic. área módulo
+30350 Salida de las señales de eje con eje de simulación
+30400 Eje con ciclos C programables
+30450 Preajuste con reset: eje neutro/canal
+30455 Funciones de ejes.
+30460 Funciones de ejes.
+30465 Sustitución de instrucciones en lenguaje de programación CN
+30500 El eje es un eje divisor
+30501 Eje indexado, posiciones equidistantes numerador
+30502 Eje indexado, posiciones equidistantes denominador
+30503 Eje indexado con posiciones equidistantes 1ª posic. de división
+30505 Eje es eje indexado con dentado Hirth
+30550 Posición de borrado del canal para cambio de eje
+30552 GET automático al buscar eje
+30554 Posición de borrado, qué NCU genera consignas para los ejes
+30560 El eje es un eje "Link" local
+30600 Posiciones de valor fijo del eje con G75
+30800 Tipo de prueba de los límites del campo de trabajo
+31000 Regla medida
+31010 Periodo de indexado en reglas de medida
+31020 Marcas por vuelta captador
+31025 Multiplicación del captador (alta resolución)
+31030 Paso del husillo a bolas
+31040 Sistema medida directo (sin relación respecto a posición carga)
+31044 Captador en reductor
+31050 Denominador reductor carga
+31060 Numerador reductor de carga
+31064 Denominador de la relación del reductor
+31066 Numerador de la relación del reductor
+31070 Denominador reductor de medida
+31080 Numerador reductor de medida
+31090 Valoración del incremento con INC/Volante
+31122 Tiempo de retardo BERO +
+31123 Retardo BERO negativo
+31130 VCO-Corrección característica 62,5 kHz
+31140 VCO-Corrección característica 125 kHz
+31150 VCO-Corrección característica 185,5 kHz
+31160 VCO-Corrección característica  250 kHz
+31200 Factor para conversión de valores con G70/G71 activos
+31300 Variación de frecuencia máxima para motor paso a paso
+31310 1er límite en variación de frecuencia
+31320 2º límite en variación de frecuencia
+31330 Frecuencia efectiva para límite en variación 1
+31340 Frecuencia efectiva para límite en variación 2
+31500 Sacar consigna de eje para Service
+31510 Tensión offset para consigna de Service
+31520 Ganancia para consigna de Service
+31600 Especif. Trace para señales axiales y Vdi
+32000 Máxima velocidad de eje
+32010 Rápido convencional
+32020 Velocidad de eje convencional
+32040 Avance por vuelta en JOG con superposición en rápido
+32050 Velocidad avance por vuelta en JOG
+32060 Posición de borrado para velocidad de eje de posicionamiento
+32070 Velocidad de eje para superposición
+32074 Corrección de frame o HL inadmisible
+32080 Limitación del incremento seleccionado
+32082 Limitación para superposición de velocidad
+32084 Efecto de las señales VDI en desplazamiento con volante
+32090 Relación velocidad JOG con respecto a velocidad volante (DRF)
+32100 Dirección desplazamiento (no sent. reg.)
+32110 Signo valor real (sentido reg.)
+32200 Factor Kv
+32210 Tiempo de acción integral regul. posición
+32220 Activ. componente integral regul. posición
+32230 Configuración estructura regul. posición
+32250 Tensión de salida nominal
+32260 Velocidad de giro nominal del motor
+32300 Aceleración máxima del eje
+32301 Aceleración máxima de eje en modo JOG
+32310 Factor de sobrecarga para escalones de velocidad por eje
+32320 Comportamiento en reset de limitaciones de dinámica
+32400 Aceleración senoidal axial
+32402 Tipo de filtro para limitación de tirones por eje
+32410 Constante de tiempo para filtro antitirones por eje
+32412 Frecuencia bloqueo filtro tirones eje
+32414 Atenuación para filtro antitirones por eje
+32420 Ajuste inicial de la limitación de tirones por eje
+32430 Aceleración senoidal axial
+32431 Máx. tirón axial movimiento trayectoria
+32432 Tirón axial máx. en trans. secuencia en control por contorneado
+32433 Escala límite de aceleración con SOFT
+32434 Escala límite de aceleración con G00
+32435 Escala límite tirón con G00.
+32436 Máximo tirón axial con desplazamiento JOG
+32440 Frecuencia de alisado para Look Ahead
+32450 Juego inversión
+32452 Factor de ponderación del juego de inversión
+32460 Par adicional para compensación de peso electrónica
+32490 Clase de compensación de rozamiento
+32500 Compensación rozamiento activa
+32510 Adaptación compens. rozamiento activa
+32520 Máximo valor compensación rozamiento
+32530 Mínimo valor compensación rozamiento
+32540 Compensación rozamiento-Constante tiempo
+32550 Adaptación valor aceleración 1
+32560 Adaptación valor aceleración 2
+32570 Adaptación valor aceleración 3
+32580 Factor ponder. compensac. rozamiento con desplazamientos cortos
+32610 Factor para mando anticipativo de velocidad de giro/lineal
+32620 Tipo de mando previo
+32630 Activar mando anticipativo desde programa
+32640 Regulación dinámica de rigidez
+32642 Configuración para regulación dinámica de rigidez (DSC)
+32644 Regul. dinámica rigidez: temporización
+32650 Inercia para mando anticipativo de par
+32652 Masa del eje para mando anticipativo de par
+32700 Compensación errores captador/husillo
+32710 Habilitación de la compensación de flexión
+32711 Sistema de medida de la compensación de flexión
+32720 Valor máximo en compensación de flexión
+32730 Cambio de velocidad para 1
+32750 Forma compensación de temperatura
+32760 Exceso de velocidad por compensación
+32800 Constante tmpo. equiv. lazo reg. intens. para mando anticipativo
+32810 Constante tiempo equiv. lazo reg. veloc. para mando anticipativo
+32900 Adaptación dinámica
+32910 Constante tiempo adaptación dinámica
+32920 Constante tiempo filtro alisado para control adaptativo
+32930 Activar filtro de paso bajo en salida del regulador de posición
+32940 Constante tiempo filtro paso bajo en salida regulador posición
+32950 Atenuación del lazo de regulación de velocidad
+32990 Retardo de la consigna de posición actual
+33000 Tipo interpolación fina
+33050 Trayecto para engrase especificado por PLC
+33060 Configuración del registro de los datos de mantenimiento
+33100 Desviación máxima con compresión
+34000 Eje con leva del punto de referencia
+34010 Buscar punto de referencia en dirección negativa
+34020 Velocidad posicionamiento punto referenc
+34030 Trayecto máximo a leva de referencia
+34040 Velocidad de desconexión
+34050 Inversión sentido en leva referencia
+34060 Máximo trayecto a marca referencia
+34070 Velocidad de búsqueda del punto de referencia
+34080 Distancia punto de referencia
+34090 Decalaje del punto de referencia/decalaje absoluto
+34092 Decalaje de leva eléctrico, sistemas de medida incremental
+34093 Dist. leva/marca de ref.
+34100 Valor punto referencia/punto destino en sistema codif. distancia
+34102 Compensación del sistema de medida
+34104 Habilitación Referenciar en modo Seguimiento
+34110 Sucesión de ejes al referenciar por cada canal
+34120 Cambio de polaridad de la leva BERO
+34200 Modo pos. referencia
+34210 Estado de ajuste del captador absoluto
+34220 Zona de módulo en caso de captador absoluto rotativo
+34230 Número serie encoder
+34232 Alcance del número de serie del captador
+34300 Distancia básica de marcas refer. en captadores codif. distanc.
+34310 Difer. intervalo entre 2 marcas referencia en reglas codificadas
+34320 Sistema medida longitud en sentido contrario al movimiento eje
+34330 Sistema medida longitud a intervalos codific. sin punto destino
+34990 Constante de tiempo de filtro para valores reales
+35000 Asignación de cabezal a eje de máquina
+35010 Parametrizar cambio de escalones de reducción
+35012 Posición de cambio de reducción
+35014 Escalón de reducción para modo eje con M70
+35020 Posición base del cabezal
+35030 Instante en el que surte efecto el ajuste inicial del cabezal
+35032 Comportamiento reset de funciones individuales de cabezal
+35035 Funciones de cabezal
+35040 RESET propio de cabezal
+35090 Cantidad de escalones de reducción
+35092 Nº de escalones reducción del 2º registro de escalones reducción
+35100 Máxima velocidad giro cabezal
+35110 Velocidad máxima para cambio de reducción
+35112 2º registro: velocidad máxima para cambio de escalones reducción
+35120 Velocidad mínima para cambio de reducción
+35122 2º registro: velocidad mínima para cambio de escalones reducción
+35130 Velocidad máxima del escalón reducción
+35135 Velocidad máxima escalón de reducción con regulación de posición
+35140 Velocidad mínima del escalón reducción
+35150 Tolerancia velocidad giro cabezal
+35160 Limitación del PLC de vel. giro cabezal
+35200 Aceleración en el modo de control de velocidad de giro
+35210 Aceleración en el modo de regulación de posición
+35212 2º registro: aceleración en modo de regulación de posición
+35220 Velocidad para aceleración reducida
+35230 Aceleración reducida
+35240 Característica de aceleración DRIVE para ejes Con/Des
+35242 Tipo de reducción de la aceleración
+35300 Velocidad conexión regulador posición
+35310 Retardo de posicionamiento
+35350 Sentido giro para posicionar
+35400 Velocidad de oscilación
+35410 Aceleración en oscilación
+35430 Dirección arranque en oscilación
+35440 Tiempo de oscilación para sentido de giro M3
+35450 Tiempo de oscilación para sentido de giro M4
+35500 Habilitación de avance con cabezal en zona de consigna
+35510 Habilitación avance con cabezal parado
+35550 Velocidades máximas para roscado
+35590 Cambio de secuencia de parámetros posible
+36000 Parada precisa aprox.
+36010 Parada precisa fina
+36012 Factor parada precisa basta/fina y deten
+36020 Tiempo de retardo en parada precisa fina
+36030 Tolerancia de parada
+36040 Tiempo de retardo en vigilancia de parada
+36042 Tiempo retardo en vigilancia parada con limit. par/fuerza activa
+36050 Tolerancia de bloqueo
+36052 Funciones espec. eje bloqueado
+36060 Velocidad/velocidad de giro umbral 'Eje/Cabezal parado'
+36100 Primer fin carrera software -
+36110 Primer fin carrera software +
+36120 2º fin de carrera de software negativo
+36130 2º fin de carrera de software positivo
+36200 Valor umbral para vigilancia de velocidad
+36210 Máxima consigna de velocidad
+36220 Tiempo de retardo en vigilancia de consigna de velocidad de giro
+36300 Frecuencia límite del captador
+36302 Frec. límite del captador para nueva sincronización del mismo
+36310 Vigilancia del impulso de origen
+36400 Banda de tolerancia para vigilancia de contorno
+36500 Tolerancia en conmutación posición actual
+36510 Tolerancia sincronismo sist.medida
+36520 Valor umbral para vigilancia de consigna de velocidad
+36600 Conducta frenado con fin carrera hardw.
+36610 Duración máxima de la rampa de deceleración en caso de fallo
+36620 Retardo de corte en habilitación del regulador
+36690 Fecha interna para comprobaciones
+36700 Compensación de deriva automática
+36710 Límite de la deriva para compensación de deriva automática
+36720 Valor base de deriva
+36730 Registro de valores reales/de accionamiento adicionales
+36750 Efecto asign. valores pª superposic. ejes en acciones síncronas
+36901 Habilitación de funciones de seguridad
+36902 Eje girator.
+36903 Habilitación de la función Levas seguras
+36905 Valor módulo de levas seguras
+36906 Asignación de accionamiento SI
+36907 Dirección PROFIsafe del accionamiento
+36910 Asig. valor real: tipo accionamiento
+36911 Asignación de valor real: nº accionamiento/nº circuito de medida
+36912 Asign. valor real: entrada en mód. accionam./tarj. circuito med.
+36914 Sistema monocaptador/monoencoder SI
+36915 Tipo captador
+36916 Regla medida
+36917 Periodo de indexado en regla de medida
+36918 Marcas por vuelta captador
+36919 Factor desplazam. multiplicación del captador/encoder
+36920 Paso del husillo
+36921 Denominador reducción captador/carga
+36922 Numerador reductor captador/carga
+36923 Resolución segura del captador/encoder
+36925 Valor real inversión sentido
+36926 Frecuencia límite del captador para funcionamiento seguro
+36927 Tipo de evaluación del captador/encoder
+36928 Identificación captador/encoder
+36930 Tolerancia de parada
+36931 Valor límite para velocidad de seguridad
+36932 Valores corrección SG
+36933 Limitación velocidad consigna segura
+36934 Valor límite superior para posición final segura
+36935 Valor límite inferior para posición final segura
+36936 Posición leva "+" para levas seguras
+36937 Posición leva "-" para levas seguras
+36940 Tolerancia para levas seguras
+36942 Tolerancia comparac. val. real (cruzada)
+36944 Tolerancia comp. valor real (referenc.)
+36946 Límite velocidad n_x
+36948 Tolerancia de velocidad para rampa de frenado segura
+36949 Tolerancia velocidad, deslizamiento
+36950 Tiempo tolerancia conmutación SGE
+36951 Tiempo de retardo para conmutación de velocidad
+36952 Tiempo de transición STOP C a parada segura
+36953 Tiempo de transición STOP D a parada segura
+36954 Tiempo de transición STOP E a parada segura (en preparación)
+36955 Tiempo de paso de STOP F a STOP B
+36956 Tiempo retardo borrado impulsos
+36957 Tiempo requerido para comprobar la supresión de impulsos
+36958 Límite de tiempo para prueba de recepción
+36960 Impulso borrado desconexión velocidad
+36961 Reacción Stop velocidad segura
+36962 Reacción Stop fin carrera seguro
+36963 Reacción Stop velocidad segura
+36964 Agrupación reacciones IPO de seguridad.
+36965 Supresión de alarma en eje aparcado
+36966 Par de mantenimiento test freno
+36967 Tolerancia posic. test freno
+36968 Control de ejecución para test de frenado
+36970 Asignación entrada SBH/SG-Deselección
+36971 Asignación entrada SBH-Deselección
+36972 Asignación entrada SG-Selección
+36973 Asignación entrada SE-Selección
+36974 Asignación de entradas, selección de relación de transmisión
+36975 Asignación entradaa selecc. Teststop
+36976 Asignación de entrada a estado de impulsos suprimidos
+36977 Asignación entrada de frenado externo
+36978 Asignación de entrada a corrección SG
+36979 Asignación de entrada pª prueba del circuito ext. de desconexión
+36980 Asignación salida: SBH/SG activos
+36981 Asignación salida SBH activa
+36982 Asignación salida, elección seg. activa
+36984 Asignación de salida para Habilitar impulsos desde exterior
+36985 Asignación salida n < n_x
+36986 Asignación salida habilitación impulsos
+36987 Asignación de salida a eje referenciado con seguridad
+36988 Asignación salida: SN1 + hasta SN4 +
+36989 Asignación salida SN1 hasta SN4
+36990 Asignación salidas de la parada activa
+36992 Visualización de ciclo comparación cruzada por eje
+36993 Fecha/Hora del último cambio SI-NCK-DM
+36994 Datos de la configuración Safety anterior
+36995 Posición de parada
+36997 Conformidad usuario
+36998 Valor real de la suma de verificación
+36999 Valor teórico de la suma de verificación
+37000 Modo Desplazamiento contra tope fijo
+37002 Verificación para desplazamiento a tope fijo
+37010 Preajuste Tope fijo - par de bloqueo
+37012 Tiempo hasta que se alcanza el límite de par modificado
+37014 Factor de adaptación del límite de par
+37020 Preajuste ventana de vigilancia de tope fijo
+37030 Umbral de reconocimiento de tope fijo
+37040 Reconocimiento de tope fijo con sensor
+37050 Habilitación de alarmas de tope fijo
+37052 Reacción en caso de alarmas de tope fijo
+37060 Observación señales acuse del PLC pª desplazamiento a tope fijo
+37070 Límite par al desplazar a tope fijo pª accionamientos analógicos
+37080 Ajuste inicial de las limitaciones de par/fuerza modales
+37100 Gantry - definición de ejes
+37110 Gantry - Límite de aviso
+37120 Gatry - límite de desconexión
+37130 Límites desc. Gantry al referenciar
+37135 Límite actual de desconexión del gantry
+37140 Deshacer el grupo de ejes Gantry
+37150 Funciones del gantry
+37160 Funciones para acoplamiento valor maestro
+37200 Valor umbral para 'marcha síncrona basta'
+37210 Valor umbral para 'marcha síncrona fina'
+37220 Tolerancia de velocidad 'basta'
+37230 Tolerancia de velocidad 'fina'
+37250 Eje maestro en acopl. de consigna de vel.
+37252 Eje maestro para reparto de par
+37253 Ajustes maestro - esclavo
+37254 Interconexión reg. de compensación de par
+37255 Activación regulador compensación de par
+37256 Ganancia del regulador de par
+37258 Tpo. acción integral del regulador de par
+37260 Lím. para regulador de compensación de par
+37262 Acoplamiento maestro-esclavo permanente
+37263 Comportamiento de acoplamiento de un cabezal
+37264 Par diferencial (torsión) maestro-esclavo
+37266 Cte. tiempo de filtro de par de fijación
+37268 Ponderación de par del eje exclavo
+37270 Tolerancia velocidad maestro-esclavo basta
+37272 Tolerancia velocidad maestro-esclavo fina
+37274 Invers. sentido desplazamiento eje exclavo
+37300 Lím. de zona de trabajo '-' al digitalizar
+37310 Lím. de zona de trabajo '+' al digitalizar
+37320 Velocidad de eje máxima al digitalizar
+37400 Ángulo tangente para detección de esquinas
+37402 Ángulo preajuste para corrección tangencial
+37500 Modo eje del ESR (parada/retirada avanzadas)
+37510 Tiempo retardo eje individual ESR
+37511 Tiempo ESR para frenado con interpolación en eje individual
+37550 Valor umbral alarma velocidad
+37560 Valor umbral para 'Eje acelerando'
+37600 Tiempo registro val. act. (Profibus Ti)
+37602 Retardo de consigna (Profibus To)
+37610 Configuración bits de control Profibus
+37620 Anulación reducción de par Profibus
+37800 Información de versión OEM
+38000 Nº puntos interpolación en compensación con interpolación (SRAM)
+38010 Nº valores para compensación error de cuadrante con red neuronal
+43100 Tipo de valor maestro
+43102 Decalaje del valor maestro para acoplamiento en este eje
+43104 Escala del valor maestro para acoplamiento en este eje
+43106 Decalaje del valor de la función en la tabla de levas
+43108 Escala del valor de la función en la tabla de levas
+43120 Factor de escala/eje por defecto con G51 activa
+43200 Velocidad para marcha del cabezal vía VDI
+43202 Velocidad de corte para marcha cabezal vía VDI
+43206 Tipo velocidad de giro del cabezal para arranque cabezal con VDI
+43210 Limitación de la velocidad del cabezal programada G25
+43220 Limitación de la velocidad del cabezal programada G26
+43230 Limitación de la velocidad del cabezal con G96
+43240 Posición del cabezal para su posicionamiento con M19
+43250 Modo aproximación posición cabezal para su posicionam. con M19
+43300 Avance por vuelta para cabezal/ejes de posicionamiento
+43340 Posición del punto de referencia para G30.1
+43350 Límite superior valor corrección $AA_OFF en regulación distancia
+43400 Limitación del campo de trabajo activa en la dirección positiva
+43410 Limitación del campo de trabajo activa en la dirección negativa
+43420 Limitación del campo de trabajo en dirección positiva
+43430 Limitación del campo de trabajo en dirección negativa
+43500 Selección de Desplazamiento a tope fijo
+43510 Par de bloqueo del tope fijo
+43520 Ventana de vigilancia del tope fijo
+43600 Criterio cambio secuencia 'Rampa frenado'
+43610 Ventana de tolerancia 'Rampa frenado'
+43700 Punto de inversión de vaivén 1
+43710 Punto de inversión de vaivén 2
+43720 Tiempo de parada en el punto de inversión de vaivén 1
+43730 Tiempo de parada en el punto de inversión de vaivén 2
+43740 Velocidad de avance del eje de vaivén
+43750 Número de pasadas de afinado
+43760 Posición final del eje de vaivén
+43770 Máscara de mando del vaivén
+43780 Activar desplazamiento en vaivén
+43790 Posición inicial del eje de vaivén
+43900 Valor de compensación térmica independiente de la posición
+43910 Ángulo paso para compensación térmica dependiente de la posición
+43920 Posic. refer. de compensación térmica dependiente de la posición

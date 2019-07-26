@@ -1,0 +1,416 @@
+ 415 Display Machine Data
+9000 Contraste
+9001 Type de tableau de commande
+9002 Moniteur externe
+9003 Langage prioritaire
+9004 Résolution de visualisation
+9005 Position de base Répertoire programmes
+9006 Temporisation de mise en veille écran
+9007 Longueur de tabulation
+9008 Type de clavier
+9009 Comportement Shift clavier au démarrage
+9010 Résolution visualis.pour valeurs broche
+9011 Résolution visualis. syst.unités INCH
+9012 Activer mode action pour enregistreur d'événements
+9013 Instant synchronis. heure MMC/HMI avec AP
+9014 Utiliser PM affichage spécif. à un canal
+9016 Menu de démarr. par défaut sélectionnable
+9020 Technologie pour prog. CN et simulation
+9021 Design de l'interface utilisateur
+9025 Niveau de luminosité du rétroéclairage
+9026 Mode d'apprentissage à activer
+9027 Nbre groupes d'axes pr touches déplacement
+9030 Nb de pos. pr représentation sans exposant
+9031 Exposant en représentation technique
+9032 Déterminer donnée AP pour info image HMI
+9033 Affichage du sens de rotation de la broche
+9034 Nombre de canaux machine affichés
+9050 Activer image de lancement OEM
+9052 Modifier affich. état commun à tous canaux
+9053 Algorithme de tri pour mnémoniques AP
+9054 Réglages de filtre pour mnémoniques AP
+9055 Sélection icône d'acquit. pr alarmes AP
+9056 Tps de cycle rotat. pr affichage d'alarme
+9180 Niv. protec. lecture corr. porte-outil
+9181 Niv. protec. écriture corr. porte-outil
+9182 Niv. de protec. commutation inch/métrique
+9183 Ecrire niveau protection support d'outil
+9184 Ecrire niveau protection point réf. outil
+9185 Ecrire niveau protection point réf. pièce
+9186 Ecrire niveau protection frame cycle
+9187 Ecrire niveau protection frame transform.
+9188 Ecrire niveau protection DO externe
+9200 Niveau protection: lire correct. outil
+9201 Niveau protection: écrire géo. outil
+9202 Niveau protect.: écrire donn.usure outil
+9203 Niveau de protection fin
+9204 Niveau prot.: modif.correct.total.outil
+9205 Niv. prot. p. modif. corr. régl. outil
+9206 Niv. prot. p. modif. limites surv. outil
+9207 Modifier n° D affecté à tranchant outil
+9208 Modifier groupe usure emplac. mag./mag.
+9209 Niveau prot.: écrire données adapt.outil
+9210 Niveau prot.:écrire décalage orig. régl.
+9211 Niveau protect.:lire variables utilisat.
+9212 Niveau protect.: écrire variables util.
+9213 Niveau prot.: écrasem. en mémoire étendu
+9214 Niveau protection: influence sur progr.
+9215 Niveau protection: écrire données régl.
+9216 Niv. prot. de lecture programme pièce
+9217 Niv. protec. écriture de programme pièce
+9218 Niveau de protection: sélection progr.
+9219 Niveau de protection: TEACH IN
+9220 Niveau de protection: PRESET
+9221 Niveau protection: effacer paramètres R
+9222 Niveau protection: écrire paramètres R
+9223 Niv. protection param. d'interface V24
+9224 Niv. de protection chargem. de données
+9225 Niveau de protection cycles standard
+9226 Niveau de protection cycles utilisateur
+9227 Masquer Single Block2 (SBL2)
+9228 Niveau accès pour choix du répert. SYF
+9229 Niveau accès pour choix du répert. DEF
+9230 Niveau accès pour choix du répert. BD
+9231 Niveau protection premier domaine RPA
+9232 Début du premier domaine RPA
+9233 Fin du premier domaine RPA
+9234 Niveau prot. pour second domaine RPA
+9235 Début du deuxième domaine RPA
+9236 Fin du deuxième domaine RPA
+9237 Niveau prot. pour troisième domaine RPA
+9238 Début du troisième domaine RPA
+9239 Fin du troisième domaine RPA
+9240 Modifier nom d'outil et outil frère
+9241 Modifier type d'outil
+9242 Base affichage pose (pos.articul.) STAT
+9243 Base affichage position axe rotatif TU
+9244 Axes d'orientation avec angles d'Euler
+9245 Rangement val.effleur.et forçage val.réel.
+9246 Niveau d'accès écriture de frames système
+9247 Niveau d'accès décalage de base PA
+9248 Niveau d'accès décalage de base MA
+9249 Niv. prot. TL vertic. des TL gr. fctionnel
+9251 Visu de la liste d'outils
+9252 Niv. protection pour charger des outils
+9253 Niveau protection déchargement d'outils
+9254 Niv. protection p. déplacer des outils
+9256 Niv. prot. p. visu 2e liste magasin
+9257 Niv. prot. p. visu 3e liste magasin
+9258 Niv. prot. Définir nouv. arêtes de coupe
+9259 Niv. prot. p. effacer des outils
+9260 Niv. prot. p. marche/arêt mémoire inter.
+9261 Niv. protection pour recherche
+9262 Niv. prot. pour positionnement
+9263 Niveau prot. pour feuill. magasin suiv.
+9264 Niv. prot. p. définition d'outils
+9265 Niv. prot. p. visu 1e liste outils
+9266 Niv. prot. p. visu 2e liste outils
+9267 Niv. prot. p. visu 3e liste outils
+9269 TL empl. vide, nbre liste d'outils
+9270 Niveau prot. p. charger sur empl. cour.
+9271 Visualisation et édition données d'outil
+9272 Niv. protec. pr sélection du grpe fctionl
+9273 Niveau de protection pour touches logicielles dans paramètre
+9300 Utilisateur: caractère X on
+9301 Utilisateur: caractère X off
+9302 Utilisateur: caract. fin de transmission
+9303 Utilisateur: bits spéciaux
+9304 Utilisateur: commande câblée
+9305 Utilisateur : vitesse en bauds
+9306 Utilisateur: bits de données
+9307 Utilisateur: bits de parité
+9308 Utilisateur: bits d'arrêt
+9309 Utilisateur : Interface V24 (COM1/COM2)
+9310 Imprimante: caractère X on
+9311 Imprimante: caractère X off
+9312 Imprimante: caract. fin de transmission
+9313 Imprimante: bits spéciaux
+9314 Imprimante: commande câblée
+9315 Imprimante : vitesse en bauds
+9316 Imprimante: bits de données
+9317 Imprimante: bits de parité
+9318 Imprimante: bits d'arrêt
+9319 Imprimante : Interface V24 (COM1/COM2)
+9320 PG: caractère X on
+9321 PG: caractère X off
+9322 PG: caractère de fin de transmission
+9323 PG: bits spéciaux
+9324 PG: commande câblée
+9325 PG : vitesse en bauds
+9326 PG: bits de données
+9327 PG: bits de parité
+9328 PG: bits d'arrêt
+9329 PG : Interface V24 (COM1/COM2)
+9400 Cote réf. corr. long. d'outil axe GEO 1
+9401 Cote réf. corr. long. d'outil axe GEO 2
+9402 Cote réf. corr. long. d'outil axe GEO 3
+9410 Numéro de l'emplacement de chargement
+9411 Numéro du magasin opérationnel
+9412 Préréglage pour taille d'outil
+9414 Type de représentation de gestion d'outils
+9415 Valeur par défaut pour type d'emplacement
+9416 Préréglage pour type d'emplacement
+9417 Charger préréglage état outil
+9419 Effac. aut. données outil préréglées
+9420 Affichage parcours résiduel ds fenêtre SCP
+9421 Visual.val.réel. avec axes géo.directeur
+9422 Sélection PRESET/décalage de base en JOG
+9423 Nbre maxi niveaux masqués ds progr. CN
+9424 Syst. coord. pour visu valeurs réelles
+9425 Prise en compte correct. d'outil d'efflrmt
+9426 Indice axe machine broche analog. Affich. puiss.
+9427 Indice axe machine broche analog. Affich. puiss.
+9428 Valeur maximale pour l'affichage de la puissance de la broche
+9429 Plage de valeurs pour l'affichage de la puissance de la broche
+9440 Activation immédiate décalage actif
+9442 Groupes de fonctions auxiliaires affichés
+9449 Appl. PM9449 sur Wear(bit0) SC(1) EC(2)
+9450 Seuil pour usure fine
+9451 Seuil pour décalage fin
+9459 Mode d'affichage du décalage d'origine
+9460 Réglages dans groupe fonctionnel Programme
+9461 Chaîne caract. à insérer en fin de contour
+9464 Taille de fichier minimale sans contrôle
+9477 A des fins de test internes
+9478 A des fins internes
+9479 Distance entre diff. emplacemts magasin
+9480 Type de simulation
+9481 Limite de la simulation standard en Ko
+9500 Propriétés CN
+9509 Niveau protect. pour configuration réseau
+9510 Niveau prot. pour lecteur réseau 1 Prog.
+9511 Niveau prot. pour lecteur réseau 2 Prog.
+9512 Niveau prot. pour lecteur réseau 3 Prog.
+9513 Niveau prot. pour lecteur réseau 4 Prog.
+9516 Niveau prot. pour lecteur réseau 1 Mach.
+9517 Niveau prot. pour lecteur réseau 2 Mach.
+9518 Niveau prot. pour lecteur réseau 3 Mach.
+9519 Niveau prot. pour lecteur réseau 4 Mach.
+9550 Valeur retrait ébauche en contournage
+9551 Angle retrait ébauche en contournage
+9552 Surépaisseur pour ébauche en contournage
+9553 Angle de retrait lors chariotage contour
+9554 Diff. cotes enlèv. mat. rest. axe 1
+9555 Diff. cotes enlèv. mat. rest. axe 2
+9556 Pourcentage prof.passe variable tourn.cont
+9557 Tps d'interr. d'avance tournage de contour
+9558 Trajet de retrait Interrupt. avance tournage contour
+9560 Retrait du fait flexion outil en plongée
+9561 Retrait profondeur avant plongée(tournage)
+9599 Réglages ManualTurn
+9600 Simulation de la valeur par défaut X
+9601 Simulation val. standard Z
+9602 Simulation val. par défaut plage de visu
+9603 Simulation visualiation maximale de X
+9604 Simulation affichage max. Z
+9605 Simulation plage de visualisation maxi
+9606 Simulation du taux actualisation VRéelle
+9607 Libération de la possibilité de choix du rapide
+9608 Libération de la possibilité de choix de l'avance mm/min
+9609 Nbre de décimales dans champ intro Vit.
+9610 Pos. du syst. de coord. pour tournage
+9611 Visu dia activée pour axes transversaux
+9612 Mémoriser en absolu les mvts de réglage
+9613 Mémoriser position de départ en absolu
+9614 Mémoriser autom. mouvements préparation
+9615 Avance par manivelle
+9616 Avance contour
+9617 Avance par tour
+9618 Libération axe C pour interface utilis.
+9619 Pénétration incrémentale
+9620 Ecart sécurité entre cycles ManualTurn
+9621 Tps sectionnement copeaux pour cycles
+9622 Libération accostage pt réf. ManualTurn
+9623 Libération départ programme sans axe réf.
+9624 Commuter mode fonct. avec TL verticales
+9625 Image de démarrage client
+9626 Indicateurs diagn. interne ManualTurn
+9627 Nombre de rapports de boîte de vitesse
+9628 Visu donnée outil X comme diamètre
+9629 Visu donnée usure outil X comme diamètre
+9630 Avance de finition en pour cent
+9631 Arrêt temporisé pour cycles en secondes
+9632 Axe de référence angle
+9633 Largeur des pas pour avance en mm/min
+9634 Largeur des pas pour avance en mm/tr
+9636 Valider vitesse de coupe du tab. d'outils
+9637 Val. d'intro maxi pour avance en mm/min
+9638 Val. d'intro. maxi pour avance en mm/tr
+9639 Limite supérieure val. usure de l'outil
+9640 Calcul automatique de la prof. du filet
+9641 Libération de saisie de codes G
+9642 Libération exécution cercle de trous
+9643 Libération outil motorisé
+9644 Arrêt temp. en bas, cercle de trous taraudés
+9645 Arrêt temp. en haut, cercle de trous taraudés
+9646 Mode pour dist. retrait ébauche extérieure
+9647 Mode pour dist. retrait ébauche intérieure
+9648 Dist. de retrait ébauche extérieure
+9649 Dist. de retrait ébauche intérieure
+9650 Position du système de coordonnées
+9651 Concept de gestion d'outils
+9652 Surveillance d'outil
+9653 Libération 4e axe pour interface utilis.
+9654 Nbre de décimales dans champ intro Vit.
+9655 Grandeur de relèvement en taraudage long
+9656 Grandeur de relèvement en filetage
+9657 Ecart rayon de fraise le + petit poss.
+9658 Ecart rayon de fraise le + grd possible
+9659 Angle de relèvement en filetage
+9660 Commuter sur plan d'usinage
+9661 Intro d'instructions M spécif. client
+9662 Nombre de rapports de boîte de vitesse
+9663 Visu rayon / diamètre d'outil
+9664 Avance en mm/min
+9665 Avance en mm/tr
+9666 Avance en mm/dent
+9667 Présélection d'outil active
+9668 Code M liquide arrosage I et II
+9669 Dia. effectif de fraise pour surfaçage
+9670 Rayon cercle accost. pour finition poche
+9671 Chargem. outil du magasin par défaut
+9672 Codage d'emplacement fixe
+9673 Numéro de la station de chargement
+9674 Visu de la liste de magasin
+9675 Image de démarrage client
+9676 Chemin vers noms lecteurs dans répert.
+9677 Chemin vers noms lecteurs dans répert.
+9678 Chemin vers noms lecteurs dans répert.
+9679 Chemin vers noms lecteurs dans répert.
+9680 Code M liquide d'arrosage I
+9681 Code M liquide d'arrosage II
+9682 Mode pour valeur de retrait alésage
+9683 Mode pour cercle d'approche poches contour
+9684 Code M pour bits 1 spécifiques outils
+9685 Code M pour bits 2 spécifiques outils
+9686 Code M pour arrêt arrosage
+9687 Déplacement outil du magasin par défaut
+9688 Nombre de rapports de boîte de vitesses pour la 2ème broche
+9690 PM 1 affichage OEM
+9691 PM 2 affichage OEM
+9703 Indice d'axe pour le 4ème axe
+9704 Indice d'axe pour le 5ème axe
+9705 Indice d'axe pour la broche
+9706 Affection 4e axe comme axe géométrique
+9707 Affection 5e axe comme axe géométrique
+9708 Indice d'axe pour la 2ème broche
+9718 Réglages pour ShopMill 2
+9719 Réglages pour ShopMill
+9720 Libération axe B
+9721 Libération transfo enveloppe cylindre
+9722 Libération outils manuels
+9723 Libération têtes orientables
+9724 Avance rapide position. sur traject. circ.
+9725 Libération fonctions M rapides
+9726 Unité des param. machines d'aff. (inch/mm)
+9727 Libération de l'assistance de l'axe A/B
+9728 Adaptation du sens de rotation de l'axe A/B
+9729 Programme pour changement d'outil en code G
+9739 Code M pour fonction spécifique à l'outil 1 ON
+9740 Code M pour fonction spécifique à l'outil 1 OFF
+9741 Code M pour fonction spécifique à l'outil 2 ON
+9742 Code M pour fonction spécifique à l'outil 2 OFF
+9743 Code M pour fonction spécifique à l'outil 3 ON
+9744 Code M pour fonction spécifique à l'outil 3 OFF
+9745 Code M pour fonction spécifique à l'outil 4 ON
+9746 Code M pour fonction spécifique à l'outil 4 OFF
+9747 Libération de la mesure de pièce automatique
+9748 Position mes. outil en manuel avec pt fixe
+9749 Libération mesure d'outil automatique
+9750 Entrée de mesure pour palpeur d'outil
+9751 Entrée de mesure pour palpeur d'outil
+9752 Course de mes. de pièce maxi ds le progr.
+9753 Course de mes. de pièce maxi en mode JOG
+9754 Course mes. maxi long. outil broche rot.
+9755 Course mes. maxi rayon outil broche rotat.
+9756 Avance de mesure de pièce 
+9757 Avance dans plan av. surv. anticollision
+9758 Avance pénétration avec surv. anticol.
+9759 Vit. rot. maxi mes. outil broche en rot.
+9760 Vit. maxi mes. outil broche en rotation
+9761 Avance mini mesure outil broche en rot.
+9762 Précision mes. outil broche en rot.
+9763 Type de palpeur d'outil
+9764 Sens d'axe autorisés p. palpeur d'outil
+9765 Dia. palpeur d'outil mesure de longueur
+9766 Dia. palpeur d'outil mesure de rayon
+9767 Pénétr. bord sup. palp. outil mes. rayon
+9768 Sens accostage plan du palpeur d'outil
+9769 Fact. d'avance 1 mes. d'outil broche rota.
+9770 Fact. d'avance 2 mes. d'outil broche rota.
+9771 Avance maxi de mes. d'outil broche en rot.
+9772 Course de mes. d'outil broche à l'arrêt
+9773 Avance de mes. d'outil broche à l'arrêt
+9774 Fabricant de palpeurs d'outil
+9775 Correction pr mes. d'outil broche en rot.
+9776 Réglages pr cycles de mesure
+9777 Libération de l'affichage des temps
+9778 Longueur du palpeur rapportée au bord inférieur
+9779 Le palpeur de pièce est un palpeur monodirectionnel
+9802 Indice d'axe pour l'axe C de la contre-broche
+9803 Indice d'axe pour 4ème axe
+9804 Indice d'axe pour broche principale
+9805 Indice d'axe pour broche porte-outil
+9806 Indice d'axe pour contre-broche
+9807 Indice d'axe pour axe C
+9808 Indice d'axe pour l'axe B
+9810 Nombre de tours de la broche principale
+9811 Nombre de tours de la broche porte-outil
+9812 Nombre de tours de la contre-broche
+9820 Position loupe pour mesure outil, 1er axe
+9821 Position loupe pour mesure outil, 2ème axe
+9822 Sens rotation affiché de broche princ. M3
+9823 Sens rotation affiché de contre-broche M3
+9824 Adapt. sens rotation axe C broche principale M3
+9825 Adapt. sens rotation axe C contre-broche M3
+9826 Sens rotat. princ. pr ts outils tournage
+9827 Préglage du sens de fraisage
+9828 Entrée palpeur d'outil de contre-broche
+9829 Sélection du mandrin de broche
+9830 Cote mandrin de broche principale
+9831 Cote mandrin de contre-broche
+9832 Cote butée de contre-broche
+9833 Cote mors de contre-broche
+9836 Diamètre poupée mobile
+9837 Longueur poupée mobile
+9838 Valeur limite Longueur d'outil X pour 2ème tourelle revolver
+9840 Loupe sous manuel : mesure d'outil
+9841 Valider fct. à tiroirs pour tronçonnage
+9842 Libération de la poupée mobile
+9843 Libération blocage broche (axe C)
+9849 Position de stationnement de l'axe Y avec contre-broche
+9850 Distance retrait en filetage à l'outil
+9851 Position dégagement Z pour contre-broche
+9852 Contre-broche : accostage butée (course)
+9853 Contre-broche : accostage butée (avance)
+9854 Ctre-broche : accostage butée (poussée)
+9855 Réglages pour taraudage
+9856 Réglages pour taraudage dans axe broche
+9857 Trajet de retrait avant serrage après butée
+9858 Trajet de retrait avant tronçonnage avec contre-broche
+9859 Parcours pour contrôle saignée
+9860 Avance pour contrôle saignée
+9861 Force en pourcents pour contrôle saignée
+9862 Décentrage maxi pr perçage en centre
+9863 Plage maxi d'introduction angle de positionnement gamma
+9890 Calibrer le niveau de protection du palpeur d'outil
+9897 Réglages Shop Turn Fonctions manuelles 
+9898 Réglages pour ShopTurn
+9899 Indic. de test pour diag. interne ShopTurn
+9900 Textes en clair au lieu descripteurs PM
+9950 Options d'aff. pr param. machine généraux
+9951 Filtre d'indice pour param. machine généraux
+9952 Options d'affichage param. machine d'axe 
+9953 Filtre d'indice pour param. machine d'axe
+9954 Options d'aff. pr param. machine de canal
+9955 Filtre d'indice pour param. machine de canal
+9956 Options d'aff. pr param. machine d'entr.
+9957 Filtre d'indice pour param. machine d'entr.
+9958 Options d'affichage des paramètres Sinamics
+9959 Filtre d'indice pour paramètres Sinamics
+9980 Réglages de langue internes
+9990 Valider les options log. MMC/HMI
+9991 Valider les systèmes d'aide MMC/HMI
+9992 Options pour test automatique HMI
+9993 Options pour l'assistant
+9999 Indicateurs test pour diagnostic interne

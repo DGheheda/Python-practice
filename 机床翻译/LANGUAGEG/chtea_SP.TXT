@@ -1,0 +1,527 @@
+ 526 Channel machine data
+20000 Nombre canal
+20050 Asignación del eje geométrico al eje de canal
+20060 Nombre eje geométrico en canal
+20070 Nº de eje de máquina válido en canal
+20080 Nombre del eje de canal en el canal
+20082 Nombre de eje estándar para variables de eje en el canal
+20090 Posición de borrado del cabezal maestro en el canal
+20092 Bloquear/habilitar conmutador de cabezales
+20094 Función M para la conmutación en el modo de eje mandado
+20095 Función M para conmutación en el modo de eje mandado (modo ext.)
+20096 Significado extensión de dirección con T, M 'cambio herramienta'
+20098 Visualizar eje en HMI
+20100 Eje geométrico con función eje refrentar
+20106 Prog-Events ingnoran Secuencia a secuencia
+20107 Prog-Events ingnoran Bloqueo de lectura
+20108 Llamada programa controlada por suceso.
+20109 Propiedades de los eventos de prog.
+20110 Fijar ajuste inicial del control tras reset/fin programa pieza
+20112 Fijar ajuste inicial del control con MARCHA CN
+20114 Interrupción MDA por cambio de modo de operación
+20116 Ejecutar programa de interrupción a pesar de Bloqueo de lectura
+20117 Ejecutar completam. programa interrupción a pesar de Sec. a sec.
+20118 Permitir cambio automático de eje geométrico
+20120 Corrección long. herramta. al arrancar (reset/fin progr. pieza)
+20121 Herramienta prefijada tras RESET
+20122 Herramienta activa para RESET/MARCHA con gestión de herramientas
+20123 Valor preseleccionado de $P_USEKT tras RESET
+20124 Número portaherramientas
+20125 Tratamiento de errores para la función CUTMOD
+20126 Portaherramientas activo tras RESET
+20127 Inicializar CUTMOD con POWERON
+20128 Instrucciones de cambio de herramienta tras búsqueda secuencia
+20130 Correc. longitud filo herr. al arrancar (reset/fin progr. pieza)
+20132 Corrección suma activa con RESET
+20140 Juego datos transformada al arrancar (reset/fin programa pieza)
+20144 Selección de la función de transformada cinemática
+20150 Posición de borrado de los grupos G
+20152 Condiciones Reset de los grupos G
+20154 Posición de borrado de los grupos G en el modo ISO
+20156 Conducta de grupos G externos con Reset.
+20160 Número de secuencias en C-Spline
+20170 Longitud máxima de una secuencia CN con compresión
+20172 Desviación máxima del avance de trayectoria con compresión
+20178 Longitud máxima desplazamiento para filtrado de orientación
+20180 Incremento del eje giratorio del portaherramientas orientable
+20182 Offset del eje giratorio del portaherramientas orientable
+20184 Número del frame base para registrar el offset de la mesa
+20188 Límite decalaje fino lineal TCARR
+20190 Límite del decalaje fino rotatorio TCARR
+20200 Secuencias vacías en chaflán/redondeo
+20201 Comportamiento chaflán/redondeo
+20202 Número máximo de secuencia sin desplazamiento con WAB
+20204 Inversión sentido con WAB
+20210 Áng. máx. para secuencias compens. con WRK (correc. radio herr.)
+20220 Valor máximo para DISC
+20230 Ángulo máximo para el cálculo del punto de intersección con WRK
+20240 Secuencias para el cálculo por anticipado del contorno con WRK
+20250 Cant. máx. secuenc. sin desplaz. en WRK.
+20252 Nº máximo secuencia con inhibición de la corrección
+20254 Permitida correcc. radio herr. tpo. real
+20256 Desplazamiento punto intersección posible para polinomios
+20260 Conducción de velocidad en Spline
+20262 Error relativo permitido de velocidad de trayectoria en Spline
+20270 Ajuste inicial del filo de la herramienta sin programación
+20272 Ajuste inicial de la corrección total sin programa
+20310 Activación de las funciones de gestión de herramientas
+20320 Vigilancia tiempo herramienta para herramienta en portaplaquita
+20350 Activación de vigilancia de herramienta. 0/1: vigilancia des/con
+20360 Definición parámetros herramienta
+20370 Nº tipo herramta. para herramta. contorno
+20372 Prueba suma control pª herramta. contorno
+20380 Tratamiento corrección de la longitud de herramienta con G43/G44
+20382 Compensación correc. longitud herramienta
+20384 Corrección longitud herramienta en varios ejes simultáneamente
+20390 Activación compensación temperatura para longitud de herramienta
+20392 Compensación de temperatura máxima para longitud de herramienta
+20396 Superposición de volante en el sentido de la herramienta
+20400 Velocidad secuencia siguiente Lookahead
+20430 Cantidad valores override con Lookahead
+20440 Valores de base del selector de corrección en Lookahead
+20450 Factor de reducción del tiempo de ciclo del bloque
+20455 Funciones especiales de Look Ahead
+20460 Factor de alisado para Look Ahead
+20462 Alisado trayectoria con avance programado.
+20464 Comportamiento en trayectoria
+20465 Adapt. dinámica de ejes
+20470 Precisión de contorno programable
+20480 Comportamiento matado de esquinas con G64x
+20482 Modo del compresor
+20484 Potencia del compresor
+20488 Configuración para interpolación spline
+20490 G641/G642 independ. del factor Overload
+20500 Tiempo mínimo von velocidad constante
+20550 Condiciones parada precisa con G00 y G01.
+20552 Condición de parada exacta en transición G00-G01
+20600 Retroceso máximo referido trayectoria
+20602 Influencia inflexión trayectoria en dinámica
+20603 Influencia inflexión trayectoria en tirones
+20610 Reserva aceleración para superposiciones
+20620 Limitación incremento volante para ejes geométricos
+20621 Limitación incremento volante para ejes de orientación
+20622 Superposición velocidad de trayectoria
+20623 Superposición velocidad de orientación
+20624 Fijación comportam. desplazamiento con volante específico canal
+20650 Comportamiento de la aceleración del eje en el fileteado
+20660 Determinación del ángulo de retirada (fileteado)
+20700 Bloqueo Marcha CN sin punto referencia
+20730 Comportamiento interpolación con G0.
+20732 Comportamiento interpolación con G00
+20734 Pantalla de función para idioma externo
+20750 G0 lógica con G96, G961
+20800 Fin de subprograma en PLC
+20850 Salida de M19 al PLC con SPOS/SPOS
+20900 Tablas de levas con salto del eje esclavo
+20905 Tipo memoria predeterm. p/ tablas curvas
+21000 Constante de vigilancia del punto final de la circunferencia
+21010 Factor de vigilancia del punto final de la circunferencia
+21015 Vigilancia de punto final en evoluta
+21016 Limitación automática en ángulo con interpolación de evolutas
+21020 Consideración radio herramienta en limitación campo de trabajo
+21050 Umbral de respuesta para vigilancia túnel del contorno
+21060 Reacción a la respuesta de la vigilancia túnel del contorno
+21070 Asignación salida analógica para emisión de error de contorno
+21080 Áng. mín. (tang. trayect./orient. herr.) con correc. radio trid.
+21082 Áng. mín. entre vector normal a superficie y orientación herram.
+21084 Áng. mín. entre vect. normal a superficie y vect. tang. a tray.
+21090 Val. abs. máx. ángulo avance admis. pª programación orientación
+21092 Val. abs. máx. ángulo lateral admis. pª programación orientación
+21094 Ajuste para orientación relativa a la trayectoria ORIPATH
+21100 Definición de ángulo para programación de la orientación
+21102 Definición de los ejes ORI con códigos G
+21103 Definición del ángulo de orientación usandocódigo G
+21104 Código G para interpolación de la orientación
+21106 Sistema coordenadas para JOG cartesiano
+21108 Comportamiento en caso de interpol. vectorial en posición polar
+21110 Sistema de coordenadas en definición automática de frame
+21120 Definición del eje de referencia para los ejes de orientación
+21130 Definición del eje de referencia para los ejes de orientación
+21150 Rápido convencional para los ejes de orientación
+21155 Velocidad convencional para ejes de orientación
+21160 Rápido convencional para ejes geométricos
+21165 Velocidad convencional para ejes geométricos
+21170 Aceleración para ejes orientación
+21180 Comprobar límites software para los ejes de orientación
+21186 Offset ejes giratorios TOCARR del decalaje
+21190 Efectividad de la corrección en el sentido de la herramienta
+21194 Velocidad para corrección online en sentido de herramienta
+21196 Aceleración para corrección online en sentido de herramienta
+21200 Tramo desplazamiento para retirada rápida del contorno
+21202 Retirada rápida con simetría
+21204 Comportamiento parada en retirada rápida
+21210 Asignación HW byte entrada ext. NCK para interrupciones prog. CN
+21220 Asignación de periferia NCK para 'varios avances en secuencia'
+21230 Comportamiento memorización para 'varios avances en secuencia'
+21240 Acciones sincronización protegidas
+21300 Fijar par cab. síncr., n° eje máq.: cab. escl[0], cab. maestr[1]
+21310 Tipo de acoplamiento en modo de cabezales síncronos
+21320 Comportamiento cambio secuencia en modo de cabezales síncronos
+21330 Comportamiento en interrupción de acoplamiento:
+21340 Modificación de los parámetros de acoplamiento imposible
+21380 Tiempo de retardo en ejes ESR (parada/retirada avanzadas)
+21381 Tiempo ESR para frenado con interpolación
+21400 Nº versión paquete de digitalización (protocolo SCAN-Link)
+21420 Asignación de ejes del palpador al digitalizar
+21422 Pretensión en dirección Z para calibración del palpador
+21424 Resolución del palpador al digitalizar
+21430 Deflexión mínima para digitalización
+21432 Valor típico de deflexión para digitalización
+21434 Deflexión del palpador (con parada de emergencia activada)
+21436 Deflexión del palpador para activación de parada de emergencia
+21440 En ventana posición para digitalización
+21450 Velocidad en rápido típica al digitalizar
+21460 Aceleración máxima en la trayectoria al digitalizar
+21462 Aceleración máx. en trayectoria al posicionar en modo digitaliz.
+21464 Aceleración máxima en trayectoria con función de digitalización
+21470 Factor proporcional para modo manual
+21472 Factor proporcional para regulación del palpador
+21474 Constante de tiempo para regulación del palpador
+21476 Vector desde alojamiento de herramientas a alojam. de palpador
+21500 Offset posición vert. eje rectific. para rectificado sin centro
+21501 Offset posición horiz. eje rectific. para rectificado sin centro
+21502 Offset posición vert. eje regulación para rectificado sin centro
+21504 Offset vertical de la regla para rectificado sin centro
+21506 Offset horizontal de la regla para rectificado sin centro
+21508 Componente vertical del vector de dirección de la regla para Q1
+21510 Componente horizontal del vector dirección de la regla para Q1
+21512 Componente vertical del vector de dirección de la regla para Q2
+21514 Componente horizontal del vector dirección de la regla para Q2
+21516 Ángulo de paso de la regla para rectificado sin centro
+21518 Límite contacto super. regla con muela en rectificado sin centro
+21520 Límite contacto infer. regla con muela en rectificado sin centro
+21522 Definición de cabezal de rectificado para rectificado sin centro
+21524 Definición de cabezal regulador para rectificado sin centro
+21526 Lógica especial para G0 en rectificado sin centro
+22000 Grupo función auxiliar
+22010 Tipo función auxiliar
+22020 Ampliación función auxiliar
+22030 Valor función auxiliar
+22035 Especificación salida
+22040 Grupos de función auxiliar predefinidos
+22050 Tipo de función auxiliar predefinido
+22060 Ampliación de función auxiliar predefinida
+22070 Valor de función auxiliar predefinido
+22080 Especificación salida
+22100 Retardo del cambio de secuencia en funciones auxiliares rápidas
+22110 Formato de datos de las funciones auxiliares H (entero/real)
+22200 Momento de salida de las funciones M
+22210 Momento de salida de las funciones S (valores: ver DM 22200)
+22220 Momento de salida de las funciones T (valores: ver DM 22200)
+22230 Momento de salida de las funciones H (valores: ver DM 22200)
+22240 Momento de salida de las funciones F (valores: ver DM 22200)
+22250 Momento de salida de las funciones D (valores: ver DM 22200)
+22252 Instante de emisión de funciones DL.
+22254 Función M suplementaria para parada del programa
+22256 Función M suplementaria para parada condicional
+22260 Instante de salida de las funciones E
+22300 Salida func. aux. tras búsqueda secuenc.
+22400 Función S activa aunque se realice un RESET.
+22410 Función F activa aunque se realice un RESET.
+22420 Ajuste por defecto para orden FGROUP
+22500 Funciones G al PLC
+22510 Códigos G emitidos en interfaz NCK-PLC tras cambio de sec./RESET
+22512 Envía órdenes G al PLC en lenguaje CN ext.
+22515 Comport. de la transferencia de grupo G al PLC
+22530 Código M para cambio de portaherramientas
+22532 Código M pª conmutación ejes geométricos
+22534 Código M para cambio de traformación
+22550 Nueva corrección de herramienta con función M
+22560 Función M para cambio de herramienta
+22562 Conducta con fallo en cambio herramienta
+22600 Velocidad con búsqueda tipo 5.
+22601 Factor velocidad con búsqueda tipo 5.
+22620 Posición básica para arranques especiales
+22621 Liberado $MC_START_MODE_MASK_PRT
+22622 Permitir inicializ. programa pieza vía PLC
+22680 Bloquear puntero de interrupción
+22700 Registro datos diagnóstico. Iniciar con TRACE_STARTTRACE_EVENT.
+22702 Condiciones para inicio del registro trace
+22704 Condición para parar el registro trace
+22706 Etapa de secuencia de comando que termina con el registro.
+22708 Seleccionar contenido Trace.
+22710 Definición de los datos trace
+22712 Índice para datos registro trace
+22714 Activación de la diagnosis
+22800 Activación de la salida trace para compresor
+22900 Sentido (int./ext.) actúa en zona protegida 3
+22910 Resolución de entrada del factor de escala
+22914 Activación del factor escala para ejes (G51)
+22920 Activación avances fijos F1 - F9
+22930 Asignación de un eje de canal paralelo al eje geométrico
+24000 Componentes frame para G58 y G59
+24002 Frames base activos específicos de canal tras reset
+24004 Resetear frames base específicos de canal tras Power On
+24006 Activas Frames sistema tras Reset.
+24007 Borrado de Frames del sistema para Reset
+24008 Resetear frames de sistema tras Power On
+24010 Modo de reset para frame programable
+24020 Posiciones con supresión de frames
+24030 Ajuste sist coorden. con origen ajustable
+24040 Adaptaciones de Frames activos
+24050 Guardar y activar Frames gestión de datos
+24100 Definición de la transformada 1 en canal
+24110 Asignación de eje para la 1ª transformada en el canal
+24120 Asignación ejes geométricos a ejes de canal para transformada 1
+24130 Manejo de herramientas con la 1ª transformada activa
+24200 Definición de la 2ª transformada en el canal
+24210 Asignación de eje para transformada 2
+24220 Asignación ejes geométricos a ejes de canal para transformada 2
+24230 Manejo de herramientas con 2ª transformación activa
+24300 Definición de la 3ª transformada en el canal
+24310 Asignación de eje para la 3ª transformada
+24320 Asignación ejes geométricos a ejes de canal para transformada 3
+24330 Manejo de herramientas con 3ª transformada activa
+24400 Definición de la 4ª transformada en el canal
+24410 Asignación de eje para la 4ª transformada en el canal
+24420 Asignación ejes geométricos a ejes de canal para transformada 4
+24426 Manejo de herramientas con 4ª transformada activa
+24430 Tipo de transformación 5 en el canal
+24432 Asignación de eje para transformada 5
+24434 Asignación ejes geométricos/ejes de canal para transformación 5
+24436 Manejo de herramientas con 5ª transformada activa
+24440 Tipo de transformación 6 en el canal
+24442 Asignación de eje para transformada 6
+24444 Asignación ejes geométricos/ejes de canal para transformación 6
+24446 Manejo de herramientas con 6ª transformada activa
+24450 Tipo de transformación 7 en el canal
+24452 Asignación de eje para transformada 7
+24454 Asignación ejes geométricos/ejes de canal para transformación 7
+24456 Manejo de herramientas con 7ª transformada activa
+24460 Tipo de transformación 8 en el canal
+24462 Asignación eje para transformación 8
+24464 Asignación ejes geométricos/ejes de canal para transformación 8
+24466 Manejo de herramientas con 8ª transformada activa
+24470 Tipo de transformación 9 en el canal
+24472 Asignación de eje para transformada 9
+24474 Asignación ejes geométricos/ejes de canal para transformación 9
+24476 Manejo de herramientas con 9ª transformada activa
+24480 Transformada 10 en canal
+24482 Asignación de eje para transformada 10
+24484 Asignación ejes geométricos/ejes de canal para transformación 10
+24486 Manejo de herramientas con 10ª transformada activa
+24500 Vector de decalaje de la transformada 1 de 5 ejes
+24510 Offset pos. ejes giratorios 1/2/3 para transformada 1 de 5 ejes
+24520 Signo de eje giratorio 1/2/3 para la transformada 1 de 5 ejes
+24530 Definición del campo polar para transformada 1 de 5 ejes
+24540 Tolerancia ángulo final en interp. polar para transform. 5 ejes
+24542 Tolerancia de ángulo final para interpolación de polos
+24550 Vector herramienta base con activación transformada 1 de 5 ejes
+24558 Vector decalaje cinemático en mesa
+24560 Vector decalaje cinemático de 1ª transformada de 5 ejes en canal
+24561 Vector decalaje cinemático
+24562 Offset punto de basculación eje giratorio en 1ª transfor. 5 ejes
+24564 Ángulo nutating-head en transformada de 5 ejes
+24566 Ejes de orientación virtuales
+24570 Sentido del 1er. eje giratorio
+24572 Sentido del 2º eje giratorio
+24573 Sentido del 3er eje giratorio
+24574 Vector orientación básica herramienta para transformada 5 ejes
+24576 Vector normal a la herramienta para transformada de 6 ejes
+24580 Dirección vector orientación para 1ª transformada de 5 ejes
+24582 Nº TCARR para 1ª transformación de 5 ejes
+24585 Asignación eje de orientación/eje de canal transformación 1 
+24590 Offset de ejes giratorios de transf a partir del decalaje origen
+24600 Vector de decalaje de la 2ª transformada de 5 ejes en el canal
+24610 Offset de posición de los ejes giratorios 1/2/3
+24620 Signo de eje giratorio 1/2/3 para la transformada 2 de 5 ejes
+24630 Definición del campo polar para transformada 2 de 5 ejes
+24640 Tolerancia ángulo final en interp. polar para transform. 5 ejes
+24642 Tolerancia de ángulo final para interpolación de polos
+24650 Vector herramienta base con activación transformada 2 de 5 ejes
+24658 Vector decalaje cinemático en mesa
+24660 Vector decalaje cinemático 2ª transformada de 5 ejes en canal
+24661 Vector decalaje cinemático
+24662 Offset punto de basculación del 2º eje lineal en transf. 5 ejes
+24664 Angulo nutating-head
+24666 Ejes de orientación virtuales
+24670 Sentido 1er. eje giratorio
+24672 Sentido 2º eje giratorio
+24673 Sentido 3er eje giratorio
+24674 Orientac.básica herramienta
+24676 Vector normal a la herramienta
+24680 Dirección vector orientación
+24682 Nº TCARR para 2ª transformación de 5 ejes
+24685 Transformación 1 ORI/asig. ejes canal
+24690 Offset ejes giratorios transf del decalaje
+24700 Ángulo comprendido entre eje cartesiano y eje real (inclinado)
+24710 Vector de la herramienta base para la 1ª transformada TRAANG
+24720 Reserva de velocidad para 1ª transformada TRAANG
+24721 Reserva aceleración del eje paralelo para 1ª transformada TRAANG
+24750 Ángulo comprendido entre eje cartesiano y eje real (inclinado)
+24760 Vector de la herramienta base para la 2ª transformada TRAANG
+24770 Reserva de velocidad para 2ª transformación TRAANG
+24771 Reserva aceleración del eje paralelo para 2ª transformada TRAANG
+24800 Offset de eje giratorio para la 1ª transformada TRACYL
+24805 Decalaje eje giratorio TRACYL 1
+24808 Selección del modo TRACYL
+24810 Signo de eje giratorio para la 1ª transformada TRACYL
+24820 Vector de la herramienta base para la 1ª transformada TRACYL
+24850 Offset de eje giratorio para la 2ª transformada TRACYL
+24855 Decalaje eje giratorio TRACYL 2
+24858 Selección del modo TRACYL
+24860 Signo de eje giratorio para la 2ª transformada TRACYL
+24870 Vector de la herramienta base para la 2ª transformada TRACYL
+24900 Offset de eje giratorio para la 1ª transformada TRANSMIT
+24905 Decalaje eje giratorio TRANSMIT 1
+24910 Signo de eje giratorio para la 1ª transformada TRANSMIT
+24911 Restric. zona trab. delante/detrás del polo, 1ª transf. TRANSMIT
+24920 Vector de la herramienta base para la 1ª transformada TRANSMIT
+24950 Offset de eje giratorio para la 2ª transformada TRANSMIT
+24955 Decalaje eje giratorio TRANSMIT 2
+24960 Signo de eje giratorio para la 2ª transformada TRANSMIT
+24961 Restric. zona trab. delante/detrás del polo, 2ª transf. TRANSMIT
+24970 Vector de la herramienta base para la 2ª transformada TRANSMIT
+24995 Encadenamiento transformación
+24996 Encadenamiento transformación
+24997 Encadenamiento transformación
+24998 Encadenamiento transformación
+26000 Asignación HW para byte de entrada en mando de carrera
+26002 Asignación HW para byte de salida en mando de carrera
+26004 Pantalla para bits de salida rápidos
+26006 Pantalla para bits de entrada rápidos
+26008 Fijar funciones M
+26010 Fijar ejes de estampado y punzonado
+26012 Activación de funciones de estampado y punzonado
+26014 Activación de la segmentación automática del trayecto
+26016 Conducta ejes individuales segmentación automática del trayecto
+26018 Tiempo de retardo para estampado/punzonado con G603
+26020 Alarma con oscilación señal estampado
+27100 Parametrizar visualización secuencia en valores absolutos
+27200 Info HMI (sin unidad física).
+27201 Info estado HMI (sin unidad física).
+27202 Info HMI (posiciones lineales).
+27203 Info estado HMI (posiciones lineales).
+27204 Info HMI (velocidades lineales).
+27205 Info estado HMI (velocidades lineales).
+27206 Info HMI (velocidades de corte).
+27207 Info estado HMI (velocidades de corte).
+27208 Info HMI (avances).
+27209 Info estado HMI (avances).
+27400 Información de versión OEM
+27800 Tecnología en canal
+27860 Activación medición tmpo. proceso progr.
+27880 Activación del contador de piezas
+27882 Cómputo de piezas con la orden M definida por el usuario
+27900 Porcentaje del búfer IPO para habilitar el fichero de registro
+28000 Tamaño de memoria para REORG (DRAM)
+28010 Número de módulos para variables locales de usuario en REORG
+28020 Número de variables locales de usuario (DRAM)
+28030 Cantidad variables usuario locales por
+28040 Tamaño de memoria para variables locales de usuario (DRAM)
+28050 Número de parámetros R específicos de canal (SRAM)
+28060 Número de secuencias CN en el búffer de IPO (DRAM)
+28070 Número de secuencias para preparación de secuencia (DRAM)
+28080 Número de frames ajustables (SRAM)
+28081 Número de Frames base (SRAM)
+28082 Frames sistema (SRAM).
+28083 Frames sistema (SRAM).
+28085 Asignación de una unidad TO a un canal (SRAM)
+28090 Nº de elementos de secuencia para ciclos de compilación (DRAM)
+28100 Tamaño (kB) memoria secuencias para ciclos de compilación (DRAM)
+28105 Memoria Heap (kByte) para aplicaciones ciclos compilación (DRAM)
+28150 Número de elementos para la escritura de variables del PLC
+28160 Nº elementos para la escritura de variables del link de la NCU
+28180 Tamaño del búfer de datos Trace
+28200 Nº de ficheros para zonas protegidas específicas de canal (SRAM)
+28210 Número de zonas protegidas activas simultáneamente en un canal
+28212 Elementos pª zona protegida activa (DRAM)
+28250 Número de elementos para expresiones en acciones síncronas
+28251 Número elementos para expresiones en acciones síncronas Safety
+28252 Número de elementos FCTDEF
+28254 Dimensión de $AC_PARAM.
+28255 $AC_PARAM[] se memorizará en SRAM.
+28256 Dimensión de $AC_MARKER
+28257 $AC_MARKER[] se memorizará en SRAM.
+28258 Número de variables de tiempo $AC_TIMER (DRAM)
+28260 Número de variables FIFO para acciones síncronas
+28262 Registrar las variables FIFO a partir de los parámetros R
+28264 Longitud de las variables FIFO $AC_FIFO1-$AC_FIFO10
+28266 Modo de procesamiento FIFO
+28274 Número $AC_SYSTEM_ PARAM para acciones síncronas en movimiento
+28276 Número $AC_SYSTEM_MARKER para acciones síncronas en movimiento
+28290 Habilitar correc. de radio de herramienta pª herr. con contorno
+28300 Activación de protocolos para un usuario
+28301 Cantidad de tipos de eventos OEM ETP.
+28302 Nº tipos de eventos estándar ETP
+28400 Activar visualiz. sec. en val. absolutos
+28402 Dimensionar tamaño del Upload-Buffer
+28450 Búfer para cambio datos de herramienta (DRAM)
+28500 Tamaño de la pila en tarea de preparación (DRAM)
+28520 Número máx. de polinomios de eje por secuencia
+28530 Nº de elementos de memoria para limitar velocidad de contorneado
+28535 Nº elementos memoria para perfil de avance
+28540 Nº elementos memoria para representar función longitud de arco
+28550 Memoria disponible para sec. internas
+28560 Restauración de datos tras una simulación
+28580 Ajuste para orientación relativa a la trayectoria ORIPATH
+28590 Configuración para filtrado de la orientación
+28600 Número limitaciones zona trabajo específicas sistema coordenadas
+29000 Dato opcional
+42000 Angulo de arranque para el roscado
+42010 Comportamiento de la aceleración del eje en el fileteado
+42100 Avance de recorrido de prueba
+42101 Modo para prueba de velocidad
+42110 Valor por defecto para avance
+42120 Avance trayectoria en secuencias de posicionamiento
+42122 Corrección adicional rápido definible mediante manejo
+42125 Sincronización en secuencia de aproximación
+42140 Factor de escala por defecto para dirección P
+42150 Factor de rotación por defecto para dirección R
+42160 Avences fijos F1 - F9
+42162 Distancia entre herramientas en la torreta revólver doble
+42200 Activar modo Debug para SBL2
+42300 Rel. de transm. pª modo Cabezal síncrono, denominador, numerador
+42400 Tiempo espera para punzonado y estampado
+42402 Tiempo de retardo (estampado/punzonado) con G603
+42404 Tiempo mínimo en segundos entre 2 pasadas
+42440 Decalajes de origen en Frames
+42442 Correcciones de la longitud de herramienta
+42444 Modo de superposición tras búsqueda con cálculo
+42450 Precisión del contorno
+42460 Avance mínimo con CPRECON
+42465 Desviación de contorno máxima al matar esquinas
+42466 Desviación máxima orientación de herramienta al matar esquinas
+42470 Ángulo límite esquinas para compresor
+42471 Radio de curvatura mínimo
+42475 Desviación contorno máxima, compresor
+42476 Desviación máx. de la orientación de la herramienta, compresor
+42477 Desviación máxima del giro de herramienta en caso de compresor
+42480 Reación a alarma corrección de radio herramienta/parada dec prev
+42490 Comport. de la correc. del radio herramienta con parada dec prev
+42494 Comport. en aprox./retirada con correc. radio herramienta 2-1/2D
+42496 Comport. de corrección de radio herramienta con contorno cerrado
+42500 Aceleración resultante máxima
+42502 Analizar SD SC_SD_MAX_PATH_ACCEL
+42510 Tirón máximo referido a la trayectoria como dato de operador
+42512 Analizar SD SD_MAX_PATH_JERK
+42520 Inicio de la reducción del avance en G62
+42522 Fin de la reducción del avance en G62
+42524 Corrección de reducción del avance en G62
+42526 Detección de esquinas en G62
+42528 Redución avance en círculos en caso de corr. radio herramienta
+42600 Mando del avance por vuelta en JOG
+42650 Sistema de coordenadas para desplazamiento manual cartesiano
+42660 Definición de cinemática virtual para JOG
+42670 Recorrido para alisamiento de orientación
+42672 Tolerancia para alisamiento de orientación
+42674 Recorrido para alisamiento de orientación al matar esquinas
+42676 Tolerancia para alisamiento de orientación al matar esquinas
+42678 Tolerancia para alisamiento de orientación
+42700 Ruta de programa para llamada a subprograma externo EXTCALL
+42750 Habilitar visualización básica secuencias
+42800 Conmutador de número de cabezales
+42900 Cambio de signo en simetría de la longitud de herramienta
+42910 Cambio de signo en simetría del desgaste de herramienta
+42920 Signo del desgaste en herramientas con posición del filo
+42930 Signo del desgaste
+42935 Transformadas para componentes de herramienta
+42940 Cambio componentes de longitud de herramienta en cambio de nivel
+42950 Asignación componentes longitud herram. independ. tipo herram.
+42960 Compensación de temperatura referida a la herramienta
+42970 Límite superior valor corrección $AA_TOFF
+42974 Decalaje fino TCARR con/des
+42980 Definición del frame con TOFRAME, TOROT y PAROT
+42984 Modificación de $P_AD[2] o $P_AD[11]
+42990 Nº máximo de secuencias en búfer IPO
+42995 Ángulo en cono

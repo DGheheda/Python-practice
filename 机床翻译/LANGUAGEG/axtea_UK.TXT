@@ -1,0 +1,428 @@
+ 427 Axis machine data
+30100 Setpoint assignment: bus segment number
+30110 Setpoint assignment: module number
+30120 Setpoint assignment: Setpoint output on drive submodule/module
+30130 Output type of setpoint
+30132 Axis is a virtual axis
+30134 Setpoint output is unipolar
+30200 Number of encoders
+30210 Actual value assignment: bus segment number.
+30220 Actual value assignment: Drive number/measuring circuit number
+30230 Actual value assignm.: Input on drive module/meas. circuit board
+30240 Encoder type of actual value sensing (actual position value).
+30242 Encoder is independent
+30244 Encoder measurement type
+30250 Internal encoder position
+30260 Absolute encoder: Ratio of absolute to incremental resolution
+30270 Absolute encoder: Traversing range extension
+30280 Drive number of second drive measuring circuit
+30300 Rotary axis / spindle
+30310 Modulo conversion for rotary axis / spindle
+30320 Modulo 360 degrees displayed for rotary axis or spindle.
+30330 Size of modulo range.
+30340 Modulo range start position
+30350 Axis signals output for simulation axis
+30400 Axis programmable by C cycles
+30450 Default for reset: neutral/channel axis
+30455 Axis functions
+30460 Axis functions
+30465 Substitution of NC language commands
+30500 Axis is an indexing axis
+30501 Indexing axis equidistant positions numerator
+30502 Indexing axis equidistant positions denominator
+30503 Indexing axis with equidistant positions first index position
+30505 Axis is an indexing axis with Hirth tooth system
+30550 Initial setting of channel for change of axis
+30552 Automatic GET for get axis
+30554 Initial setting which NCU creates setpoints for the axis
+30560 Axis is a local link axis
+30600 Fixed-value positions of axis with G75
+30800 Type of check of working area limitations.
+31000 Linear scale
+31010 Division period for linear scales
+31020 Encoder lines per revolution
+31025 Encoder multiplication (high-resolution)
+31030 Pitch of leadscrew
+31040 Direct measuring system (no compilation to load position)
+31044 Encoder mounted on the additional gearbox
+31050 Denominator load gearbox
+31060 Numerator load gearbox
+31064 Denominator additional gearbox 
+31066 Numerator additional gearbox
+31070 Denominator measuring gearbox
+31080 Numerator measuring gearbox
+31090 Evaluation of an increment with INC/handwheel
+31122 BERO delay time Plus
+31123 BERO delay time minus
+31130 VCO characteristic correction 62.5 kHz
+31140 VCO characteristic correction 125 kHz
+31150 VCO characteristic correction 185.5 kHz
+31160 VCO characteristic correction 250 kHz
+31200 Factor for converting values while G70/G71 is active
+31300 Max. frequency deviation with stepper motors
+31310 1st frequency deviation limit
+31320 2nd frequency deviation limit
+31330 Frequency at which deviation limit 1 is active
+31340 Frequency at which deviation limit 2 is active
+31500 Output setpoint of this axis for service purposes
+31510 Offset voltage for service setpoint
+31520 Gain for service setpoint
+31600 Trace-specification for axial VDI signals
+32000 maximum axis velocity
+32010 Rapid traverse in jog mode
+32020 Jog axis velocity
+32040 Revolutional feedrate in JOG with rapid traverse override
+32050 Revolutional feedrate in JOG
+32060 Initial setting for positioning axis velocity
+32070 Axis velocity for override
+32074 Frame or tool length compensation are not permissible
+32080 Limitation of selected increment
+32082 Limitation for velocity override
+32084 Effect of VDI signals on handwheel travel
+32090 Ratio of JOG velocity to handwheel velocity  (DRF)
+32100 Traversing direction (not control direction)
+32110 Sign actual value (control direction)
+32200 Servo gain factor
+32210 Position controller integral time
+32220 Enable integral component position controller
+32230 Configuration of the position controller structure
+32250 Rated output voltage
+32260 Rated motor speed
+32300 maximum axis acceleration
+32301 Maximum axis acceleration in JOG mode
+32310 Overload factor for axial velocity steps
+32320 Reset behavior of dynamic response limitation.
+32400 Axial jerk limitation
+32402 Filter type for axial jerk limitation
+32410 Time constant for axial jerk filter
+32412 Blocking frequency of axial jerk filter
+32414 Damping of axial jerk filter
+32420 Default setting of axis jerk limitation
+32430 Axial jerk
+32431 maximum axial jerk for path movement
+32432 maximum axial jerk at block transition in continuous-path mode
+32433 Scaling of acceleration limitation with SOFT
+32434 Scaling of acceleration limitation with G00.
+32435 Scaling of jerk limitation with G00.
+32436 Maximum axial jerk during JOG motion
+32440 Smoothing frequency for Look Ahead
+32450 Backlash
+32452 Evaluation factor for backlash
+32460 Additional torque for electronic weight compensation
+32490 Type of friction compensation
+32500 Friction compensation active
+32510 Adaptation friction compensation active
+32520 Maximum friction compensation value
+32530 Minimum friction compensation value
+32540 Friction compensation time constant
+32550 Adaptation acceleration value 1
+32560 Adaptation acceleration value 2
+32570 Adaptation acceleration value 3
+32580 Weighting factor of friction comp. value w/ short trav. movem.
+32610 Feedforward control factor f. velocity/speed feedforward control
+32620 Feedforward control mode
+32630 Activate feedforward control from program
+32640 Dynamic stiffness control
+32642 Dynamic stiffness control configuration (DSC)
+32644 dynamic stiffness control: Delay
+32650 Inertia for torque feedforward control
+32652 Axis mass for torque feedforward control
+32700 Encoder/spindle error compensation.
+32710 Enable of sag compensation
+32711 Measuring system of sag compensation
+32720 Maximum compensation value for sag compensation
+32730 Change in velocity at 1
+32750 Temperature compensation type
+32760 Excessive velocity due to compensation
+32800 Equiv. time const. current control loop for feedforward control
+32810 Equiv. time constant speed control loop for feedforward control
+32900 Dynamic response adaptation
+32910 Time constant of dynamic response adaptation
+32920 Smoothing filter time constant for adaptive control
+32930 Activation of low-pass filter at position controller output
+32940 Time constant of low-pass filter at position controller output
+32950 Damping of the speed control circuit.
+32990 Actual setpoint position delay
+33000 Fine interpolator type
+33050 Traversing path for lubrication from PLC
+33060 Configuration of maintenance data recording
+33100 Maximum deviation during compression
+34000 Axis with reference point cam
+34010 Approach reference point in minus direction
+34020 Reference point approach velocity
+34030 Maximum distance to reference cam
+34040 Creep velocity
+34050 Direction reversal to reference cam
+34060 maximum distance to reference mark
+34070 Reference point positioning velocity
+34080 Reference point distance
+34090 Reference point offset/absolute offset
+34092 electronic cam offset for incremental measuring systems
+34093 Reference cam/reference mark distance
+34100 Reference point value/target point for distance-coded system
+34102 Calibration of measuring systems
+34104 Enable referencing in follow-up mode
+34110 Sequence of axes in channel-specific referencing
+34120 BERO polarity change
+34200 Referencing mode
+34210 Adjustment status of absolute encoder
+34220 Modulo range for rotary absolute encoder
+34230 Encoder serial number
+34232 Range of encoder serial number
+34300 Basic distance of reference marks of distance-coded encoders.
+34310 Interval between two reference marks for distance-coded scales
+34320 Length measuring system inverse to axis movement. 
+34330 Distance-coded linear measuring system without target point
+34990 Smoothing time constant for actual values.
+35000 Assignment of spindle to machine axis
+35010 Parameterize gear stage change
+35012 Gear stage change position
+35014 Gear stage for axis mode with M70
+35020 Initial spindle setting
+35030 Time at which initial spindle setting is effective
+35032 Reset response of individual spindle functions
+35035 Spindle functions
+35040 Own spindle RESET
+35090 Number of gear stages
+35092 Number of gear stages of 2nd gear stage data set
+35100 Maximum spindle speed
+35110 Maximum speed for gear stage change
+35112 2nd data set: Maximum speed for gear stage change
+35120 Minimum speed for gear stage change
+35122 2nd data set: Minimum speed for gear stage change
+35130 Maximum speed of gear stage
+35135 Maximum speed of the gear stage with position control
+35140 Minimum speed of gear stage
+35150 Spindle speed tolerance
+35160 Spindle speed limitation from PLC
+35200 Acceleration in speed control mode
+35210 Acceleration in position control mode
+35212 2nd data set: Acceleration in position control mode
+35220 Speed for reduced acceleration
+35230 Reduced acceleration
+35240 Acceleration curve DRIVE for axes ON/OFF
+35242 Type of acceleration reduction
+35300 Position control activation speed
+35310 Positioning delay time
+35350 Direction of rotation when positioning
+35400 Oscillation speed
+35410 Acceleration during oscillation
+35430 Start direction during oscillation
+35440 Oscillation time for M3 direction
+35450 Oscillation time for M4 direction
+35500 Feedrate enable for spindle in the set range
+35510 Feedrate enable for spindle stopped
+35550 Maximum speeds for tapping
+35590 Parameter set can be changed
+36000 Exact stop coarse
+36010 Exact stop fine
+36012 Factor for exact stop coarse/fine and standstill
+36020 Delay time exact stop fine
+36030 Standstill tolerance
+36040 Delay time for standstill monitoring
+36042 Delay time for standstill monit. w/ active torque or force lim.
+36050 Clamping tolerance
+36052 Special functions with clamped axis
+36060 Threshold velocity/speed 'Axis/spindle in stop'
+36100 1st software limit switch minus
+36110 1st software limit switch plus
+36120 2nd software limit switch minus
+36130 2nd software limit switch plus
+36200 Threshold value for velocity monitoring
+36210 Maximum speed setpoint
+36220 Delay time for speed setpoint monitoring
+36300 Encoder limit frequency
+36302 Encoder limit frequency for new encoder synchronization.
+36310 Zero mark monitoring
+36400 Tolerance band for contour monitoring
+36500 Tolerance at actual position value change.
+36510 Tolerance of measuring system synchronization
+36520 Threshold for setpoint velocity monitoring
+36600 Deceleration response on hardware limit switch
+36610 Maximum time for braking ramp in case of error.
+36620 Cutout delay servo enable
+36690 Internal data for test purposes
+36700 Automatic drift compensation
+36710 Drift limit value for automatic drift compensation
+36720 Basic drift value
+36730 Acquisition of additional drive actual values
+36750 Effect of value assignment for axial override of synchr. action.
+36901 Enable safety functions
+36902 Rotary axis
+36903 Function enable safe cams
+36905 Modulo value Safe cams
+36906 SI drive assignment
+36907 PROFIsafe address of the drive
+36910 Actual value assignment: type of drive
+36911 Actual value assignment: drive number/measurement circuit number
+36912 Actual value assignm.: Input on drive module/meas. circuit board
+36914 SI single-encoder system
+36915 Encoder type
+36916 Linear scale
+36917 Scale division for linear scale
+36918 Encoder lines per revolution
+36919 Shift factor of encoder multiplication
+36920 Lead screw pitch
+36921 Denominator of gearbox encoder/load
+36922 Numerator of gearbox encoder/load
+36923 Safe encoder resolution
+36925 Direction reversal of actual value
+36926 Encoder frequency limit for safe operation
+36927 Encoder evaluation type
+36928 Encoder identification
+36930 Standstill tolerance
+36931 Limit value for safe velocity
+36932 SG offset values
+36933 SG setpoint speed limit
+36934 Upper limit of safe end position
+36935 Lower limit of safe end position
+36936 Plus cam position for safe cams
+36937 Minus cam position for safe cams
+36940 Tolerance for safe cams
+36942 Tolerance actual value cross-check
+36944 Tolerance actual value check (referencing)
+36946 Velocity limit n_x
+36948 Velocity tolerance for Safe braking ramp
+36949 Slip velocity tolerance
+36950 Tolerance time for SGE switchover
+36951 Delay time for velocity changeover
+36952 Transition time STOP C to safe standstill
+36953 Transition time STOP D to safe standstill
+36954 Transitional period STOP E to safe standstill
+36955 Transition time STOP F to STOP B
+36956 Delay time for pulse suppression
+36957 Time for checking pulse suppression
+36958 Time limit for acceptance test duration
+36960 Creep speed for pulse suppression
+36961 Stop reaction for safe velocity
+36962 Stop reaction for safe end position
+36963 Stop reaction for safe velocity
+36964 Safety-integrated IPO-response grouping
+36965 Alarm suppression on parking axis
+36966 Holding torque for brake test
+36967 Position tolerance for brake test
+36968 Program check for the brake test
+36970 Input assignment SBH/SG deselection
+36971 Input assignment SBH deselection
+36972 Input assignment SG selection
+36973 Input assignment SE selection
+36974 Input assignment speed ratio selection
+36975 Input assignment test stop selection
+36976 Input assignment status pulses suppressed
+36977 Input assignment for external stop request
+36978 Input assignment for SG override
+36979 Input assignment for test of external shutdown
+36980 Output assignment SBH/SG active
+36981 Output assignment SBH active
+36982 Output assignment for active SG selection
+36984 Output assignment enable for pulses external
+36985 Output assignment n < n_x
+36986 Output assignment enable pulses
+36987 Output assignment axis safely referenced
+36988 Output assignment SN1 + to SN4 +
+36989 Output assignment SN1 - to SN4 -
+36990 Output assignment of active stop
+36992 Display of axial cross-check cycle
+36993 Date/time of last change of SI-NCK MD
+36994 Data of previous safety configuration
+36995 Standstill position
+36997 User acknowledge
+36998 Actual checksum
+36999 Desired (expected) checksum
+37000 Travel to fixed stop mode
+37002 Sequence control for travel to fixed stop
+37010 Default fixed stop clamping torque
+37012 Time period until reaching the changed torque limit
+37014 Adaption factor torque limit
+37020 Default fixed-stop monitoring window
+37030 Threshold for fixed stop detection
+37040 Fixed stop detection by sensor
+37050 Enable of the fixed stop alarms
+37052 Reaction with fixed stop alarms
+37060 Waiting for PLC acknowledgements during travel to fixed stop
+37070 Torque limit when approaching the fixed stop for analog drives
+37080 Initial setting of modal torque/force limitation
+37100 Gantry axis definition
+37110 Gantry warning limit
+37120 Gantry trip limit
+37130 Gantry trip limit during referencing
+37135 Current gantry trip limit
+37140 Invalidate gantry axis grouping
+37150 Gantry functions
+37160 Functions for master value coupling
+37200 Threshold value for 'Synchronism coarse'
+37210 Threshold value for 'Synchronism fine'
+37220 Velocity tolerance 'coarse'
+37230 Velocity tolerance 'fine'
+37250 Master axis number for speed setpoint coupling
+37252 Master axis number for torque control
+37253 Master/slave settings
+37254 Torque compensatory controller interconnection
+37255 Torque compensatory controller activation
+37256 Torque compensatory controller gain factor
+37258 Torque compensatory controller integral action time
+37260 Torque compensatory controller limit
+37262 Permanent master/slave link
+37263 Link response of a spindle
+37264 Master/slave tension torque
+37266 Filter time constant tension torque
+37268 Torque weighting of slave axis
+37270 Master/slave speed tolerance coarse
+37272 Master/slave speed tolerance fine
+37274 Inverting traversing direction slave axis
+37300 Lower operating range limit (software limit) when digitizing
+37310 Upper operating range limit (software limit) when digitizing
+37320 Maximum axis velocity during digitization
+37400 Tangent angle for corner recognition
+37402 Default angle for tangential correction
+37500 Axial mode of "Extended Stop and Retract"
+37510 Delay time ESR single axis
+37511 ESR time for interpolatory deceleration of single axis
+37550 Threshold value for velocity warning threshold.
+37560 Threshold value for 'Axis accelerating'
+37600 Actual value acquisition time (Profibus Ti)
+37602 Setpoint delay time (Profibus To)
+37610 Profibus control bit configuration
+37620 Resolution Profibus torque reduction
+37800 OEM version information
+38000 Number of intermediate points for interpol. compensation (SRAM)
+38010 Number of values for quadrant error compens. with neural network
+43100 Defines what is used as master value
+43102 Offset of master value if coupled to this axis
+43104 Scaling of master value if coupled to this axis
+43106 Offset of the functional value of the curve table
+43108 Scaling of functional value of the curve table
+43120 Axial default scaling factor with G51 active
+43200 Speed for spindle start by VDI
+43202 Const cut speed for spindle start by VDI
+43206 Spindle speed type for spindle start through VDI
+43210 Programmed spindle speed limitation G25
+43220 Programmed spindle speed limitation G26
+43230 Spindle speed limitation with G96
+43240 Spindle position for spindle positioning with M19.
+43250 Spindle position approach mode for spindle positioning with M19.
+43300 Revolutional feedrate for positioning axes/spindles
+43340 Reference point position for G30.1
+43350 Upper limit of offset value $AA_OFF with clearance control
+43400 Working area limitation active in positive direction
+43410 Working area limitation active in the negative direction
+43420 Working area limitation plus
+43430 Working area limitation minus
+43500 Selection of travel to fixed stop
+43510 Fixed stop clamping torque
+43520 Fixed stop monitoring window
+43600 Block change criterion 'braking ramp'
+43610 Tolerance window 'braking ramp'
+43700 Oscillation reversal point 1
+43710 Oscillation reversal point 2
+43720 Hold time at oscillation reversal point 1
+43730 Hold time at oscillation reversal point 2
+43740 Feedrate of reciprocating axis
+43750 Number of spark-out strokes
+43760 End position of the reciprocating axis
+43770 Oscillation sequence control mask
+43780 Activate oscillation movement
+43790 Start position of reciprocating axis
+43900 Position-independent temperature compensation value
+43910 Lead angle for position-dependent temperature compensation
+43920 Ref. position of position-dependent temperature compensation

@@ -1,0 +1,589 @@
+ 588 General NC machine data
+10000 Machine axis name
+10002 Logical NCK machine axis image
+10008 Max. no. of PLC-controlled axes
+10010 Channel valid in mode group
+10050 System clock cycle
+10059 Profibus alarm flag (internal only)
+10060 Factor for position control cycle
+10061 Position control cycle
+10062 Position control cycle offset
+10063 Active timing
+10065 Position setpoint delay
+10070 Factor for interpolation cycle
+10071 Interpolator cycle
+10072 Division ratio between IPO and communication task
+10073 Strategy for activation of communication.
+10074 Factor of PLC task for the main run.
+10075 PLC cycle time
+10080 Division ratio for actual value recording cycle time
+10082 Shift of setpoint transfer time
+10083 Max. settable offset of setpoint transfer time
+10088 Reboot delay
+10089 Delay time pulse suppr. for bus failure
+10090 Factor for monitoring cycle
+10091 Display of monitoring cycle time
+10092 Display of cycle time for cross-checking
+10093 Number of SPL file accesses
+10094 Alarm suppress level
+10095 'Safety Integrated' operating modes
+10096 'Safety Integrated' diagnosis functions
+10097 Stop reaction for SPL errors
+10098 Factor for PROFIsafe communication
+10099 PROFIsafe communication cycle time
+10100 Maximum PLC cycle time
+10110 Average PLC acknowledgement time
+10120 Monitoring time for PLC power up
+10130 Runtime limitation of communication to HMI
+10131 Screen refresh response under overload
+10132 Monitoring time for HMI command in the part program
+10134 Possible number of simultaneous HMI communication partners
+10136 Display mode for actual position in the WCS
+10140 Runtime limit of drive communications sub-task
+10150 Factor for communication with drive
+10160 Factor for communication with HMI
+10161 Configuration of communication
+10170 Runtime limit of MMC task
+10180 Factor of MMC task for preprocessing
+10185 Processing time share NCK
+10190 Tool changing time for simulation
+10192 Gear stage change waiting time
+10200 Calculation resolution for linear positions
+10210 Calculation resolution for angular positions
+10220 Activation of scaling factors
+10230 Scaling factors of physical variables
+10240 Basic system metric
+10250 Conversion factor for INCH
+10260 Enable basic system conversion
+10270 System of units of position tables
+10280 Comparing (> and <) compatible with SW6.3
+10284 BTSS-variable lastBlockNoStr active
+10290 Physical units of tool data for compile cycles
+10291 physical units of SIEMENS-OEM tool data
+10292 Physical units of cutting edge data for compile cycles
+10293 Physical units of SIEMENS-OEM cutting edge data
+10300 Number of active analog NCK inputs
+10310 Number of active analog NCK outputs
+10320 Weighting factor for analog NCK inputs
+10330 Weighting factor for analog NCK outputs
+10340 Reserved
+10350 Number of active digital NCK input bytes
+10360 Number of active digital NCK output bytes
+10361 Short circuit of digital inputs and outputs
+10362 Hardware assignment of the fast analog NCK inputs
+10364 Hardware assignment of external analog NCK outputs
+10366 Hardware assignment of external digital NCK inputs
+10368 Hardware assignment of external digital NCK outputs
+10380 Updating rate of clocked external NCK I/Os
+10382 Lead time of clocked external NCK I/Os
+10384 Synchronous processing of external NCK I/Os
+10385 PROFIsafe address PROFIsafe master module
+10386 PROFIsafe address input module
+10387 PROFIsafe-address output module
+10388 Input.assignment $A_INSE to PROFIsafe module
+10389 Outp.assignment $A_OUTSE to PROFIsafe module
+10390 Input assignment of external SPL interface
+10392 Output assignment ext. interface SPL
+10393 Logical drive addresses SI
+10394 Number of directly readable input bytes of the PLC I/Os
+10395 Start addr. of the directly readable input bytes of the PLC I/Os
+10396 Number of directly writable output bytes of the PLC I/Os
+10397 Start addr. of the directly writable output bytes of PLC I/O
+10398 Update time for PLCIO input cycle
+10399 Little/Big Endian for PLCIO
+10400 Number of input bytes for compile cycles
+10410 Number of output bytes for compile cycles
+10420 Reservation of external outputs for compile cycles
+10430 Hardware debug mask for compile cycles
+10450 Assignment of software cams to machine axes
+10460 Lead or delay time at minus cams 1-16
+10461 Lead or delay time at plus cams 1-16
+10470 Hardware assignment for output of cams 1-8 to NCK I/Os
+10471 Hardware assignment for the output of cams 9-16 to NCK I/Os
+10472 Hardware assignment for output of cams 17-24 to NCK I/Os
+10473 Hardware assignment for output of cams 25-32 to NCK I/Os
+10480 Mask for output of cam signals via timer interr. to NCU
+10485 Behavior of SW cams
+10490 Cam jitter compensation
+10500 Logical slot address of the PROFIBUS I/Os
+10501 Length of the PROFIBUS I/O range
+10502 Attributes of the PROFIBUS I/Os
+10510 Logical slot address of the PROFIBUS I/Os
+10511 Length of the PROFIBUS I/O range
+10512 Attributes of the PROFIBUS I/Os
+10530 Hardware assignment of analog inputs for comparator byte 1
+10531 Hardware assignment of analog inputs for comparator byte 2
+10540 Parameterization for comparator byte 1
+10541 Parameterization of comparator byte 2
+10600 Sequence of rotation in FRAME
+10602 Frames when changing geometry axes
+10604 Working area limitation by changing geometry axes
+10610 Reference axis for mirroring
+10612 Mirror toggle
+10613 Active NCU global base frames after reset
+10615 Reset global base frames after power on
+10617 Behavior of frames in SAVE subroutines
+10618 Protection range on change of geometry axes
+10619 Tolerance for collision check
+10620 Name of Euler angle
+10624 Name of retraction vector for path-relative orientation.
+10626 Name of relative safety clearance with ORIPATH
+10630 Name of normal vectors
+10640 Name of direction vectors
+10642 Name of rotation vectors
+10644 Name of intermediate vector components
+10646 Identifiers for programming a second orientation path
+10648 Name of aperture angle
+10650 Name of interpolation parameters
+10652 Name of angle for contour definitions
+10654 Name of radius for contour definitions
+10656 Name of chamfer  for contour definitions
+10660 Name of interpolation point coordinates for G2/G3
+10670 Name of state information
+10672 Name of state information of axes
+10674 Polynomial programming programmable without G function POLY
+10700 Program preprocessing level
+10702 Prevents stopping at specific blocks in single block mode
+10704 Dry run feedrate activation
+10706 Activation of block skip
+10707 Program test mode
+10708 Seach run modes
+10710 Setting data to be updated
+10711 NC language commands of inactive options / functions
+10712 List of reconfigured NC codes
+10713 M function with preprocessing stop
+10714 M function for spindle active after reset
+10715 M function to be replaced by a subroutine
+10716 Subroutine name for M function replacement
+10717 Name of tool-changing cycle for T function replacement
+10718 M function replacement with parameters
+10719 Setting of T function substitution
+10720 Setting of mode after power ON
+10722 Paramameters for axis replacement behavior
+10730 Effect of jog mode keys
+10731 Functioning of the JOG keys
+10735 Enable JOG in automatic
+10760 Method of operation of G53, G153 and SUPA
+10780 Cancel start disable when editing a part program
+10800 1st M function for channel synchronization
+10802 Last M function for channel synchronization
+10804 M function to activate ASUB
+10806 M function to deactivate ASUB
+10808 Activate interrupt program (ASUB)
+10810 Config. of measuring inputs  for G31 P..
+10812 Double turret with G68
+10814 Macro call via M function
+10815 Name of subroutine for M function macro call
+10816 Macro call via G function
+10817 Name of subroutine for G function macro call
+10818 Interrupt number for ASUP start (M96)
+10820 Interrupt number for rapid retraction (G10.6)
+10850 Maximum number of OEM G codes
+10880 Definition of the control system to be adapted
+10881 ISO_3 Mode: GCodeSystem
+10882 List of user-specific G commands of an external NC language
+10884 Evaluation of programmed values without decimal point
+10886 Incremental system in external language mode
+10888 Digits for T number in ISO mode
+10890 Tool change programming for external language
+10892 G00 interpolation mode
+10900 Number of positions for indexing axis table 1
+10910 Indexing position table 1
+10920 Number of positions for indexing axis table 2
+10930 Indexing position table 2
+10940 Settings for indexing position
+11100 Number of auxiliary functions distr. amongst aux. fct. groups
+11110 Auxiliary function group specification
+11120 Function "program global user data (PUD)" is active
+11140 Additional saving for GUD modules
+11160 Execution right for /_N_CST_DIR
+11161 Execution right for /_N_CMA_DIR
+11162 Execution right for /_N_CUS_DIR
+11165 Write protection for directory /_N_CST_DIR
+11166 Write protection for directory /_N_CMA_DIR
+11167 Write protection for directory /_N_CUS_DIR
+11170 Write protection for _N_SACCESS_DEF
+11171 Write protection for _N_MACCESS_DEF
+11172 Write protection for _N_UACCESS_DEF
+11200 Standard machine data loaded at next Power On
+11210 Machine data backup of changed machine data only
+11220 Error response to INI file errors
+11230 Structure of machine data backup files
+11240 SDB number
+11241 SDB source selection
+11250 Profibus shutdown handling
+11270 Activation of default values for NC language elements
+11280 Handling of INI files in workpiece directory
+11285 Type of file with machine model
+11290 Select directories in DRAM
+11291 Selection of directories in DRAM
+11292 Configuration of the DRAM file system
+11294 Configuration of the SIEM* trace file
+11295 Memory type for log files
+11297 Prevent overrun of IPO time level
+11298 Interruption time prep time level in seconds.
+11300 INC and REF in jog mode
+11310 Threshold for direction change handwheel
+11320 Handwheel pulses per detent position
+11322 Contour handwheel pulses per detent position
+11324 Display of handwheel number in VDI Interface
+11330 Increment size for INC/handwheel
+11340 3rd handwheel: type of drive
+11342 3rd handwheel: drive number / measuring circuit number
+11344 3rd handwheel: Input to module/meas. circ. Board
+11346 Handwheel default path or velocity
+11350 Handwheel segment
+11351 Handwheel module
+11352 Handwheel connection
+11353 Logical handwheel slot addresses
+11360 INC signals act in mode group
+11380 Test MD for changing the NCK code or data for Safety Integrated
+11382 INTEGER display of the addressed location
+11384 REAL display of the addressed location
+11386 INTEGER input for the addressed location
+11388 REAL input for addressed location
+11390 Overwrite the addressed location with MONITOR_INT/REAL
+11398 Axis-Var server response
+11400 Activation of internal trace functions
+11405 Activation of internal task trace function
+11410 Mask for support of special alarm outputs
+11411 Activation of warnings
+11412 Alarm response CHAN_NOREADY permitted
+11413 Alarm parameter as text output
+11414 Clear NCSTART alarms with CANCEL
+11415 Masking of alarm outputs
+11420 Size of protocol files (kB)
+11430 Channel definition for digitizing
+11432 Selection of 3-axes or 3+2-axes digitizing
+11450 Parameterization for search run
+11460 Mode mask for asynchronous oscillation
+11470 Repositioning properties
+11480 Buffer depth of PLC trace data at OB1
+11481 Buffer depth of PLC trace data at OB35
+11482 Buffer depth of PLC trace data at OB40
+11500 Protected synchronized actions
+11510 Max. permitted IPO load
+11550 Defines the stop behavior.
+11600 Defines the mode group behavior
+11602 Ignore stop conditions for ASUP
+11604 Priorities from which 'ASUP_START_MASK' is effective
+11610 Activation of a user-specific ASUP program
+11612 Protection level of the user-specific ASUP program
+11620 Program name for PROG_EVENT
+11640 Allow channel axis gaps in AXCONF_MACHAX_USED
+11660 Number of possible 'electronic gear units'
+11700 Codes for NC card
+11717 Subroutine name for D function replacement
+11750 Functions for master value coupling
+11752 Functions for coupled motion
+11754 Replacement of coupling language commands by machining cycles
+12000 Axis feedrate override switch Gray-coded
+12010 Evaluation of axis feedrate override switch
+12020 Path feedrate override switch Gray-coded
+12030 Evaluation of path feedrate override switch
+12040 Rapid traverse override switch Gray-coded
+12050 Evaluation of rapid traverse override switch
+12060 Spindle override switch Gray-coded
+12070 Evaluation of spindle override switch
+12080 Override reference speed
+12082 Specification of the reference of the path override
+12090 Selection of override specifications
+12100 Limitation for binary-coded override switch
+12200 Traversing response with override 0
+12202 Fixed feedrates for linear axes
+12204 Fixed feedrates for rotary axes
+12205 Fixed feedrates for spindles
+12300 Central lubrication active
+12510 NCU number in an NCU cluster
+12520 NCU numbers for which bus termination resistances are activated
+12540 Link bus baud rate
+12550 maximum number of message frame transmission retries
+12701 Assignment of an axis container location
+12702 Assignment of an axis container location
+12703 Assignment of an axis container location
+12704 Assignment of an axis container location
+12705 Assignment of an axis container location
+12706 Assignment of an axis container location
+12707 Assignment of an axis container location
+12708 Assignment of an axis container location
+12709 Assignment of an axis container location
+12710 Assignment of an axis container location
+12711 Assignment of an axis container location
+12712 Assignment of an axis container location
+12713 Assignment of an axis container location
+12714 Assignment of an axis container location
+12715 Assignment of an axis container location
+12716 Assignment of an axis container location
+12750 Axis container identifier
+12970 Logical start address of the digital PLC input address
+12971 Number of digital input addresses
+12974 Logical start address of the digital PLC output addresses
+12975 Number of digital output addresses
+12978 Logical start address of the analog PLC input addresses
+12979 Number of analog input addresses
+12982 Logical start address of the analog PLC output addresses
+12983 Number of analog output addresses
+13000 Drive activation (611D)
+13010 Logical drive number
+13020 Power section code of drive module
+13030 Module ID
+13040 ID for drive type  (1: FDD, 2: MSD, 3: LIN)
+13050 Logical drive addresses
+13060 Standard message frame type for Profibus DP
+13070 DP functions used
+13080 Drive type Profibus
+13100 Diagnosis drive link
+13110 PROFIBUS trace of I/O slots
+13111 PROFIBUS trace settings
+13112 Maximum trace file size in kbytes
+13113 Activation of PROFIBUS trace
+13114 Trigger conditions for PROFIBUS trace
+13120 Logical address of SINAMICS CU
+13150 Activate fault and warning buffer output for Sinamics
+13200 Polarity reversal of sensor
+13210 Meas. type with decentralized  drives
+13211 Data source for central measurement with Profibus drives
+13220 Delay time between probe deflection and recognition
+13300 Useful F data filter IN
+13301 Useful F data filter OUT
+13310 Delay in display of alarm 27097
+14500 No. of input bytes (from PLC)
+14502 No. of output bytes (to PLC)
+14504 Number of user data (INT)
+14506 Number of user data (HEX)
+14508 Number of user data (FLOAT)
+14510 User data (INT)
+14512 User data (HEX)
+14514 User data (FLOAT)
+14516 User data (HEX)
+15700 Name for substitution subroutine
+15702 Call path for substitution subroutine
+17200 Global HMI information (without physical unit)
+17201 Global HMI status info (without physical unit)
+17400 OEM version information
+17500 Maximal number of replacement tools.
+17510 Behavior of tool data when unloading
+17515 Tool data behavior with RESETMON
+17520 Create new tool: default settings
+17530 Mark tool data change for HMI
+17540 Permitted tool types
+17600 Depth of log memory optimization in REORG
+17610 Depth of the PowerFail log memory optimization
+17900 Setting to VDI signals
+18000 PLC interface update
+18030 Hardware series number
+18040 Version and possibly data of the PCMCIA card, not FM-NC
+18050 Display data of free dynamic memory
+18060 Display data of free static memory
+18070 Display data of free memory  in DUAL PORT RAM
+18072 Display of free memory in CC-MD memory
+18074 Max. size of the tool management diagnostic ring buffers
+18075 Max. number of tool holders per TOA
+18076 Max. number of magazine locations per TOA with remote connection
+18077 Max. no. of magazines in the distance table of a magazine loc.
+18078 The maximum number of hierarchies for magazine location types
+18079 The max. number of entries in a mag. location type hierarchy.
+18080 Step-by-step memory reservation for tool management (SRAM)
+18082 Number of tools the NCK can manage (SRAM)
+18084 Number of magazines the NCK can manage (SRAM)
+18086 Number of magazine locations the NCK can manage (SRAM)
+18088 Maximum number of definable tool holders
+18090 Number of magazine data generated and evaluated by the CC (SRAM)
+18091 Type of OEM magazine data (SRAM)
+18092 Number of OEM magazine location data (SRAM)
+18093 Type of OEM magazine location data (SRAM)
+18094 Number of OEM tool data (SRAM)
+18095 Type of OEM tool data (SRAM)
+18096 Number of data per tool edge for compile cycles (SRAM)
+18097 Type of OEM data per cutting edge (SRAM)
+18098 Number of monitoring data per tool for compile cycles
+18099 Type of OEM monitor data (SRAM)
+18100 Tool offsets in the TO range (SRAM)
+18102 Type of D No. programming (SRAM)
+18104 Tool adapters in TO area (SRAM)
+18105 maximum value of D number (DRAM)
+18106 maximum number of D numbers per tool (DRAM)
+18108 Resulting offsets in TO area (SRAM)
+18110 Max. number of additive offsets per edge
+18112 Properties of resulting offsets in TO area (SRAM)
+18114 Assign tool cutting edge orientation
+18116 Number of tool environments in the TO area (SRAM)
+18118 Number of GUD files in active file system (SRAM)
+18120 Number of global user variable names (SRAM)
+18130 Number of channel-specific user variable names (SRAM)
+18140 Number of axis-specific user variable names (SRAM)
+18150 Memory location for global user variable values (SRAM)
+18160 Number of macros (DRAM)
+18170 Number of miscellaneous functions (cycles, DRAM)
+18180 Number of additional parameters for cycles according to MD 18170
+18190 Number of files for machine-related protection zones (SRAM)
+18200 Number of Siemens OEM magazine data (SRAM)
+18201 Type of Siemens OEM magazine data (SRAM)
+18202 No. of Siemens OEM magazine location data (SRAM)
+18203 Type of Siemens OEM magazine location data (SRAM)
+18204 Number of Siemens OEM tool data (SRAM)
+18205 Type of Siemens OEM tool data (SRAM)
+18206 No. of Siemens OEM data per cutting edge (SRAM)
+18207 Type of Siemens OEM data per cutting edge (SRAM)
+18208 No. of Siemens OEM monitor data (SRAM)
+18209 Type of Siemens OEM monitor data (SRAM)
+18210 User memory in DRAM [KB]
+18220 User memory in DUAL PORT RAM (DPR)
+18230 User memory in SRAM
+18231 Technology for data buffering
+18232 System: logfile size in SRAM [KB]
+18233 System: Automatic saving of persistent data
+18237 Cycle/display setting data in SRAM [kB]
+18238 Compile cycle machine data in SRAM [kB]
+18240 Hash table size for LUD (DRAM)
+18242 Maximum memory block size for LUD/GUD values
+18250 Hash table size for channel-specific data (DRAM)
+18260 Hash table size for global data (DRAM)
+18270 Number of subdirectories (DRAM)
+18280 Number of files per directory (DRAM)
+18290 Hash table size for files of a directory (SRAM)
+18300 Hash table size for subdirectories (SRAM)
+18310 Number of directories in passive file system (SRAM)
+18320 Number of files in passive file system (SRAM)
+18330 Maximum length of an NC block (SRAM)
+18331 Reserved for FFS (DRAM)
+18332 Size of FFS
+18342 max. number of interpolation points on sag compensation (SRAM)
+18350 minimum part program memory (SRAM)
+18351 Size of part program memory (DRAM)
+18352 End user memory for part programs/cycles/files
+18353 Memory capacity for machine manufacturer's cycles/files
+18354 Memory capacity for NC manufacturer's cycles/files
+18355 Memory size for temporary files
+18356 Memory size for the clipboard of external files
+18360 FIFO buffer size for processing from external source (DRAM)
+18362 Number of program levels which can be simultaneously processed
+18370 Max.no. of log files in passive file system
+18371 Number of standard data lists ETPD.
+18372 Number of OEM data lists ETPD.
+18373 Number of servo data for log
+18374 Size of log file buffer
+18375 Users enabled for sessions
+18390 Supported compression methods.
+18400 Number of curve tables (SRAM)
+18402 Number of curve segments (SRAM)
+18403 Number of linear curve segments (SRAM)
+18404 Number of curve table polynomials (SRAM)
+18406 Number of curve tables (DRAM)
+18408 Number of curve segments (DRAM)
+18409 Number of linear curve segments (DRAM)
+18410 Number of curve table polynomials (DRAM)
+18450 Max. number of CP modules
+18452 Maximum number of CP master values
+18500 Stack size for external communications task (DRAM)
+18502 Stack size in KB for communication task (DRAM)
+18510 Stack size of servo task (DRAM)
+18512 Stack size of IPO task (DRAM)
+18520 Stack size of drive task (DRAM)
+18530 Stack size of the MMC task
+18540 Stack size of the PLC task (DRAM)
+18600 Fine offset with FRAME (SRAM)
+18601 Number of global predefined user frames (SRAM).
+18602 Number of global base frames (SRAM).
+18660 Number of configurable GUD variables of type REAL
+18661 Number of configurable GUD variables of type integer
+18662 Number of configurable GUD variables of type Boolean
+18663 Number of configurable GUD variables of type Axis
+18664 Configurable GUD variable of type Char
+18665 Configurable GUD variable of type STRING
+18700 Size of NCU-link variable memory
+18710 Number of global time variable for synchronized actions
+18720 Setpoint value for buffer size between IPO and position control
+18780 Activation of NCU-link communication
+18781 Number of internal link connections
+18782 Number of NCU-link modules
+18788 Channel bit mask for allocating CC stations
+18790 Trace data buffer size for NCU-Link
+18792 Specifies the contents of the NCU-link files
+18794 Trace specification of VDI signals
+18800 Activation of external NC languages
+18860 Activation of maintenance data recording
+18870 Max. number of kinematic chains
+18880 maximum number of elements in kinematic chains
+18890 Maximum number of elements in 3D protection areas
+18892 Max. number of protection zone elements
+18894 Max. number of protection zone groups
+18896 Max. number of temp. memories for collision check
+18897 Max. no. of interf. bits for pre-activation of protection zones
+18898 Table of names for protection zone types
+18900 System reaction to FPU calculation error
+18910 Basic initialization of FPU control word
+18920 Exception mask for FPU calculation errors
+18930 Path for core file creation
+19000 System design
+19010 System information
+19100 Option data
+19110 Option data
+19120 Option data
+19122 Option data
+19130 Option data
+19140 Option data
+19142 Option data
+19160 Option data
+19200 Option data
+19220 Option data
+19240 Option data
+19250 Option data
+19270 Option data
+19280 Option data
+19290 Option data
+19296 Option data
+19300 Option data
+19306 Option data
+19310 Option data
+19320 Option data
+19321 Option data
+19330 Option data
+19334 Option data
+19340 Option data
+19400 Option data
+19410 Option data
+19500 Option data
+19600 Option data
+19610 Option data
+19700 Option data
+19730 Option data
+19800 Option data
+19830 Option data
+19990 OEM password
+41010 Size of the variable increment for JOG
+41050 Jog mode / continuous operation with continuous JOG
+41100 JOG mode: (1) revolutional feedrate / (0) feedrate
+41110 Axis velocity in JOG
+41120 Revolutional feedrate of axes in JOG mode
+41130 Axis velocity for rotary axes in JOG mode
+41200 Speed for spindle JOG mode
+41300 Compensation table enable
+41310 Weighting factor compensation table
+41500 Trigger points at falling cam 1-8
+41501 Trigger points at rising cam edge 1-8
+41502 Trigger points at falling cam edge 9-16
+41503 Trigger points at rising cam edge 9-16
+41504 Trigger points at falling cam edge 17-24
+41505 Trigger points at rising cam edge 17-24
+41506 Trigger points at falling cam edge 25-32
+41507 Trigger points at rising cam edge 25-32
+41520 Rate time for '-' trigger points of cams 1-8
+41521 Rate time for '+' trigger points of cams 1-8
+41522 Rate time for '-' trigger points of cams 9-16
+41523 Rate time for '+' trigger points of cams 9-16
+41524 Rate time for '-' trigger points of cams 17-24
+41525 Rate time for '+' trigger points of cams 17-24
+41526 Rate time for '-' trigger points of cams 25-32
+41527 Rate time for '+' trigger points of cams 25-32
+41600 Threshold value of the 1st comparator
+41601 Threshold value of the 2nd comparator
+41700 Default rotation of axis container
+50010 Activate test software
+50085 Monitoring time of the interrupt disable
+50165 Reserved
+50201 Measuring pulse simulation through digital output
+50345 R parameter trace
+50649 Debug gaps in MD $MC_AXCONF_MACHAX_USED
+50650 Reboot delay factor
+50900 Delay for alarm 8081

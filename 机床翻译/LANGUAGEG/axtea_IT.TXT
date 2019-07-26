@@ -1,0 +1,428 @@
+ 427 Axis machine data
+30100 Abbinamento riferimento: numero di segmento del bus
+30110 Abbinamento riferimento: numero del modulo
+30120 Assegn.riferim.: uscita riferimento su modulo azionamento/scheda
+30130 Tipo di emissione del valore di riferim.
+30132 L'asse è un asse virtuale
+30134 L'uscita del valore di rif. è unipolare
+30200 Nr. dei trasduttori
+30210 Abbinamento valore reale: numero di segmento del bus
+30220 Assegnazione valore reale: nr.di azionamento/circuito di misura
+30230 Assegn.val.reale: ingresso su modulo azionam./circuito di misura
+30240 Tipo di trasduttore rilevamento valore reale (val.di posizione)
+30242 Il trasduttore è indipendente
+30244 Tipi encoder
+30250 Posizione trasduttore interna
+30260 Trasdutt.assoluto: rapporto tra risoluzione assoluta e increm.
+30270 Trasd. ass.: ampliamento campo di movim.
+30280 Nr.azionamento per secondo circuito misura azionamento
+30300 Asse rotante / mandrino
+30310 Conversione modulo per asse rotante / mandrino
+30320 Visualizzazione modulo 360 gradi per asse rotante o mandrino
+30330 Dimensione del campo modulo.
+30340 Posizione di start del settore °modulo
+30350 Emissione dei segnali d'asse per asse di simulazione
+30400 Asse programmabile con cicli C
+30450 Preimpostazione per Reset: asse neutrale/canale
+30455 Funzioni degli assi
+30460 Funzioni degli assi
+30465 Sostituzione di istruzioni del linguaggio NC
+30500 L'asse è un asse divisore
+30501 Numeratore per posizioni equidistanti dell'asse di divisione
+30502 Denominatore per posizioni equidistanti dell'asse di divisione
+30503 Asse di divisione con posizioni equidistanti, prima posizione
+30505 Asse di divisione con dentatura Hirth
+30550 Condizione di default del canale per cambio asse
+30552 GET automatico per rilevamento asse
+30554 Condiz.di default per la NCU che genera i riferimenti per l'asse
+30560 L'asse è un asse di link locale
+30600 Posizioni per valore fisso dell'asse con G75
+30800 Tipo di verifica dei limiti del campo di lavoro.
+31000 Riga lineare
+31010 Periodo di divisione per righe di misura lineari
+31020 Tacche encoder per giro
+31025 Moltiplicatore del trasduttore (risoluzione elevata)
+31030 Passo della vite a ricircolo di sfere
+31040 Sist. di misura diretto (nessuna convers. con posiz. del carico)
+31044 Trasduttore su riduttore anteposto
+31050 Denominatore riduttore di potenza
+31060 Numeratore riduttore del carico
+31064 Denominatore riduttore anteposto
+31066 Numeratore riduttore anteposto
+31070 Denominatore riduttore di misura
+31080 Numeratore riduttore di misura
+31090 Valutazione di un incremento per INC/volantino
+31122 Tempo di ritardo BERO Positivo
+31123 Tempo di ritardo negativo del BERO
+31130 Correzione caratteristica VCO 62,5 KHz
+31140 Correzione caratteristica VCO 125 KHz
+31150 Correzione caratteristica VCO 185,5 KHz
+31160 Correzione caratteristica VCO 250 KHz
+31200 Fattore per il ricalcolo dei valori con G70/G71 attivi
+31300 Deviazione di frequenza max. con motori passo-passo
+31310 1. limite della deviazione di frequenza
+31320 2. limite della deviazione di frequenza
+31330 Frequenza per la quale vale la limitazione della deviazione 1
+31340 Frequenza per la quale vale la limitazione della deviazione 2
+31500 Emissione del riferimento per questo asse a scopo di service
+31510 Tensione di offset per il riferimento di service
+31520 Amplificazione del riferimento di service
+31600 Specifica trace per segnale assiale VDI
+32000 Velocità max. dell'asse
+32010 Rapido manuale
+32020 Velocità manuale dell'asse
+32040 Avanzamento al giro in JOG con sovrapposizione del rapido
+32050 Avanzamento al giro in JOG
+32060 Condizione di default per la velocità dell'asse di posizionam.
+32070 Velocità dell'asse per sovrapposizione
+32074 Non sono consentiti Frame o correzione HL
+32080 Limitazione dell'incremento selezionato
+32082 Limitazione per sovrapposizione della velocità
+32084 Effetto dei segnali VDI sul movimento con volantino
+32090 Rapporto tra velocità di JOG e velocità volantino (DRF)
+32100 Direz. di movimto (non senso di regol.)
+32110 Segno del valore att. (senso di regol.)
+32200 Fattore Kv
+32210 Tempo integrazione regolatore di posizione
+32220 Attivaz.compon.integrale regolat.di posiz.
+32230 Configur.struttura regolatore di posizione
+32250 Tensione di uscita nominale
+32260 Giri nominali motore
+32300 Max. accelerazione asse
+32301 Accelerazione max. dell'asse in funzionamento JOG
+32310 Fattore di sovraccarico per gradini di velocità assiali
+32320 Comportamento di reset delle limitazioni dinamiche
+32400 Antistress assiale
+32402 Tipo di filtro per limitazione antistrappo assiale
+32410 Costante di tempo per il filtro antistrappo assiale
+32412 Frequenza blocco filtro antistrappo assi.
+32414 Attenuazione del filtro antistrappo assiale
+32420 Impostazione di default per la limitazione antistrappo assiale
+32430 Svincolo assiale
+32431 Strappo assiale max.con movimento vettoriale
+32432 Max.strappo assiale al cambio blocco in funzionamento continuo
+32433 Fattore di scala per la limitazione dell'accelerazione con SOFT
+32434 Fattore di scala per la limitazione dell'accelerazione con G00.
+32435 Scala della limitazione strappo per G00.
+32436 Strappo assiale max. con movimento JOG
+32440 Frequenza di livellamento con Look Ahead.
+32450 Gioco d'inversione
+32452 Fattore di valutazione per gioco all'inversione
+32460 Coppia additiva per compensazione elettronica del peso
+32490 Tipo di compensazione dell'attrito
+32500 Compensazione dell'attrito attiva
+32510 Adaption compensaz.dell'attrito attiva
+32520 Val. max. della compensaz. dell'attrito
+32530 Val.min. di compensazione dell'attrito
+32540 Costante di tempo compensaz.dell'attrito
+32550 Valore di accelerazione adaption 1
+32560 Valore di accelerazione adaption 2
+32570 Valore di accelerazione adaption 3
+32580 Fatt.ponderazione valore compensaz.attrito con brevi spostamenti
+32610 Fattore di precomando per velocità/numero di giri
+32620 Tipo di precomando
+32630 Attivazione del precomando da programma
+32640 Regolazione della rigidità dinamica
+32642 Configurazione regolazione dinamica della rigidità (DSC)
+32644 Regolazione rigidità dinamica: ritardo
+32650 Inerzia per precomando di coppia
+32652 Massa dell'asse per precomando di coppia angolare
+32700 Compensazione errore trasduttore/mandrino
+32710 Abilitazione compensazione di flessione
+32711 Sistema di misura per la compensazione della flessione
+32720 Valore massimo per la compensazione della flessione
+32730 Variazione di velocità con 1
+32750 Tipo di compensazione della temperatura
+32760 Incremento di velocità attraverso la compensazione
+32800 Costante di tempo equivalente per precomando anello di corrente
+32810 Costante di tempo equivalente per precomando anello di velocità
+32900 Adattamento alla dinamica
+32910 Costante di tempo dell'adattam. dinamico
+32920 Costante di tempo filtro di livellamento per Adaptive Control
+32930 Attivazione filtro passa-basso su uscita regolatore di posizione
+32940 Cost.di tempo filtro passa-basso su uscita regolat. di posizione
+32950 Attenuazione del circuito di regolazione della velocità
+32990 ritardo attuale del riferimento di posizione 
+33000 Tipologia interpolatore fine
+33050 Tratto di percorso per lubrificazione da PLC
+33060 Configurazione della registrazione dei dati di manutenzione
+33100 Scostamento massimo in compressione
+34000 Asse con camme di riferimento
+34010 Accostamento al punto di riferimento in direzione negativa
+34020 Velocità di ricerca del pto di riferim.
+34030 Tratto di percorso massimo per la camma di riferimento
+34040 Velocità di disinserzione
+34050 Inversione della direz. su camma di rif.
+34060 Percorso max. alla tacca di riferimento
+34070 Velocità di accostamento del punto di riferimento
+34080 Distanza punti di riferimento
+34090 Traslazione del punto di riferimento/traslazione assoluta
+34092 Traslazione elettronica camme dei sistemi di misura incrementali
+34093 Distanza camma/tacca di riferimento
+34100 Valore punto riferim./finale con sistema a distanze codificate
+34102 Compensazione sistema di misura
+34104 Consenso per azzeram. in funz. a seguire
+34110 Sequenza assi per riferimento specifico per canale
+34120 Cambio di polarità della camma del BERO
+34200 Modo di ricerca del punto di riferimento
+34210 Stato della taratura del trasduttore assoluto
+34220 Campo modulo trasduttore  assoluto rotativo
+34230 Numero di serie encoder
+34232 Portata del nr. di serie dat.
+34300 Dist. base tacche di riferim.con trasduttori a distanze codific.
+34310 Diff.tra due tacche di riferim.con righe di misura a dist.codif.
+34320 Il sistema lineare è opposto al movimento dell'asse
+34330 Sist. di misura lineare a distanze codificate senza punto finale
+34990 Costante di tempo di livellamento per valori reali
+35000 Assegnazione mandrino/asse macchina
+35010 Parametrizzazione cambio gamma
+35012 Posizione di cambio gamma
+35014 Gamma per il funzionamento come asse con M70
+35020 Posizione base mandrino
+35030 Istante di validità della posizione iniziale del mandrino
+35032 Comportamento in caso di reset delle singole funzioni mandrino
+35035 Funzioni mandrino
+35040 RESET mandrino indipendente
+35090 Numero gamme di velocità
+35092 Numero di gamme del 2° set di dati della gamma
+35100 Giri max. mandrino
+35110 Giri massimi per cambio gamma
+35112 2° set di dati: numero di giri max. per cambio gamma
+35120 Giri minimi per cambio gamma
+35122 2° set di dati: numero di giri min. per cambio gamma
+35130 Giri max. gamma
+35135 Giri max. della gamma in regolazione di posizione
+35140 Giri min. gamma
+35150 Tolleranza dei giri mandrino
+35160 Limitazione dei giri mandrino da PLC
+35200 Accelerazione per funzionamento controllato in velocità
+35210 Accelerazione per funzionamento controllato in posizione
+35212 2° set di dati: accelerazione in funzionam.regolato in posizione
+35220 Giri per accelerazione ridotta
+35230 Accelerazione ridotta
+35240 ON/OFF caratteristica di accelerazione DRIVE per assi
+35242 Tipo di riduzione dell'accelerazione
+35300 Giri per l'inser.regolatore di posizione
+35310 Tempo di ritardo in posizionamento
+35350 Senso di rotazione per posizionamento
+35400 Giri di pendolamento
+35410 Accelerazione per i pendolamenti
+35430 Direzione di start per i pendolamenti
+35440 Tempo di pendolamento per direzione M3
+35450 Tempo di pendolamento per direzione M4
+35500 Consenso avanzamento per mandrino nel campo di riferimento
+35510 Consenso avanzamento a mandrino fermo
+35550 Velocità massima per la maschiatura
+35590 Cambio del blocco dei parametri possibile
+36000 Arresto preciso, grossolano
+36010 Arresto preciso, fine
+36012 Fatt.soglia arr.preciso/grossol.e fermo
+36020 Tempo di ritardo per arresto preciso fine
+36030 Tolleranza di asse fermo
+36040 Tempo di ritardo per sorveglianza asse fermo
+36042 Tempo ritardo per sorvegl.asse fermo con limit. att.coppia/forza
+36050 Tolleranza di bloccaggio
+36052 Funzioni speciali per asse bloccato
+36060 Soglia di velocità/giri per 'Asse/mandrino fermo'
+36100 1. Finecorsa software meno
+36110 1. Finecorsa software più
+36120 2. Finecorsa software meno
+36130 2. Finecorsa software più
+36200 Valore di soglia per sorveglianza della velocità
+36210 Riferimento max. di velocità
+36220 Tempo di ritardo per sorveglianza riferimento di velocità
+36300 Frequenza limite trasduttore
+36302 Frequenza trasduttore per nuova sincronizzazione del trasduttore
+36310 Sorveglianza della tacca di zero
+36400 Banda di tolleranza della sorveglianza del profilo
+36500 Tolleranza per commutazione valore reale di posizione
+36510 Tolleranza sincronizzazione sist. di mis
+36520 Valore di soglia per sorveglianza della velocità di riferimento
+36600 Tipo di frenatura sui finecorsa hardware
+36610 durata max. della rampa di frenatura in caso di errore
+36620 Ritardo alla disinserzione del consenso regolatore
+36690 Dato interno per scopi di test
+36700 Compensazione automatica della deriva
+36710 Valore limite per compensazione automatica della deriva
+36720 Valore base di deriva
+36730 Acquisizione di ulteriori valori reali dell'azionamento
+36750 Effetto assegnaz.valore per sovrapp.assiale con azioni sincrone
+36901 Consenso funzioni sicure
+36902 Asse rotante
+36903 Abilitazione funzione camme sicure
+36905 Valore modulo per camme sicure
+36906 Assegnazione azionamento SI
+36907 Indirizzo PROFIsafe dell'azionamento
+36910 Assegn.val.att. :tipo di azionamento
+36911 Assegnazione valore reale: nr.di azionamento/circuito di misura
+36912 Assegn.val.reale: ingresso su modulo azionam./circuito di misura
+36914 Sistema trasduttore singolo SI
+36915 Tipo del trasduttore
+36916 Riga lineare
+36917 Periodo di divisione per riga di misura lineare
+36918 Tacche encoder per giro
+36919 Fattore di shift del moltiplicatore trasduttore
+36920 Passo vite
+36921 Denominatore cambio trasduttore/carico
+36922 Numeratore riduttore del trasduttore/carico
+36923 Risoluzione sicura del trasduttore
+36925 Inversione di direzione valore attuale
+36926 Frequenza massima del trasduttore per funzionamento sicuro
+36927 Tipo rilevamento trasduttore
+36928 Identificazione trasduttore
+36930 Tolleranza di asse fermo
+36931 Valore limite per velocità sicura
+36932 Valori di correzione SG
+36933 Limitazione velocità di riferimento SG
+36934 Valore limite superiore per finecorsa sicuro
+36935 Valore limite inferiore per finecorsa sicuro
+36936 Posizione positiva per camme sicure
+36937 Posizione negativa per camme sicure
+36940 Tolleranza per camme sicure
+36942 Tolleranza per confr. incroc. val. att.
+36944 Tolleranza p. confr.val.att. (riferim.)
+36946 Limite di velocità n_x
+36948 Tolleranza di velocità per rampa di frenatura sicura
+36949 Tolleranza velocità di scorrimento
+36950 Tempo di tolleranza per commutazione SGE
+36951 Tempo di ritardo per commutazione velocità
+36952 Tempo di transizione da STOP C ad arresto sicuro
+36953 Tempo di transizione da STOP D ad arresto sicuro
+36954 Tempo di transizione da STOP E ad arresto sicuro
+36955 Tempo di transizione da STOP F a STOP B
+36956 Ritardo per cancellazione impulsi
+36957 Tempo per verifica cancellazione impulsi
+36958 Limite tempo durata test di accettazione
+36960 Giri di fermata blocco impulsi
+36961 Reazione di stop per velocità sicura
+36962 Reazione di stop posizione finale sicura
+36963 Reazione di stop per velocità sicura
+36964 Raggruppamento reazione IPO Safety
+36965 Esclusione allarme per asse in parcheggio
+36966 Momento di arresto del test di frenatura
+36967 Tolleranza posizione del test di frenatura
+36968 Verifica programma per test del freno
+36970 Abbinamento ingresso disattivaz. SBH/SG
+36971 Abbinamento ingresso disattivazione SBH
+36972 Abbinamento ingresso selezione SG
+36973 Abbinamento ingresso selezione SE
+36974 Assegnazione ingresso per selezione rapporto di riduzione
+36975 Abbinamento ingresso attiv.stop di prova
+36976 Assegnazione ingresso per stato di impulsi cancellati
+36977 Abbinamento ingr.richiesta est.frenatura
+36978 Assegnazione ingresso per override velocità sicura
+36979 Assegnazione ingresso per test della disinserzione esterna
+36980 Abbinamto.uscita SBH/SG attivo
+36981 Abbinamento uscite SBH attivo
+36982 Abbinamento uscite d.selezione SG attiva
+36984 Abbinamento uscite abilitazione impulsi
+36985 Abbinamento uscite n < n_x
+36986 Abbinamento uscita per abilitazione impulsi
+36987 Assegnazione uscita per asse referenziato in sicurezza
+36988 Abbinamto.uscita SN1 + fino a SN4 +
+36989 Abbinamento uscite SN1- fino a SN4 -
+36990 Abbinamento uscita dello stop attivo
+36992 Visualizzazione clock confronto assiale incrociato
+36993 Data/ora dell'ultima modifica DM SI-NCK
+36994 Dati della precedente configurazione Safety
+36995 Posizione di asse fermo
+36997 Consenso utente
+36998 Checksum valore reale
+36999 Checksum valore di riferimento
+37000 Modo di posizionamento a puntalino
+37002 Controllo ciclo per movimento su riscontro fisso
+37010 Proimpostaz.coppia di spinta a puntalino
+37012 Durata fino al raggiungimento del limite di coppia modificato
+37014 Fattore di adattamento del limite di coppia
+37020 Preimpostazione finestra di sorveglianza del riscontro fisso
+37030 Soglia per riconoscimento del riscontro fisso
+37040 Riconoscimento del riscontro fisso tramite sensore
+37050 Consenso all'allarme puntalino
+37052 Reazione ad allarmi per puntalino
+37060 Considerare conferma da PLC per movimento su riscontro fisso
+37070 Limit.coppia accostamento riscontro fisso per azionam.analogico
+37080 Condizione di default della limitazione modale di coppia/forza.
+37100 Definizione assi Gantry
+37110 Soglia di preallarme Gantry
+37120 Limite disinserzione Gantry
+37130 Lim.di disinserz.Gantry per ric.pto.rif.
+37135 Limite attuale di disinserzione Gantry
+37140 Disattivare collegamento assi Gantry
+37150 Funzioni Gantry
+37160 Funzioni per accoppiamento valore master
+37200 Valore di soglia per 'Sincronismo grossolano'
+37210 Valore di soglia per 'Sincronismo fine'
+37220 Tolleranza 'grossolana'  di velocità
+37230 Tolleranza 'fine' di velocità
+37250 Asse master per accopp. del rifer. di vel.
+37252 Asse master per suddivisione coppia
+37253 Impostazioni Master-Slave
+37254 Colleg. regolat. della compens. di coppia
+37255 Attivaz. regolatore compensazione coppia
+37256 Fattore di amplificazione del regolatore di coppia
+37258 Tempo di integraz. del regolat. di coppia
+37260 Limite regolatore di compensazione coppia
+37262 Abbinamento duraturo master/slave
+37263 Comportamento per accoppiamento di un mandrino
+37264 Coppia di torsione master/slave
+37266 Cost. di tempo filtro coppia di serraggio
+37268 Ponderaz. della coppia degli assi slave
+37270 Toller.di velocità grossolana Master-Slave
+37272 Tolleranza di velocità fine Master-Slave
+37274 Invers. direzione di movimento asse slave
+37300 Limite campo di lav. '-' in digitalizzaz.
+37310 Limite campo di lav. '+' in digitalizzaz.
+37320 Velocità massima dell'asse durante la digitalizzazione
+37400 Angolo tangenziale per riconoscimento dello spigolo
+37402 Angolo di preimpostazione per inseguimento tangenziale
+37500 Modo operativo assiale del ESR
+37510 Tempo di ritardo singolo asse ESR
+37511 Tempo ESR per frenatura interpolata con singolo asse
+37550 Valore di soglia del preallarme di velocità
+37560 Valore di soglia per 'Asse accelerato'
+37600 Tempo di rilev.val.attuale (Profibus Ti)
+37602 Tempo di ritardo del riferimento (Profibus To)
+37610 Configuraz. bit di comando PROFIBUS
+37620 Risoluzione riduzione coppia Profibus
+37800 Informazione versione OEM
+38000 Numero punti di supporto per compensaz. interpolatorica (SRAM)
+38010 Nr.valori per compensaz. errore su quadrante con rete neuronale
+43100 Tipologia del valore master
+43102 Traslaz.del valore master in caso di accoppiamento a questo asse
+43104 Fatt.scala valore master in caso di accoppiamento a questo asse
+43106 Traslazione del valore della funzione della tabella di curve
+43108 Fatt. di scala del valore della funzione della tabella di curve
+43120 Fattore di scala assiale di default con G51 attivo
+43200 Giri per start mandrino attraverso VDI.
+43202 Velocità di taglio per start mandrino tramite VDI
+43206 Tipo giri mandrino per start mandrino tramite VDI
+43210 Limitazione dei giri mandrino programmata G25
+43220 Limitazione dei giri mandrino programmata G26
+43230 Limitazione giri mandrino con G96
+43240 Posizione del mandrino per posizionamento con M19.
+43250 Modo accostamento posizione per posizionamento mandrino con M19.
+43300 Avanzamento al giro per assi di posizionamento/mandrino
+43340 Posizione del punto di riferimento per G30.1
+43350 Lim.super.valore correzione $AA_OFF con regolaz.della distanza
+43400 Limitazione del campo di lavoro attiva in direzione positiva
+43410 Limitazione del campo di lavoro attiva in direzione negativa
+43420 Limitazione del campo di lavoro positiva
+43430 Limitazione del campo di lavoro negativa
+43500 Selezione del movimento su riscontro fisso
+43510 Coppia di arresto su riscontro fisso
+43520 Finestra di sorveglianza per riscontro fisso
+43600 Criterio cambio blocco 'Rampa frenatura'
+43610 Finestra di tolleranza 'Rampa frenatura'
+43700 Punto di inversione pendolamento 1
+43710 Punto di inversione pendolamento 2
+43720 Tempo di sosta nel punto di inversione pendolamento 1
+43730 Tempo di sosta nel punto di inversione pendolamento 2
+43740 Velocità di avanzamento dell'asse di pendolamento
+43750 Numero di passate spegnifiamma
+43760 Posizione finale dell'asse di pendolamento
+43770 Maschera di gestione del ciclo di pendolamento
+43780 Attivazione del movimento di pendolamento
+43790 Posizione iniziale dell'asse di pendolamento
+43900 Valore di compensazione temperatura indipendente dalla posizione
+43910 Angolo di pendenza valore di compens.temperat.indipend.da posiz.
+43920 Posiz.di riferimento compens.temperatura dipendente da posizione

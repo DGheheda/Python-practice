@@ -1,0 +1,206 @@
+ 205 HLA machine data
+5001 Geschwindigkeitsreglertakt
+5002 Ueberwachungstakt
+5003 Konfiguration STS
+5004 Konfiguration Struktur
+5005 Geberstrichzahl rotat.Messsystem
+5008 Geberphasenfehlerkorrektur
+5011 Konfiguration Istwerterfassung
+5012 Funktionsschalter
+5021 Multiturn-Aufl. Absolutwertg. Motor
+5022 Messschritte der Absolutspur Motor
+5023 Diagnose Messkreis Motor Absolutspur
+5024 Gitterteilung Linearmasstab
+5025 Seriennummer Motormessystem
+5027 Konfiguration Geber IM
+5028 IM Telegrammlaenge SSI
+5040 Kolben-Null zu Maschinen-Null
+5041 Maschinen-Null zu Lageistwert-Null
+5042 Maschinen-Null zu Lageistwert-Null
+5046 Max Zahl SSI-Test
+5047 Grenze bei Varianz
+5100 Elastizitaetsmodul Hydraulikoel
+5101 Systemdruck
+5102 Vorsteuerdruck
+5106 Ventilcode-Nummer
+5107 Ventil-Nennvolumenstrom
+5108 Ventil-Nenndruckabfall
+5109 Ventil-Nennspannung
+5110 Ventil Knickpunkt Volumenstrom
+5111 Ventil Knickpunkt Spannung
+5112 Ventil-Volumenstromverhaeltnis A/B
+5113 Ventil Konfiguration
+5114 Ventil Eigenfrequenz
+5115 Ventil Daempfung
+5131 Zylinder-Kolbendurchmesser
+5132 Zylinder-Kolbenstangen Durchmesser A
+5133 Zylinder-Kolbenstangen Durchmesser B
+5134 Kolbenhub
+5135 Zylindertotvolumen A-Seite
+5136 Zylindertotvolumen B-Seite
+5140 Anschlusskonf. Ventil-Zylinder
+5141 Leitungslaenge A-seitig
+5142 Leitungslaenge B-seitig
+5143 Leitungsinnendurchmesser A und B
+5150 Bewegte Masse des Antriebs
+5151 Einbaulage A-Seite des Zylinders
+5152 Befestigung des Zylinders
+5160 Kolbenstellung min. Eigenfrequenz
+5161 Daempfung des Antriebs
+5162 Eigenfrequenz des Antriebs A
+5163 Eigenfrequenz des Antriebs
+5164 Eigenfrequenz des Antriebs B
+5180 Wunschdaempfung geregeltes System
+5200 Anzahl Stellwertf. Geschw.-Regler
+5201 Typ Stellwertfilter Geschw-Regler
+5202 Eigenfreq. Stellwertf.1 Geschw-Reg
+5203 Daempfung Stellwertf.1 Geschw-Reg
+5204 Eigenfreq. Stellwertf.2 Geschw-Reg
+5205 Daempfung Stellwertf.2 Geschw-Reg
+5210 Sperrfreq. Stellwertf.1 Geschw-Reg
+5211 Bandbreite Stellwertf.1 Geschw-Reg
+5212 Zaehlerbandbr. Stellw. 1 Ges.-Reg
+5213 Sperrfreq. Stellwertf.2 Geschw-Reg
+5214 Bandbreite Stellwertf.2 Geschw-Reg
+5215 Zaehlerbandbr. Stellw. 2 Geschw-Reg
+5230 Kraftbegrenzungsschwelle um Gewicht
+5231 Kraftbegrenzung Gewichtskraft
+5232 Geschwindigkeitsschwelle Haftreibg.
+5233 Abschaltvorhalt Haftreibung
+5234 Reibkraft Geschwindigkeit >0
+5235 Reibkraft Geschwindigkeit <0
+5240 Streckenverstaerkung Kraftregler
+5241 Konfiguration Kraftregler
+5242 P-Verstaerkung Kraftregler
+5243 Abschwaechung P-Anteil Kraftreg.
+5244 Nachstellzeit Kraftregler
+5245 Glaettungszeitkonst.Kraftregler
+5246 Vorhaltzeit Kraftregler
+5247 Faktor Vorsteuerung Kraftregler
+5260 Anzahl Vorsteuerfilter Kraftreg.
+5261 Typ Vorsteuerfilter Kraftreg
+5264 PT2-Eigenfreq. Vorsteuerf.1
+5265 PT2-Daempfung Vorsteuerf.1
+5268 Sperrfrequenz Vorsteuerf. 1
+5269 Bandbreite Vorsteuerf. 1
+5270 Zaehlerbandbreite Vorsteuerf. 1
+5280 Anzahl Stellwertfilter
+5281 Typ Stellwertfilter
+5284 Eigenfreq. Stellwertf. 1
+5285 Daempfung Stellwertf. 1
+5288 Sperrfreq. Stellwertf. 1
+5289 Bandbreite Stellwertf. 1
+5290 Zaehlerbandbr. Stellwertf. 1
+5401 Maximale Nutzgeschwindigkeit
+5402 Bremszeit bei Reglersperre
+5404 Zeitstufe Leistungssperre
+5406 P-Verstaerkung Geschw.-Regler A
+5407 P-Verstaerkung Geschw.-Regler
+5408 P-Verstaerkung Geschw.-Regler B
+5409 Nachstellzeit Geschwindigkeitsregler
+5413 Anwahl Adaption Geschw.-Regler
+5414 Eigenfreq. Referenzmodell
+5415 Daempfung Referenzmodell
+5420 max. Geschwindigkeit Einrichtbetrieb
+5421 Zeitkonst. Integratorrueckfuehrung
+5422 Geschw.-schwelle Integratorrückf.
+5430 Glaettungszeitkonst.Geschw.-Regler
+5431 Vorhaltzeit Geschw.-Regler A
+5432 Vorhaltzeit Geschw.-Regler
+5433 Vorhaltzeit Geschw.-Regler B
+5435 Streckenverstaerkung
+5440 pos. Geschwindigkeitssollwertgrenze
+5441 neg. Geschwindigkeitssollwertgrenze
+5460 Steigung Reibungskompensation
+5461 Wirkungsbereich Reibungskompensation
+5462 Faktor Flaechenanpassung positiv
+5463 Faktor Flaechenanpassung negativ
+5464 Knickkompensation pos. Volumenstrom
+5465 Knickkompensation pos. Spannung
+5466 Knickkompensation Verrundungsbereich
+5467 Knickkompensation neg. Volumenstrom
+5468 Knickkompensation neg. Spannung
+5470 Offset Kompensation
+5474 Stellspannungsbegrenzung
+5475 Stellspannungsbegrenzung
+5476 Stellgroesseninvertierung
+5480 Knickkomp. pos. Volumenstrom Nullb.
+5481 Knickkomp. pos. Spannung Nullbereich
+5482 Knickkomp. Verrundung Nullbereich
+5483 Knickkomp. neg. Volumenstrom Nullb.
+5484 Knickkomp. neg. Spannung Nullbereich
+5485 Knickkomp. pos. Volumenstrom Saett.
+5486 Knickkomp. pos. Spannung Saettigung
+5487 Knickkomp. neg. Volumenstrom Saett.
+5488 Knickkomp. neg. Spannung Saettigung
+5500 Anzahl Geschwindigkeitsfilter
+5501 Typ Geschwindigkeitsfilter
+5502 PT1-Zeitkonstante Geschw.-Filter 1
+5506 PT2-Eigenfrequenz Geschw.-Filter 1
+5507 PT2-Daempfung Geschw.-Filter 1
+5514 BSP-Sperrfrequenz Geschw.-Filter 1
+5515 BSP-Bandbreite Geschw.-Filter 1
+5516 Bandbreite Zaehler Geschw.-Filter 1
+5520 BSP-Eigenfrequenz Geschw.-Filter 1
+5522 Zeitkonst. Geschw.-Istwertfilter
+5530 Sicherheitsschaltung
+5531 Stellgroessensperrzeit
+5532 Leistungsfreigabesperrzeit
+5550 Bezugswert Drucksensor A bei 10V
+5551 Offsetabgleich für Drucksensor A
+5552 Bezugswert Drucksensor B bei 10V
+5553 Offsetabgleich für Drucksensor B
+5600 Ausblendbare Alarme (Power-On)
+5601 Ausblendbare Alarme (Reset)
+5605 Zeit Geschw.-Regler in Begrenzung
+5606 Schwelle Geschw.-Regler in Begr.
+5609 max. Messgeschw. des Linearmasstabs
+5610 Diagnosefunktionen
+5612 Projekt. Abschaltreaktion PO-Alarme
+5613 Projekt. Abschaltreakt. RESET-Alarme
+5614 Zeitstufe Ventilschieberueberwachung
+5620 Bits variable Meldefunktionen
+5621 Signalnummer variable Meldefkt.
+5622 Adresse variable Meldefunktionen
+5623 Schwelle variable Meldefunktionen
+5624 Hysterese variable Meldefunktionen
+5625 Anzugverzoegerung variable Meldefkt.
+5626 Abfallverzoegerung variab. Meldefkt.
+5648 Ventil-Idi-Parameter2
+5649 Ventil-Idi-Parameter2
+5650 Diagnosesteuerung
+5651 Signalnummer Min-/Max-Speicher
+5652 Speicherzelle Min-/Max-Speicher
+5653 Minimalwert Min-/Max-Speicher
+5654 Maximalwert Min-/Max-Speicher
+5655 Segment Speicherzelle Monitor
+5656 Adresse Speicherzelle Monitor
+5657 Wertanzeige Monitor
+5658 Werteingabe Monitor
+5659 Wertuebernahme Monitor
+5700 Status der binaeren Eingaenge
+5704 Druckistwert A
+5705 Druckistwert B
+5706 Geschwindigkeitssollwert
+5707 Geschwindigkeitsistwert
+5708 Zylinderkraftistwert
+5709 Wertigkeit Spannungsdarstellung
+5710 Wertigkeit Druck-Darstellung
+5711 Wertigkeit Geschw.-Darstellung
+5713 Wertigkeit Kraftdarstellung
+5714 Wertigkeit Lagedarstellung
+5715 Spannung Ventilschieberlage Sollwert
+5716 Spannung Ventilschieberlage Istwert
+5717 Zylinderkraftsollwert
+5720 CRC-Diagnoseparameter
+5725 Normierung Kraftsollwertschnitt.
+5730 Anzeige des Betriebsmodus
+5731 Abbild ZK1_PO-Register
+5732 Abbild ZK1_RES-Register
+5735 Prozessorauslastung
+5740 Lageistwert bezuegl.Maschinen-Null
+5741 Kolbenlage bezuegl. Kolben-Null
+5790 Messkreistyp Messsystem
+5797 Daten-Version
+5798 Firmware-Datum
+5799 Firmware-Stand

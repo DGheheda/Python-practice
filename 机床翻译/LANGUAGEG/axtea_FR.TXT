@@ -1,0 +1,428 @@
+ 427 Axis machine data
+30100 Affectation de consigne: numéro du segment de bus
+30110 Affectation de consigne: numéro du module
+30120 Affectation consigne: sortie cons. sur module entr. /module
+30130 Type de sortie de la consigne
+30132 Axe est axe virtuel
+30134 La sortie des consignes est unipolaire
+30200 Nombre de capteurs
+30210 Affectation de mesure: numéro du segment de bu
+30220 Affectation val. réelle: n° entraînement/circuit de mesure
+30230 Affect. val. réelle: entrée sur module entr./carte circuit mes.
+30240 Type de capteur de l'acquisition de mesure (mesure de position)
+30242 Le codeur est indépendant
+30244 Type mesure codeur
+30250 Position interne du codeur
+30260 Codeur abs.: rapport résolution absolue / résolution relative
+30270 Codeur abs.: extension de la plage de déplacement
+30280 N° entraînement pour second circuit mesure
+30300 Axe rotatif  / broche
+30310 Conversion modulo pour axe rotatif / broche
+30320 Affichage modulo 360 degrés pour axe rotatif ou broche
+30330 Etendue de la plage modulo
+30340 Position départ plage modulo
+30350 Sortie des signaux d'axe pour l'axe de simulation
+30400 Axe programmable en cycles C
+30450 Préréglage pour Reset: axe neutre/axe de canal
+30455 Fonctions d'axe
+30460 Fonctions d'axe
+30465 Substitution d'instructions de langage CN 
+30500 Axe est axe indexé
+30501 Axe indexé Positions équidistantes Numérateur
+30502 Axe indexé Positions équidistantes Dénominateur
+30503 Axe indexé avec positions équidistantes Première pos. indexée
+30505 L'axe est un axe indexé avec denture Hirth
+30550 Position initiale du canal pour changement d'axe
+30552 GET automatique lors prise en charge axe
+30554 Position initiale d'où la NCU génère des consignes pour l'axe
+30560 Axe est un axe Link local
+30600 Positions à valeur fixe de l'axe avec G75
+30800 Nature du contrôle des limites de la zone de travail.
+31000 Règle
+31010 Constante réseau (période) des règles
+31020 Nombre de traits par tour
+31025 Multiplication du codeur (haute résolution)
+31030 Pas de la vis à billes
+31040 Système de mesure direct (par de rapport avec position charge)
+31044 Capteur sur réducteur
+31050 Dénominateur réducteur de puissance
+31060 Numérateur réducteurs de puissance 
+31064 Dénominateur rapport réducteur
+31066 Numérateur rapport réducteur
+31070 Dénominateur du réducteur de mesure
+31080 Numérateur du réducteur de mesure
+31090 Valeur d'un incrément pour déplacement incrémental/manivelle
+31122 Temporisation BERO Plus
+31123 Temporisation BERO Moins
+31130 Correction caractéristique VCO 62,5 KHz
+31140 Correction caractéristique VCO 125 KHz
+31150 Correction caractéristique VCO 185,5 KHz
+31160 Correction caractéristique VCO 205 KHz
+31200 Facteur de conversion des valeurs avec G70/G71 activé
+31300 Excursion de fréquence maxi pour moteurs pas à pas
+31310 1e limite d'excursion de fréquence
+31320 2e limite d'excursion de fréquence
+31330 Fréquence de prise d'effet de la limitation d'excursion 1
+31340 Fréquence de prise d'effet de la limitation d'excursion 2
+31500 Sortir la consigne de cet axe à des fins de maintenance
+31510 Tension offset pour consigne de maintenance
+31520 Gain pour consigne de maintenance
+31600 Spécification trace pour signaux Vdi axiaux
+32000 Vitesse d'axe maximale
+32010 Rapide en manuel
+32020 Vitesse d'axe en manuel
+32040 Avance par tour en mode JOG avec correction du rapide
+32050 Avance par tour en JOG
+32060 Position initiale pour vitesse d'axe de positionnement
+32070 Vitesse d'axe pour correction
+32074 Le frame ou la correction d'exéc. des blocs ne sont pas admis
+32080 Limitation de l'incrément sélectionné
+32082 Limitation pour correction de la vitesse
+32084 Action des signaux VDI sur le déplacement avec manivelle
+32090 Rapport de la vitesse JOG à la vitesse par manivelle (DRF)
+32100 Sens déplacement (pas sens régulation)
+32110 Signe valeur réelle (sens de régulation)
+32200 Gain de boucle
+32210 Temps d'intégration régulateur de position
+32220 Activation action intégrale du régul. pos.
+32230 Configuration de la structure du régulateur de position
+32250 Tension de sortie assignée
+32260 Vitesse de rotation moteur assignée
+32300 Accélération d'axe
+32301 Accélération axiale maximale en mode JOG
+32310 Facteur de surcharge pour sauts de vitesse sur l'axe
+32320 Comportement au Rest de limitations dynamiques
+32400 Limitation axiale d'à-coup
+32402 Type de filtre pour limitation des à-coups sur l'axe
+32410 Constante de temps pour le filtrage des à-coups sur l'axe
+32412 Fréquence coupure filtre axial à-coups
+32414 Amortissement des filtres d'à-coups sur l'axe
+32420 Réglage de base de la limitation des à-coups sur l'axe
+32430 A-coup axial
+32431 A-coup axial maxi en interpolation
+32432 A-coup maximal à la transition de blocs en contournage
+32433 Echelle de la limitation d'accélération avec SOFT
+32434 Echelle de la limitation d'accélération avec G00.
+32435 Fact. échelle limitation à-coup pour G00
+32436 A-coup axial maximal en déplacement JOG
+32440 Fréquence de lissage avec Look Ahead.
+32450 Jeu à l'inversion de sens
+32452 Facteur de pondération pour jeu à l'inversion
+32460 Couple additionnel pour compensation d'équilibrage électronique
+32490 Type de compensation de frottement
+32500 Compensation de frottement active
+32510 Adapt. compensation frottement active
+32520 Val. maxi de compensation de frottement
+32530 Valeur mini compensation de frottement
+32540 Constante temps compensation frottement
+32550 Adaptation valeur d'accélération 1
+32560 Adaptation valeur d'accélération 2
+32570 Adaptation valeur d'accélération 3
+32580 Fact. pondération de val. compens. frottement sur trajets courts
+32610 Facteur pour commande anticipatrice de vitesse
+32620 Type de commande anticipatrice
+32630 Activation de la commande anticipatrice par le programme
+32640 Régulation dynamique de raideur
+32642 Configuration de la régulation dynamique de raideur (DSC)
+32644 Régulation dynamique de raideur : temporisation
+32650 Moment d'inertie pour commande anticipatrice de couple
+32652 Masse axiale pour commande anticipatrice de vitesse
+32700 Compensation d'erreur de capteur/de broche
+32710 Libération de la compensation de flèche
+32711 Système de mesure de la compensation de flèche
+32720 Valeur maximale de la compensation de flèche
+32730 Variation de vitesse en compensation de flèche
+32750 Type de compensation de température
+32760 Augmentation de vitesse par compensation
+32800 Cste de tps équivalente boucle rég. courant p. commande anticip.
+32810 Cste de tps équivalente boucle rég. vitesse p. commande anticip.
+32900 Adaptation de la dynamique
+32910 Constante de temps adaptation dynamique
+32920 Constante de temps de lissage pour commande adaptative
+32930 Activation du filtre passe-bas à la sortie du régul. de position
+32940 Constante de tps du filtre passe-bas en sortie du régul. de pos.
+32950 Amortissement de la boucle de régulation de vitesse
+32990 retard actuel de la consigne de position
+33000 Type d'interpolateur fin
+33050 Course pour lubrification de l'AP
+33060 Configuration de l'enregistrement des données de maintenance
+33100 Ecart maximal en compression
+34000 Axe avec came de point de référence
+34010 Accostage du point de référence dans le sens moins
+34020 Vitesse de recherche du point de réf.
+34030 Distance maximale à parcourir jusqu'à la came de référence
+34040 Vitesse de coupure
+34050 Inversion de sens sur came de référence
+34060 Distance maximale au repère de référence
+34070 Vitesse d'accostage du point de référence
+34080 Distance point de référence
+34090 Décalage de point de référence/décalage absolu
+34092 Décalage came électronique, systèmes de mesure incrémentaux
+34093 Distance came référence/repère référence
+34100 Coord. pt. réf./pt. destination avec système à intervalles codés
+34102 Compensation du système de mesure
+34104 Libération prise référenc en mode poursuite
+34110 Ordre des axes pour la prise de référence spécifique au canal
+34120 Changement de polarité de la came BERO
+34200 Mode de prise de référence
+34210 Etat de référencement du codeur absolu
+34220 Plage modulo du capteur rotatif absolu
+34230 N° de série du capteur
+34232 Portée n° de série capteur
+34300 Espacem. de base repères de réf. de codeurs à espacements codés
+34310 Diff. décalage entre 2 repères de réf. sur règles à inter. codés
+34320 Système de mesure de longueur en sens inverse du mouvement d'axe
+34330 Syst. de mesure linéaire à interv. codés sans pt de destination
+34990 Constante de temps de lissage pour valeurs réelles
+35000 Affectation broche à un axe machine
+35010 Paramétrer le changement de rapport
+35012 Position changement rapport boîte
+35014 Rapport de transmission pour mode axe avec M70
+35020 Etat initial de la broche
+35030 Instant d'entrée en action du préréglage de la broche
+35032 Comportement à la réinit. de différentes fonctions de broche
+35035 Fonctions de broche
+35040 RESET broche spécifique
+35090 Nombre de rapports de boîte de vitesse
+35092 Nombre de rapports dans le 2e jeu de param. de rapports
+35100 Vitesse de rotation broche maxi.
+35110 Vitesse de rotation maximale pour changement de rapport
+35112 2e jeu de param.: vitesse maximale pour changement de rapport
+35120 Vitesse de rotation minimale pour changement de rapport
+35122 2e jeu de param.: vitesse minimale pour changement de rapport
+35130 Vitesse de rot. maxi du rapport de boîte
+35135 Vitesse max. du rapport de boîte en asservissement de position
+35140 Vitesse de rot. mini du rapport de boîte
+35150 Tolérance de vitesse de rotation broche
+35160 Limitation vit. rot. de broche par l'AP
+35200 Accélération en mode de commande par régulation de vitesse
+35210 Accélération en mode de commande par asservissement de position
+35212 2e jeu de param.: accélération en asservissement de position
+35220 Vitesse de rotation pour accélération réduite
+35230 Accélération réduite
+35240 Caractéristique d'accélération DRIVE pour mise ES/HS des axes
+35242 Type de réduction de l'accélération
+35300 Vit. rot. enclenchem. asservissem. pos.
+35310 Temporisation de positionnement
+35350 Sens de rotation en positionnement
+35400 Vitesse de rotation pour oscillation
+35410 Accélération en oscillation
+35430 Sens de départ en oscillation
+35440 Temps d'oscillation pour direction M3
+35450 Temps d'oscillation pour direction M4
+35500 Libération de l'avance de broche dans la plage de consigne
+35510 Libération avance si broche à l'arrêt
+35550 Vitesses maxi pour taraudage
+35590 Changement possible de bloc de paramètres
+36000 Arrêt précis grossier
+36010 Arrêt précis fin
+36012 Facteur arrêt précis gros./fin et immobi
+36020 Temporisation de l'arrêt précis
+36030 Tolérance d'immobilisation
+36040 Temporisation de la surveillance de l'immobilisation
+36042 Tempor. surv. immobilisation av. limitation couple/force active
+36050 Tolérance d'immobilisation
+36052 Fonction spéciale si axe bloqué
+36060 Vitesse de seuil 'Axe/broche immobile'
+36100 1er fin de course logiciel moins
+36110 1er fin de course logiciel plus
+36120 2me fin de course logiciel moins
+36130 2me fin de course logiciel plus
+36200 Seuil de surveillance de la vitesse
+36210 Consigne maxi de vitesse de rotation
+36220 Temporisation pour surv. de la consigne de vitesse de rotation 
+36300 Fréquence limite capteur
+36302 Fréquence limite de codeur pour resynchronisation du codeur
+36310 Surveillance du top zéro
+36400 Bande de tolérance pour surveillance du contour
+36500 Tolérance à la commutation de mesure de position
+36510 Tolérance synchronisme systèmes mesure
+36520 Seuil de surveillance de la vitesse de consigne
+36600 Comportem. au frein. fin course matériel
+36610 Durée max. de la rampe de freinage en présence de défauts
+36620 Retard à la coupure déblocage régulateurs
+36690 Donnée interne à des fins de test
+36700 Compensation automatique de dérive
+36710 Valeur de dérive limite p. compensation automatique de la dérive
+36720 Valeur de base de dérive
+36730 Mesure de valeurs d'entraînement réelles additionnelles
+36750 Effet affectation de valeurs p. corr. axiale actions synchrones
+36901 Libération fonctions de sécurité
+36902 Axe rotatif
+36903 Libération de la fonction Cames sûres
+36905 Valeur modulo Cames sûres
+36906 SI Affectation entraînement
+36907 Adresse PROFIsafe de l'entraînement
+36910 Affect.val.réelle: type d'entraînement
+36911 Affectation val. réelle: n° entraînement/circuit de mesure
+36912 Affect. val. réelle: entrée sur module entr./carte circuit mes.
+36914 SI Système monocapteur
+36915 Type capteur
+36916 Règle
+36917 Constante réseau (période) de la règle
+36918 Nombre de traits par tour
+36919 Facteur de décalage de la multiplication de capteur
+36920 Pas de la vis de transmission
+36921 Dénominateur réducteur capteur/charge
+36922 Numérateur rapport codeur / charge
+36923 Résolution sûre de capteur
+36925 Inversion de sens valeur réelle
+36926 Fréquence limite de capteur pour fonctionnement sûr
+36927 Type d'évaluation de capteur
+36928 Identification de capteur
+36930 Tolérance d'immobilisation
+36931 Valeur limite pour vitesse sûre
+36932 Valeurs de correction VS
+36933 Limitation consigne de vitesse VS
+36934 Limite supérieure pour fin de course sûr
+36935 Limite inférieure pour fin de course sûr
+36936 Position de la came plus pour cames sûres
+36937 Position de la came moins pour cames sûres
+36940 Tolérance pour cames sûres
+36942 Tolérance comparaison croisée val.réell.
+36944 Tolérance compar. croisée (prise réf.)
+36946 Limite de vitesse n_x
+36948 Tolérance de vitesse pour rampe de freinage sûr
+36949 Tolérance vitesse glissement
+36950 Tolérance temporelle commutation SES
+36951 Temporisation pour commutation de vitesse
+36952 Temps de transition entre STOP C et immobilisation sûre
+36953 Temps de transition entre STOP D et immobilisation sûre
+36954 Temps de transition entre STOP E et immobilisation sûre
+36955 Durée de la transition de STOP F à STOP B
+36956 Temporisation suppression impulsions
+36957 Temps requis pour contrôle de la suppression des impulsions
+36958 Temps alloué pour test de réception
+36960 Vitesse rot. coupure suppression impuls.
+36961 Type d'arrêt Vitesse sûre
+36962 Type d'arrêt Plage de déplacement sûre
+36963 Type d'arrêt Vitesse sûre
+36964 Groupement réaction IPO Safety
+36965 Suppression des alarmes pour axe en stationnement
+36966 Couple de maintien test frein
+36967 Tolérance position test frein
+36968 Contrôle de la séquence opératoire pour le test de freinage
+36970 Affectation entrée désactivation ASF/VS
+36971 Affectation entrée désactivation ASF
+36972 Affectation entrée sélection VS
+36973 Affectation entrée sélection PS
+36974 Affectation des entrées Sélection rapport de transmission
+36975 Affectation entrée activation test arrêt
+36976 Affectation des entrées Etat impulsions supprimées
+36977 Affectat.entrée demande externe freinage
+36978 Affectation des entrées Correction VS
+36979 Affectation de l'entrée pour test de mise hors circuit externe
+36980 Affectation sortie ASF/VS activé
+36981 Affectation sortie ASF activé
+36982 Affectation sortie VS activée
+36984 Affectation de la sortie pour libération externe des impulsions
+36985 Affectation sortie n < n_x
+36986 Affectation de la sortie Libérer impulsions
+36987 Affectation des sorties Axe référencé avec sûreté
+36988 Affectation sorties CS1 + à CS4 +
+36989 Affectation des sorties CS1 - à CS4 -
+36990 Affectation de la sortie du Stop actif
+36992 Affichage temps cycle comparaison croisée par axe
+36993 Date / heure de la dernière modification PM SI-NCK
+36994 Données configuration Safety précédente
+36995 Position d'immobilisation
+36997 Assentiment de l'utilisateur
+36998 Valeur réelle du total de contrôle
+36999 Valeur prescrite du total de contrôle
+37000 Mode accostage butée
+37002 Contrôle d'exécution de l'accostage de butée
+37010 Préréglage couple de blocage en butée
+37012 Durée jusqu'à atteindre la limite de couple modifiée
+37014 Facteur d'adaptation de la limite de couple
+37020 Préréglage de la fenêtre de surveillande de butée
+37030 Seuil pour reconnaissance de butée
+37040 Reconnaissance de butée par capteur
+37050 Libération des alarmes de butée
+37052 Reaction sur alarmes butée fixe
+37060 Prise en compte acquittements de l'AP pour accostage de butée
+37070 Limite couple pour accost. de butée pour entraîn. analogiques
+37080 Prérégkage de la limitation modale couple/force
+37100 Définition d'axe Gantry
+37110 Seuil d'avertissement Gantry
+37120 Seuil de coupure Gantry
+37130 Seuil de coupure Gantry en prise de réf.
+37135 Limite de coupure Gantry courante 
+37140 Défaire le groupe d'axes Gantry
+37150 Fonctions Gantry
+37160 Functions pour couplage valeur pilote
+37200 Valeur seuil pour 'synchronisation grossière'
+37210 Valeur seuil pour 'synchronisation fine'
+37220 Tolérance de vitesse 'grossière'
+37230 Tolérance de vitesse 'fine'
+37250 Axe maître couplage consigne vit. rotat.
+37252 Axe maître pour répartition du couple
+37253 Réglages maître-esclave
+37254 Connexion régulateur compensation couple
+37255 Activation régulateur compensation couple
+37256 Gain du régulateur de couple
+37258 Temps d'intégration régulateur de couple
+37260 Limitation régulateur compensation de coup
+37262 Couplage maître-esclave permanent
+37263 Comportement d'une broche au couplage
+37264 Couuple de torsion maître-esclave
+37266 Constante temps filtre couple de torsion
+37268 Pondération couple axe esclave
+37270 Maître-esclave, tol. de vitesse grossière 
+37272 Maître esclave, tol. de vitesse fine
+37274 Inversion sens déplacement axe esclave
+37300 Limite zone travail "-" pour numérisation
+37310 Limite zone travail "-" pour numérisation
+37320 Vitesse d'axe maximale pendant numérisation
+37400 Angle de tangente pour reconnaissance des coins
+37402 Angle de préréglage pour la poursuite tangentielle
+37500 Mode de fonctionnement axial de la fonction ASR
+37510 Retard ESR sur 1 axe
+37511 Tempo ESR pour freinage avec interpol. d'un axe isolé
+37550 Valeur de seuil Seuil d'alarme de vitesse
+37560 Valeur seuil pour 'Axe en accélération'
+37600 Temps saisie valeur réelle (Profibus Ti)
+37602 Temporisation de valeur de consigne (Profibus To)
+37610 Configuration bit de commande PROFIBUS
+37620 Résolution réduction couple Profibus
+37800 Information sur la version OEM
+38000 Nbre de pts d'interpol. pour compens. avec interpolation (SRAM)
+38010 Nbre val. p. compens. erreurs aux trans.quadrants av. rés.neuro 
+43100 Type de valeur pilote
+43102 Décalage de la valeur pilote pour couplage à cet axe
+43104 Mise à l'échelle de la valeur pilote pour couplage à cet axe
+43106 Décalage de la valeur de la fonction dans la table des courbes
+43108 Mise à l'échelle valeur de fonction de la table des courbes
+43120 Facteur d'échelle axial par défaut avec G51 activé
+43200 Vitesse de rotation pour démarrage de broche par VDI.
+43202 Vitesse de coupe pour démarrage de broche par VDI
+43206 Type vitesse broche pour démarrage broche par VDI
+43210 Limitation de la vitesse de rotation de broche progr. G25
+43220 Limitation de la vitesse de rotation de broche progr. G26
+43230 Limitation de la vitesse de rotation de broche avec G96
+43240 Position de broche pour positionnement de broche avec M19
+43250 Mode accostage position de broche pour posit. de broche avec M19
+43300 Avance par tour pour axes de positionnement / broches
+43340 Position du point de référence pour G30.1
+43350 Limite sup. de val. de correction $AA_OFF pour régl. de distance
+43400 Limitation de la zone de travail activée dans le sens positif
+43410 Limitation de la zone de travail activée dans le sens négatif
+43420 Limitation de la zone de travail sens plus
+43430 Limitation de la zone de travail sens moins
+43500 Sélection Accostage de butée
+43510 Couple de blocage de la butée
+43520 Fenêtre de surveillance de la butée
+43600 Critère de changement de bloc 'Rampe de freinage'
+43610 Fenêtre de tolérance 'Rampe de freinage'
+43700 Point d'inversion d'oscillation 1
+43710 Point d'inversion d'oscillation 2
+43720 Temps d'arrêt au point d'inversion d'oscillation 1
+43730 Temps d'arrêt au point d'inversion d'oscillation 2
+43740 Vitesse d'avance de l'axe d'oscillation
+43750 Nombre de passes à lécher
+43760 Position finale de l'axe d'oscillation
+43770 Masque de commande de l'oscillation
+43780 Enclencher le mouvement d'oscillation
+43790 Position de départ de l'axe d'oscillation
+43900 Valeur de compensation thermique indépendante de la position
+43910 Angle de pente pour compensation thermique indép. de la position
+43920 Pos. référence de compensation thermique dépend. de la position

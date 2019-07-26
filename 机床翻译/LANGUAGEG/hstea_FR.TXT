@@ -1,0 +1,632 @@
+ 631 MSD machine data
+1000 Temps de cycle du régulateur de courant
+1001 Temps de cycle du régulateur de vitesse rot.
+1002 Temps de cycle de surveillance
+1003 ConfigurationSTS
+1004 Configuraton structure
+1005 Nombre traits système de mesure moteur
+1007 Nombre traits système de mesure directe
+1008 Correction erreur de phase capteur SMI
+1011 Config. système mesure indirecte (SMI)
+1012 Sélecteur de fonctions
+1013 Libération commutation étoile/triangle
+1014 Activer mode U/f
+1021 Résol. capteur absolu multitour moteur
+1022 Incréments piste absolue capteur moteur
+1023 Diagnostic syst.mes.moteur - piste abs.
+1025 Numéro de série système mesure moteur
+1027 Configuration codeur IM
+1028 IM Longueur télégramme SSI
+1030 Config. système mesure directe (SMD)
+1031 Résol. capteur absolu multitour SMD
+1032 Incréments piste absolue SMD
+1033 Diagnostic syst.mes.directe - piste abs.
+1037 Configuration codeur DM
+1038 Numéro de série système mesure directe
+1041 DM Longueur télégramme SSI
+1049 Activer frein à fém
+1060 Activation de la commande de freinage
+1061 Temps d'ouverture de frein
+1062 Vitesse rotation, fermer frein de maintien
+1063 Temporisation de freinage
+1064 Temps de blocage du régulateur
+1074 Adaptation position rotor
+1096 Réduction du couple maxi en freinage récupératif active
+1097 Réduction du couple maxi en freinage récupératif
+1098 Réduction courant limite PP
+1099 Facteur réduction courant limite PP
+1100 Fréquence de modulation d'impulsions
+1101 Temps mort calcul boucle régul. courant
+1102 Numéro de code moteur
+1103 Courant assigné moteur
+1106 Numéro de code de la partie puissance
+1107 Courant limite transistor
+1108 Courant limite partie puissance
+1109 Courant limite pour partie puissance S6
+1111 Courant assigné partie puissance
+1117 Inertie moteur
+1119 Inductance de la bobine série
+1120 Gain P régulateur de courant
+1121 Temps d'intégration régulateur courant
+1124 Symétrisation modèle référence courant
+1125 Temps de montée 1 pour mode U/f
+1126 Temps de montée 2 pour mode U/f
+1127 Tension pour f=0 en mode U/f
+1129 Facteur de puissance cosinus phi
+1130 Puissance assignée moteur
+1132 Tension assignée moteur
+1134 Fréquence assignée moteur
+1135 Tension à vide moteur
+1136 Courant à vide moteur
+1137 Résistance stator à froid
+1138 Résistance rotor à froid
+1139 Réactance de fuite du stator
+1140 Réactance de fuite du rotor
+1141 Réactance principale
+1142 Vitesse rotation pour passage en défluxé
+1143 Vit. rot. limite sup. pour caractér. Lh
+1144 Facteur pour caractéristique Lh
+1145 Facteur réduct. protect. contre décroch.
+1146 Vitesse de rotation maxi moteur
+1147 Limit. vit. rotation
+1148 Vit.rot. activation puissance décrochage
+1150 Gain P régulateur de flux
+1151 Temps d'intégration régulateur de flux
+1159 Modèle de flux Correction
+1160 Vitesse rotation pour début saisie flux
+1161 Tension fixe circuit intermédiaire
+1162 Tension minimale du circuit intermédiaire
+1163 Tension maximale du circuit intermédiaire
+1165 Gestion dynamique d'énergie activée
+1166 Détection de la mise à la terre activée
+1167 Seuil d'entrée en action pour détection de mise à la terre
+1168 Torsion maximale pour détection de mise à la terre
+1169 Diagnostic moteur
+1179 Réduction courant partie puissance ASYN
+1185 Facteur MS gain P régul. I
+1190 Evaluation seuil de couple
+1191 Adaptation couple limite Servo
+1192 Couple dû au poids
+1193 Compensation de poids en arrêt C
+1200 Nombre filtres courant de consigne
+1201 Type filtre consigne courant
+1202 Fréquence propre filtre cons. courant 1
+1203 Atténuation filtre consigne courant 1
+1204 Fréquence propre filtre cons. courant 2
+1205 Atténuation filtre consigne courant 2
+1206 Fréquence propre filtre cons. courant 3
+1207 Atténuation filtre consigne courant 3
+1208 Fréquence propre filtre cons. courant 4
+1209 Atténuation filtre consigne courant 4
+1210 Fréquence coupure filtre cons. courant 1
+1211 Largeur bande filtre cons. de courant 1
+1212 Larg.bande numérat. filtre cons. cour. 1
+1213 Fréquence coupure filtre cons. courant 2
+1214 Largeur bande filtre cons. de courant 2
+1215 Larg.bande numérat. filtre cons. cour. 2
+1216 Fréquence coupure filtre cons. courant 3
+1217 Largeur bande filtre cons. de courant 3
+1218 Larg.bande numérat. filtre cons. cour. 3
+1219 Fréquence coupure filtre cons. courant 4
+1220 Largeur bande filtre cons. de courant 4
+1221 Larg.bande numérat. filtre cons. cour. 4
+1222 Fréqu.propre filtre coup-b.cons.cour. 1
+1223 Fréqu.propre filtre coup-b.cons.cour. 2
+1224 Fréqu.propre filtre coup-b.cons.cour. 3
+1225 Fréqu.propre filtre coup-b.cons.cour. 4
+1230 1er seuil de couple
+1231 2me seuil de couple
+1232 Vit.rot. transition de MD1230 à MD1231
+1233 Limitation en générateur
+1234 Hystérésis PM 1232
+1235 1re valeur limite puissance
+1236 2me valeur limite puissance
+1237 Puissance maxi en générateur
+1238 Courant limite
+1239 Seuil de couple en mode réglage
+1245 Seuil lissage cons. couple fct. vit. rot
+1246 Hystérésis lissage cons.C fonct.vit.rot.
+1247 Seuil de vites. rotation 1 commut. de mot.
+1248 Seuil de vites. rotation 2 commut. de mot.
+1250 Fréqu.transition liss. val. réelle cour.
+1251 Constante de temps lissage charge
+1252 Fréqu.transition lissage consigne couple
+1254 Constante de temps surveillance courant
+1260 l2t Lim. courant lim. partie puissance S6
+1261 l2t Lim. courant nom. partie puissance
+1262 l2t Durée en limitation
+1263 l2t Facteur de limitation actuel
+1264 l2t Facteur d'utilisation actuel
+1265 I2t Facteur d'adaptation courant permanent moteur
+1266 I2t Facteur d'utilisation actuel du moteur
+1268 Constante de temps de l'enroulement
+1272 Fréquence propre filtre cons. courant 5
+1273 Atténuation filtre consigne courant 5
+1274 Fréquence coupure filtre cons. courant 5
+1275 Largeur bande filtre cons. de courant 5
+1276 Larg.bande numérat. filtre cons. cour. 5
+1277 Fréqu.propre filtre coup-b.cons.cour. 5
+1278 Fréquence propre filtre cons. courant 6
+1279 Atténuation filtre consigne courant 6
+1280 Fréquence coupure filtre cons. courant 6
+1281 Largeur bande filtre cons. de courant 6
+1282 Larg.bande numérat. filtre cons. cour. 6
+1283 Fréqu.propre filtre coup-b.cons.cour. 6
+1300 Temps de cycle de surveillance SI
+1301 Libération fonctions de sécurité
+1302 Bits spécif. axe fonctions de sécurité
+1305 Plage val. réelles pour CS avec axe rot.
+1316 Conf.capteurs moteurs fonctions sécurité
+1317 Interval.entre traits règle(cste réseau)
+1318 Nombre de traits par tour
+1320 Pas de la vis de transmission
+1321 Dénominateur réducteur capteur/charge
+1322 Numérateur réducteur capteur/charge
+1326 Fréquence limite capteur
+1330 Tolérance d'immobilisation (ASF)
+1331 Seuils pour VS
+1332 Facteur de correction pour VS
+1334 Limite sup. pour PS (plage déplac. sûre)
+1335 Limite inf. pour PS (plage déplac. sûre)
+1336 Positions cames sûres (CS) plus
+1337 Positions cames sûres (CS) moins
+1340 Tolérance pour cames sûres
+1342 Tolérance val. réelle compar. croisée
+1344 Tolérance val. réelle position axe sûre
+1346 Vitesse de rotation limite nx
+1348 Toléranc.vit.réelle pour ramp.sûre frein
+1349 Tolérance dérive capteur 2 / glissement
+1350 Tolérance temporelle commutation SES
+1351 Temporisation commutation entre VS
+1352 Temps trans.ARRET C à ASF(arrêt sûr fct)
+1353 Temps trans.ARRET D à ASF(arrêt sûr fct)
+1354 Temps trans.ARRET E à ASF(arrêt sûr fct)
+1355 Temps de transition d'ARRET F à ARRET B
+1356 Temporisation suppression impulsions
+1357 Temps pour vérif. suppression impuls.
+1358 Essai de réception SI Temporisation
+1360 Vitesse rot. coupure suppression impuls.
+1361 Type d'arrêt pour VS
+1362 Type d'arrêt pour PS
+1363 Type d'arrêt spécifique à VS
+1370 Essai de réception SI Mode
+1371 Essai de réception SI Etat
+1380 Durée jusqu'à suppression des impulsions
+1390 Version de firmware Safety integrated
+1391 Diagnostic: liste 1 résultats CN
+1392 Diagnostic: liste 1 résultats 611D
+1393 Diagnostic: liste 2 résultats CN
+1394 Diagnostic: liste 2 résultats 611D
+1395 Diagnostic pour ARRET F
+1396 Assentiment de l'utilisateur
+1397 Assentiment interne 611D
+1398 Visualisation total de contrôle PM SI
+1399 Total de contrôle de PM SI (Safety Int.)
+1400 Vitesse de rotation moteur assignée
+1401 Vit.rot. pour vit.rot. utile maxi moteur
+1403 Vitesse rot. coupure suppression impuls.
+1404 Temporisation suppression impulsions
+1405 Vitesse rot. surveillance moteur
+1406 Type de régulateur de vitesse
+1407 Gain P régulateur de vitesse de rotation
+1408 Gain P vit. rot. limite sup. adaptation
+1409 Temps intégration régulateur vit. rot.
+1410 Temps intégr. vit.rot.limite sup. adapt.
+1411 Vit. rot. limite inférieure d'adaptation
+1412 Vit. rot. limite supérieure d'adaptation
+1413 Sélection adaptation régulateur vit.rot.
+1414 Fréquence propre modèle réf. vit. rot.
+1415 Atténuation modèle référence vit. rot.
+1416 Symétr. modèle réf. boucle rég. vit.rot.
+1417 nx pour signalisation 'nréel < nx'
+1418 nmini pour signalisation 'nréel < nmini'
+1420 Vit. rot. maxi moteur en mode "réglage"
+1421 Constante temps boucle réaction intégrat
+1424 Canal sym. de cde anticipatrice de vitesse de rot.
+1425 Symétr. temps mort calcul boucle rég. I
+1426 Bande tol. signalis. 'ncons = nréel'
+1427 Temporisation signalis. 'ncons = nréel'
+1428 Couple seuil Mdx
+1429 Temporisation signalisation 'Md < Mdx'
+1451 Gain P régulateur vitesse rot. MA
+1453 Temps intégration régul. vit. rot. MA
+1458 Consigne courant mode MA commande
+1459 Constante de temps lissage de couple MA
+1465 Vitesse de rot. commutation EBR/MA
+1466 Vit. rot. commutation MA régul./commande
+1500 Nombre filtres consigne vitesse de rot.
+1501 Type filtre consigne vitesse rot.
+1502 Const. de temps filtre cons. vit. rot. 1
+1503 Const. de temps filtre cons. vit. rot. 2
+1506 Fréquence propre filtre cons. vit. rot.1
+1507 Atténuation filtre consigne vit. rot. 1
+1508 Fréquence propre filtre cons. vit. rot.2
+1509 Atténuation filtre consigne vit. rot. 2
+1514 Fréquence coup. filtre cons. vit. rot. 1
+1515 Largeur bande filtre cons. vit. rot. 1
+1516 Larg.bande numérat.filtre cons.vit.rot.1
+1517 Fréquence coup. filtre cons. vit. rot. 2
+1518 Largeur bande filtre cons. vit. rot. 2
+1519 Larg.bande numérat.filtre cons.vit.rot.2
+1520 Fréqu.propre filtre coup-b.cons.vit.rot1
+1521 Fréqu.propre filtre coup-b.cons.vit.rot2
+1522 Constante temps filtre mesure vitesse
+1550 Val. de réf. capteur d'accélération pr 1 V
+1560 Mode d'évaluation de l'accélération
+1561 Capteur d'accélération-bits de résolution
+1562 Rapp. transm. syst. mes. moteur / syst. MD
+1563 Constante de temps passe-haut accélération
+1564 Temps de dérivation régul. vitesse charge
+1565 Gain P régulateur de vitesse de charge
+1566 Limitation du régulateur de vitesse charge
+1567 Temps de dérivation régul. vitesse charge 2
+1569 Interv. échant. filtre accélér. trop grand
+1570 Type de filtre d'accélération
+1571 Constante de temps filtre d'accélération 1
+1572 Fréq. propre dénominateur filtre d'accélér. 1
+1573 Amortissement dénominateur filtre d'accélér. 1
+1574 Fréq. propre numér. filtre d'accél. 1
+1575 Amortissem. numérateur filtre d'accélér. 1
+1576 Constante de temps filtre d'accélération 2
+1577 Fréq. propre dénominateur filtre d'accél. 2 
+1578 Amortissement dénominateur filtre d'accélér. 2
+1579 Fréq. propre numér. filtre d'accél. 2
+1580 Amortissem. numérateur filtre d'accélér. 2
+1581 Fréq. propre dénominateur filtre d'accél. 3
+1582 Amortissement dénominateur filtre d'accélér. 3
+1583 Fréq. propre numér. filtre d'accél. 3
+1584 Amortissem. numérateur filtre d'accélér. 3
+1585 Constante de temps filtre d'accélération 4
+1586 Fréq. propre dénominateur filtre d'accélér. 4
+1587 Amortissement dénominateur filtre d'accélér. 4
+1588 Fréq. propre numér. filtre d'accél. 4
+1589 Amortissem. numérateur filtre d'accélér. 4
+1590 Constante de temps filtre d'accélération 5
+1591 Fréq. propre dénominateur filtre d'accélér. 5
+1592 Amortissement dénominateur filtre d'accélér. 5
+1593 Fréq. propre numér. filtre d'accél. 5
+1594 Amortissem. numérateur filtre d'accélér. 5
+1600 Alarmes masquables (Power on)
+1601 Alarmes masquables (Reset)
+1602 Seuil d'avertissement température moteur
+1603 Temporisation alarme température moteur
+1604 Seuil avert. sous-tens. circ. interméd.
+1605 Tempo. régulateur n (vit. rot.) en butée
+1606 Seuil régulateur n (vit. rot.) en butée
+1607 Seuil de coupure température moteur
+1608 Température fixe
+1610 Fonctions de diagnostic
+1611 Seuil entrée en action dn/dt
+1612 Réaction coupure config.alarmes Power on
+1613 Réaction coupure config.alarmes RESET
+1615 Tolérance surveillance rot. régulière
+1620 Bits fonction de relais sélectionnable
+1621 Numéro signal fonction relais sélection.
+1622 Adresse pour fonction relais sélection.
+1623 Seuil fonction de relais sélectionnable
+1624 Hystérésis fonction de relais sélection.
+1625 Tempo. action fct. de relais sélection.
+1626 Tempo. relâch. fct. de relais sélection.
+1630 Seuil entrée act. seul. surv. circ. int.
+1631 Tension activation axe générateur
+1632 Echelon tension pour régul. générateur
+1633 Seuil mise hors circuit fonct.en générat
+1634 Seuil activation retrait d'urgence
+1635 Vitesse de rotation mini. axe générateur
+1636 Mode fonct. retrait d'urg./fonct. en gén
+1637 Temporisation freinage en générateur
+1638 Temps de retrait d'urgence
+1639 Vitesse de rotation de retrait d'urgence
+1650 Commande diagnostic
+1651 Numéro de signal mémoire mini/maxi
+1652 Cellule mémoire mémoire mini/maxi
+1653 Valeur mini mémoire mini/maxi
+1654 Valeur maxi mémoire mini/maxi
+1655 Segment cellule mémoire moniteur
+1656 Adresse cellule mémoire moniteur
+1657 Affichage valeur moniteur
+1658 Introduction valeur moniteur
+1659 Transfert valeur moniteur
+1660 Fréquence moteur en mode U/F
+1661 Rapport U/F en mode U/F
+1662 Modif. fréquence moteur en mode U/F
+1665 Fact. exécution cycle IPO/cycle régN p. GR
+1700 Etat des entrées binaires
+1701 Tension circuit intermédiaire
+1702 Température moteur
+1703 Durée initial. convers. système mes. mot
+1704 Durée initial. convers. système mes. dir
+1705 Valeur de consigne tension (efficace)
+1706 Consigne de vitesse de rotation
+1707 Valeur réelle vitesse de rotation
+1708 Valeur réelle de courant lissée
+1709 Poids représentation tension
+1710 Poids représentation courant
+1711 Poids représentation vitesse de rotation
+1712 Poids représentation flux rotor
+1713 Poids représentation couple
+1714 Poids représentation position rotor
+1719 Valeur réelle module courant (efficace)
+1720 Paramètre de diagnostic CRC
+1721 Diagnostic valeur réelle vit. de rot.
+1722 Charge
+1723 Diagnostic temps d'accélération
+1724 Diagnostic surveill. régularité rotation
+1725 Normalisation interface consigne couple
+1728 Consigne de couple
+1729 Position actuelle rotor (électr.)
+1730 Affichage mode de fonctionnement
+1731 Image registre PO CE1
+1732 Image registre RES CE1
+1733 Compteur diagnostic NPFK
+1735 Charge du processeur
+1790 Type mes.: syst. mesure indirecte (SMI)
+1791 Type mes.: syst. mesure directe (SMD)
+1796 VERSION_HW
+1797 Version des paramètres machine
+1798 Date du firmware
+1799 Version du firmware
+2005 Nombre traits système de mesure moteur
+2060 Activation de la commande de freinage
+2061 Temps d'ouverture de frein
+2062 Vitesse rotation, fermer frein de maintien
+2063 Temporisation de freinage
+2064 Temps de blocage du régulateur
+2074 Adaptation position rotor
+2098 Réduction courant limite PP
+2099 Facteur réduction courant limite PP
+2100 Fréquence de modulation d'impulsions
+2102 Numéro de code moteur
+2103 Courant assigné moteur
+2117 Inertie moteur
+2119 Inductance de la bobine série
+2120 Gain P régulateur de courant
+2121 Temps d'intégration régulateur courant
+2125 Temps de montée 1 pour mode U/f
+2126 Temps de montée 2 pour mode U/f
+2127 Tension pour f=0 en mode U/f
+2129 Facteur de puissance cosinus phi
+2130 Puissance assignée moteur
+2132 Tension assignée moteur
+2134 Fréquence assignée moteur
+2135 Tension à vide moteur
+2136 Courant à vide moteur
+2137 Résistance stator à froid
+2138 Résistance rotor à froid
+2139 Réactance de fuite du stator
+2140 Réactance de fuite du rotor
+2141 Réactance principale
+2142 Vitesse rotation pour passage en défluxé
+2143 Vit. rot. limite sup. pour caractér. Lh
+2144 Facteur pour caractéristique Lh
+2145 Facteur réduct. protect. contre décroch.
+2146 Vitesse de rotation maxi moteur
+2147 Limit. vit. rotation
+2148 Vit.rot. activation puissance décrochage
+2150 Gain P régulateur de flux
+2151 Temps d'intégration régulateur de flux
+2159 Modèle de flux Correction
+2160 Vitesse rotation pour début saisie flux
+2167 Seuil d'entrée en action pour détection de mise à la terre
+2168 Torsion maximale pour détection de mise à la terre
+2185 Facteur MS gain P régul. I
+2190 Evaluation seuil de couple
+2192 Couple dû au poids
+2230 1er seuil de couple
+2231 2me seuil de couple
+2232 Vit.rot. transition de MD1230 à MD1231
+2233 Limitation en générateur
+2234 Hystérésis PM 1232
+2235 1re valeur limite puissance
+2236 2me valeur limite puissance
+2238 Courant limite
+2239 Seuil de couple en mode réglage
+2245 Seuil lissage cons. couple fct. vit. rot
+2246 Hystérésis lissage cons.C fonct.vit.rot.
+2265 I2t Facteur d'adaptation courant permanent moteur
+2268 Constante de temps de l'enroulement
+2400 Vitesse de rotation moteur assignée
+2401 Vit.rot. pour vit.rot. utile maxi moteur
+2403 Vitesse rot. coupure suppression impuls.
+2404 Temporisation suppression impulsions
+2405 Vitesse rot. surveillance moteur
+2407 Gain P régulateur de vitesse de rotation
+2408 Gain P vit. rot. limite sup. adaptation
+2409 Temps intégration régulateur vit. rot.
+2410 Temps intégr. vit.rot.limite sup. adapt.
+2411 Vit. rot. limite inférieure d'adaptation
+2412 Vit. rot. limite supérieure d'adaptation
+2413 Sélection adaptation régulateur vit.rot.
+2417 nx pour signalisation 'nréel < nx'
+2418 nmini pour signalisation 'nréel < nmini'
+2426 Bande tol. signalis. 'ncons = nréel'
+2451 Gain P régulateur vitesse rot. MA
+2453 Temps intégration régul. vit. rot. MA
+2458 Consigne courant mode MA commande
+2459 Constante de temps lissage de couple MA
+2465 Vitesse de rot. commutation EBR/MA
+2466 Vit. rot. commutation MA régul./commande
+2602 Seuil d'avertissement température moteur
+2607 Seuil de coupure température moteur
+2608 Température fixe
+2711 Poids représentation vitesse de rotation
+2712 Poids représentation flux rotor
+2713 Poids représentation couple
+2714 Poids représentation position rotor
+2725 Normalisation interface consigne couple
+3005 Nombre traits système de mesure moteur
+3060 Activation de la commande de freinage
+3061 Temps d'ouverture de frein
+3062 Vitesse rotation, fermer frein de maintien
+3063 Temporisation de freinage
+3064 Temps de blocage du régulateur
+3074 Adaptation position rotor
+3098 Réduction courant limite PP
+3099 Facteur réduction courant limite PP
+3100 Fréquence de modulation d'impulsions
+3102 Numéro de code moteur
+3103 Courant assigné moteur
+3117 Inertie moteur
+3119 Inductance de la bobine série
+3120 Gain P régulateur de courant
+3121 Temps d'intégration régulateur courant
+3125 Temps de montée 1 pour mode U/f
+3126 Temps de montée 2 pour mode U/f
+3127 Tension pour f=0 en mode U/f
+3129 Facteur de puissance cosinus phi
+3130 Puissance assignée moteur
+3132 Tension assignée moteur
+3134 Fréquence assignée moteur
+3135 Tension à vide moteur
+3136 Courant à vide moteur
+3137 Résistance stator à froid
+3138 Résistance rotor à froid
+3139 Réactance de fuite du stator
+3140 Réactance de fuite du rotor
+3141 Réactance principale
+3142 Vitesse rotation pour passage en défluxé
+3143 Vit. rot. limite sup. pour caractér. Lh
+3144 Facteur pour caractéristique Lh
+3145 Facteur réduct. protect. contre décroch.
+3146 Vitesse de rotation maxi moteur
+3147 Limit. vit. rotation
+3148 Vit.rot. activation puissance décrochage
+3150 Gain P régulateur de flux
+3151 Temps d'intégration régulateur de flux
+3159 Modèle de flux Correction
+3160 Vitesse rotation pour début saisie flux
+3167 Seuil d'entrée en action pour détection de mise à la terre
+3168 Torsion maximale pour détection de mise à la terre
+3185 Facteur MS gain P régul. I
+3190 Evaluation seuil de couple
+3192 Couple dû au poids
+3230 1er seuil de couple
+3231 2me seuil de couple
+3232 Vit.rot. transition de MD1230 à MD1231
+3233 Limitation en générateur
+3234 Hystérésis PM 1232
+3235 1re valeur limite puissance
+3236 2me valeur limite puissance
+3238 Courant limite
+3239 Seuil de couple en mode réglage
+3245 Seuil lissage cons. couple fct. vit. rot
+3246 Hystérésis lissage cons.C fonct.vit.rot.
+3265 I2t Facteur d'adaptation courant permanent moteur
+3268 Constante de temps de l'enroulement
+3400 Vitesse de rotation moteur assignée
+3401 Vit.rot. pour vit.rot. utile maxi moteur
+3403 Vitesse rot. coupure suppression impuls.
+3404 Temporisation suppression impulsions
+3405 Vitesse rot. surveillance moteur
+3407 Gain P régulateur de vitesse de rotation
+3408 Gain P vit. rot. limite sup. adaptation
+3409 Temps intégration régulateur vit. rot.
+3410 Temps intégr. vit.rot.limite sup. adapt.
+3411 Vit. rot. limite inférieure d'adaptation
+3412 Vit. rot. limite supérieure d'adaptation
+3413 Sélection adaptation régulateur vit.rot.
+3417 nx pour signalisation 'nréel < nx'
+3418 nmini pour signalisation 'nréel < nmini'
+3426 Bande tol. signalis. 'ncons = nréel'
+3451 Gain P régulateur vitesse rot. MA
+3453 Temps intégration régul. vit. rot. MA
+3458 Consigne courant mode MA commande
+3459 Constante de temps lissage de couple MA
+3465 Vitesse de rot. commutation EBR/MA
+3466 Vit. rot. commutation MA régul./commande
+3602 Seuil d'avertissement température moteur
+3607 Seuil de coupure température moteur
+3608 Température fixe
+3711 Poids représentation vitesse de rotation
+3712 Poids représentation flux rotor
+3713 Poids représentation couple
+3714 Poids représentation position rotor
+3725 Normalisation interface consigne couple
+4005 Nombre traits système de mesure moteur
+4060 Activation de la commande de freinage
+4061 Temps d'ouverture de frein
+4062 Vitesse rotation, fermer frein de maintien
+4063 Temporisation de freinage
+4064 Temps de blocage du régulateur
+4074 Adaptation position rotor
+4098 Réduction courant limite PP
+4099 Facteur réduction courant limite PP
+4100 Fréquence de modulation d'impulsions
+4102 Numéro de code moteur
+4103 Courant assigné moteur
+4117 Inertie moteur
+4119 Inductance de la bobine série
+4120 Gain P régulateur de courant
+4121 Temps d'intégration régulateur courant
+4125 Temps de montée 1 pour mode U/f
+4126 Temps de montée 2 pour mode U/f
+4127 Tension pour f=0 en mode U/f
+4129 Facteur de puissance cosinus phi
+4130 Puissance assignée moteur
+4132 Tension assignée moteur
+4134 Fréquence assignée moteur
+4135 Tension à vide moteur
+4136 Courant à vide moteur
+4137 Résistance stator à froid
+4138 Résistance rotor à froid
+4139 Réactance de fuite du stator
+4140 Réactance de fuite du rotor
+4141 Réactance principale
+4142 Vitesse rotation pour passage en défluxé
+4143 Vit. rot. limite sup. pour caractér. Lh
+4144 Facteur pour caractéristique Lh
+4145 Facteur réduct. protect. contre décroch.
+4146 Vitesse de rotation maxi moteur
+4147 Limit. vit. rotation
+4148 Vit.rot. activation puissance décrochage
+4150 Gain P régulateur de flux
+4151 Temps d'intégration régulateur de flux
+4159 Modèle de flux Correction
+4160 Vitesse rotation pour début saisie flux
+4167 Seuil d'entrée en action pour détection de mise à la terre
+4168 Torsion maximale pour détection de mise à la terre
+4185 Facteur MS gain P régul. I
+4190 Evaluation seuil de couple
+4192 Couple dû au poids
+4230 1er seuil de couple
+4231 2me seuil de couple
+4232 Vit.rot. transition de MD1230 à MD1231
+4233 Limitation en générateur
+4234 Hystérésis PM 1232
+4235 1re valeur limite puissance
+4236 2me valeur limite puissance
+4238 Courant limite
+4239 Seuil de couple en mode réglage
+4245 Seuil lissage cons. couple fct. vit. rot
+4246 Hystérésis lissage cons.C fonct.vit.rot.
+4265 I2t Facteur d'adaptation courant permanent moteur
+4268 Constante de temps de l'enroulement
+4400 Vitesse de rotation moteur assignée
+4401 Vit.rot. pour vit.rot. utile maxi moteur
+4403 Vitesse rot. coupure suppression impuls.
+4404 Temporisation suppression impulsions
+4405 Vitesse rot. surveillance moteur
+4407 Gain P régulateur de vitesse de rotation
+4408 Gain P vit. rot. limite sup. adaptation
+4409 Temps intégration régulateur vit. rot.
+4410 Temps intégr. vit.rot.limite sup. adapt.
+4411 Vit. rot. limite inférieure d'adaptation
+4412 Vit. rot. limite supérieure d'adaptation
+4413 Sélection adaptation régulateur vit.rot.
+4417 nx pour signalisation 'nréel < nx'
+4418 nmini pour signalisation 'nréel < nmini'
+4426 Bande tol. signalis. 'ncons = nréel'
+4451 Gain P régulateur vitesse rot. MA
+4453 Temps intégration régul. vit. rot. MA
+4458 Consigne courant mode MA commande
+4459 Constante de temps lissage de couple MA
+4465 Vitesse de rot. commutation EBR/MA
+4466 Vit. rot. commutation MA régul./commande
+4602 Seuil d'avertissement température moteur
+4607 Seuil de coupure température moteur
+4608 Température fixe
+4711 Poids représentation vitesse de rotation
+4712 Poids représentation flux rotor
+4713 Poids représentation couple
+4714 Poids représentation position rotor
+4725 Normalisation interface consigne couple

@@ -1,0 +1,416 @@
+ 415 Display Machine Data
+9000 Kontrast
+9001 Art der Bedientafel
+9002 Externer Monitor
+9003 Vordergrundsprache
+9004 Anzeigefeinheit
+9005 Grundstellung Programm Directory
+9006 Zeit für Bildschirmdunkelschaltung
+9007 Tabulatorlänge
+9008 Tastaturart
+9009 Tastatur-Shift-Verhalten bei Hochlauf
+9010 Anzeigefeinheit für Spindelwerte
+9011 Anzeigefeinheit INCH-Maßsystem
+9012 Aktionsmodus für Fahrtenschreiber setzen
+9013 Synchronisationszeit MMC/HMI-Zeit mit PLC
+9014 kanalspezifische Anzeige-MDs nutzen
+9016 Default-Hochlaufmenü wählbar
+9020 Technologie für NC-Prog. und Simulation
+9021 Design der Bedienoberfläche
+9025 Helligkeitsstufe Hintergrundbeleuchtung
+9026 Zu aktivierender Teachmodus
+9027 Anzahl Achsgruppen für Verfahrtasten
+9030 Stellenzahl für Darstellung ohne Exponent
+9031 Exponent in technischer Darstellung
+9032 PLC-Datum für HMI-Bildinfo festlegen
+9033 Anzeige der Spindeldrehrichtung
+9034 Anzahl der angezeigten Maschinenkanäle
+9050 OEM-Hochlaufbild aktivieren
+9052 Kanalübergreifende Statusanzeige ändern
+9053 Sortieralgorithmus für PLC-Symbole
+9054 Filtereinstellungen für PLC-Symbole
+9055 Auswahl Quittungssymbol bei PLC-Alarmen
+9056 Rotationszykluszeit für die Alarmanzeige
+9180 Schutzstufe WZ-Trägerkorrekturen lesen
+9181 Schutzstufe WZ-Trägerkorrekturen schreiben
+9182 Schutzstufe Inch-Metrisch-Umschaltung
+9183 Schutzstufe Werkzeugträger schreiben
+9184 Schutzstufe Werkzeugbezugspunkt schreiben
+9185 Schutzstufe Werkstückbezugspunkt schreiben
+9186 Schutzstufe Zyklenframe schreiben
+9187 Schutzstufe Transformationsframe schreiben
+9188 Schutzstufe externe NV schreiben
+9200 Schutzstufe WZ-Korrekturen lesen
+9201 Schutzstufe WZ-Geometrie schreiben
+9202 Schutzstufe WZ-Verschleißdat. schreiben
+9203 Schutzstufe Fein
+9204 Schutzstufe WZ-Summenkorrekturen ändern
+9205 Schutzstufe WZ-Einrichtekorrekt. ändern
+9206 Schutzstufe WZ-Ueberw.grenzwerte ändern
+9207 Ändern zugeord. DNo einer WKZ-Schneide
+9208 Ändern Verschleissgruppe Mag-Platz/Mag.
+9209 Schutzstufe WZ-Adapterdaten schreiben
+9210 Schutzstufe Einstellbare NV schreiben
+9211 Schutzstufe Anwendervariablen lesen
+9212 Schutzstufe Anwendervariablen schreiben
+9213 Schutzstufe erweitertes Überspeichern
+9214 Schutzstufe Programmbeeinflussung
+9215 Schutzstufe Settingdaten schreiben
+9216 Schutzstufe Teileprogramm lesen
+9217 Schutzstufe Teileprogramm schreiben
+9218 Schutzstufe Programmanwahl
+9219 Schutzstufe TEACH IN
+9220 Schutzstufe PRESET
+9221 Schutzstufe R-Parameter löschen
+9222 Schutzstufe R-Parameter schreiben
+9223 Schutzstufe V24-Schnittstellenparametrier.
+9224 Schutzstufe Daten einlesen
+9225 Schutzstufe Standardzyklen
+9226 Schutzstufe Anwenderzyklen
+9227 Single Block2(SBL2) ausblenden
+9228 Zugriffsstufe für Anwahl des Verz. SYF
+9229 Zugriffsstufe für Anwahl des Verz. DEF
+9230 Zugriffsstufe für Anwahl des Verz. BD
+9231 Schutzstufe für den ersten RPA-Bereich
+9232 Anfang des ersten RPA-Bereich
+9233 Ende des ersten RPA-Bereich
+9234 Schutzstufe für zweiter RPA-Bereich
+9235 Anfang des zweiten RPA-Bereich
+9236 Ende des zweiten RPA-Bereich
+9237 Schutzstufe für dritter RPA-Bereich
+9238 Anfang des dritten RPA-Bereich
+9239 Ende des dritten RPA-Bereich
+9240 Aendern Werkzeug-Bezeichnung und -Duplo
+9241 Aendern Werkzeug-Typ
+9242 Zahlenbasis Anzeige Gelenkstell. STAT
+9243 Zahlenbasis Anzeige Rundachsstell. TU
+9244 Orientierungsachsen als Euler-Winkel
+9245 Wertablage Ankratzen u. Istwertsetzen
+9246 Zugriffsstufe Schreiben von System-Frames
+9247 Zugriffsstufe Basisverschiebung PA
+9248 Zugriffsstufe Basisverschiebung MA
+9249 Schutzstufe Vertikale SKs der Bereichs-SKs
+9251 Anzeige der Werkzeugliste
+9252 Schutzstufe Laden von Werkzeugen
+9253 Schutzstufe Entladen von Werkzeugen
+9254 Schutzstufe für Umladen von Werkzeugen
+9256 Schutzstufe für Anzeige 2.Magazinliste
+9257 Schutzstufe für Anzeige 3.Magazinliste
+9258 Schutzstufe für Anlegen neuer Schneiden
+9259 Schutzstufe für Löschen von Werkzeugen
+9260 Schutzstufe für Zwischenspeich. Ein/Aus
+9261 Schutzstufe für Suchen
+9262 Schutzstufe für Positionieren
+9263 Schutzstufe für Blättern zum n. Magazin
+9264 Schutzstufe für Anlegen von Werkzeugen
+9265 Schutzstufe für Anzeige 1.Werkzeugliste
+9266 Schutzstufe für Anzeige 2.Werkzeugliste
+9267 Schutzstufe für Anzeige 3.Werkzeugliste
+9269 Softkey Leerplatz, Anz. Werkzeugliste
+9270 Schutzstufe für Beladen auf akt. Platz
+9271 Ansehen und editieren der Werkzeugdaten
+9272 Schutzstufe für Anwahl des Bedienbereichs
+9273 Schutzstufe für Softkeys in Parameter
+9300 Anwender: X on -Zeichen
+9301 Anwender: X off -Zeichen
+9302 Anwender: Übertragungsendezeichen
+9303 Anwender: Sonderbits
+9304 Anwender: Leitungsgesteuert
+9305 Anwender: Baudrate
+9306 Anwender: Datenbits
+9307 Anwender: paritybits
+9308 Anwender: Stoppbits
+9309 Anwender: V24 Schnittstelle (COM1/COM2)
+9310 Drucker: X on -Zeichen
+9311 Drucker: X off -Zeichen
+9312 Drucker: Übertragungsendezeichen
+9313 Drucker: Sonderbits
+9314 Drucker: Leitungsgesteuert
+9315 Drucker: Baudrate
+9316 Drucker: Databits
+9317 Drucker: Paritybits
+9318 Drucker: Stoppbits
+9319 Drucker: V24 Schnittstelle (COM1/COM2)
+9320 PG: X on -Zeichen
+9321 PG: X off -Zeichen
+9322 PG: Übertragungsendezeichen
+9323 PG: Sonderbits
+9324 PG: Leitungsgesteuert
+9325 PG: Baudrate
+9326 PG: Datenbits
+9327 PG: Paritybits
+9328 PG: Stoppbits
+9329 PG: V24 Schnittstelle (COM1/COM2)
+9400 Bezugsmaß Werkzeuglängenkorr. GEOachs.1
+9401 Bezugsmaß Werkzeuglängenkorr. GEOachs.2
+9402 Bezugsmaß Werkzeuglängenkorr. GEOachs.3
+9410 Nummer Beladeplatz
+9411 Nummer Arbeitsmagazin
+9412 Voreinstellung für Werkzeuggröße
+9414 Art der Darstellung der Werkzeugverwaltung
+9415 Vorbesetzungswert für Platztyp
+9416 Voreinstellung für Platztyp
+9417 Voreinstell. Werkzeugstatus Beladen
+9419 Voreinstell. Werkzeugdaten aut. Löschen
+9420 Restweganzeige im WKS-Fenster
+9421 Istwertanzeige mit führenden Geo-Achsen
+9422 Auswahl PRESET/Basisverschiebung in JOG
+9423 Max. Ausblendebenen in NC-Programm
+9424 Koord. System für Istwertanzeige
+9425 Werkzeugkorrekturverrechnung Ankratzen
+9426 Masch.achsindex Analogspindel Leistungsanz
+9427 Masch.achsindex Analogspindel Leistungsanz
+9428 Maximalwert der Spindelleistungsanzeige
+9429 Anzeigebereich der Spindelleistungsanzeige
+9440 Aktive Versch. sofort wirksam setzen
+9442 Angezeigte Hilfsfunktionsgruppen
+9449 MD9449 anwend auf Wear(Bit0) SC(1) EC(2)
+9450 Grenzwert für Verschleiß Fein
+9451 Grenzwert für Verschiebung Fein
+9459 Anzeigemodus der Nullpunktverschiebung
+9460 Einstellungen im Bereich Programm
+9461 Am Ende der Kontur anzufügender String
+9464 Dateigröße, ab der keine Prüfung erfolgt
+9477 Für interne Testzwecke
+9478 Für interne Zwecke
+9479 Abstand der einzelnen Magazinplätze
+9480 Art der Simulation
+9481 Grenze der Standard-Simulation in KB
+9500 NC-Eigenschaften
+9509 Schutzstufe für Netzkonfiguration
+9510 Schutzstufe für Netzlaufwerk1 Prog.
+9511 Schutzstufe für Netzlaufwerk2 Prog.
+9512 Schutzstufe für Netzlaufwerk3 Prog.
+9513 Schutzstufe für Netzlaufwerk4 Prog.
+9516 Schutzstufe für Netzlaufwerk1 Masch.
+9517 Schutzstufe für Netzlaufwerk2 Masch.
+9518 Schutzstufe für Netzlaufwerk3 Masch.
+9519 Schutzstufe für Netzlaufwerk4 Masch.
+9550 Rückzugsbetrag beim Konturabspanen
+9551 Rückzugswinkel beim Konturabspanen
+9552 Rohteilaufmaß beim Konturabspanen
+9553 Nachzugswinkel beim Konturabspanen
+9554 Differenzmaß Restmaterialbearbeit. Achse 1
+9555 Differenzmaß Restmaterialbearbeit. Achse 2
+9556 Prozentsatz variable Schnittiefe Konturdr.
+9557 Vorschubunterbrechungszeit Konturdrehen
+9558 Rückzugsweg Vorschubunterbr. Konturdrehen
+9560 Rückzug wegen Werkzeugbiegung Stechdrehen
+9561 Rückzug Tiefe vor Drehbearb. Stechdrehen
+9599 Einstellungen ManualTurn
+9600 Simulation Defaultwert X
+9601 Simulation Defaultwert Z
+9602 Simulation Defaultwert Anzeigebereich
+9603 Simulation Maximale Anzeige X
+9604 Simulation Maximale Anzeige Z
+9605 Simulation Maximaler Anzeigebereich
+9606 Simulation Aktualisierungsrate Istwert
+9607 Freigabe der Anwahlmöglichkeit Eilgang
+9608 Freigabe der Anwahlmögl. Vorsch. mm/min
+9609 Nachkommastellen im Drehzahleingabefeld
+9610 Lage des Koordinatensystems für Drehen
+9611 Durchmesseranzeige für Planachsen aktiv
+9612 Einrichtebewegungen absolut speichern
+9613 Startposition absolut speichern
+9614 Einrichtebewegungen autom. speichern
+9615 Handradvorschub
+9616 Bahnvorschub
+9617 Umdrehungsvorschub
+9618 Freigabe C-Achse für Oberfläche
+9619 Inkrementelle Zustellung
+9620 Sicherheitsabstand ManualTurn-Zyklen
+9621 Freischneidezeit für Zyklen
+9622 Freigabe Referenzpunktfahren ManualTurn
+9623 Freigabe NC-Start ohne referenz. Achsen
+9624 Bedienartenumsch. über vert. Softkeys
+9625 Kundenhochlaufbild
+9626 Testflags interne ManualTurn-Diagnose
+9627 Anzahl Getriebestufen
+9628 Anzeige Werkzeugdatum X als Durchmesser
+9629 Anzeige Werkz.verschleißdatum X Durchm.
+9630 Schlichtvorschub in Prozent
+9631 Verweilzeit für Zyklen in Sekunden
+9632 Winkelbezugsachse
+9633 Schrittweiten für Vorsch. in mm/min
+9634 Schrittweiten für Vorschub in mm/U
+9636 Schnittgeschw. aus Werkzeugtab. freigeben
+9637 Eingabeobergrenze für Vorsch. in mm/min
+9638 Eingabeobergrenze für Vorschub in mm/U
+9639 Obergrenze Werkzeugverschleißeingabe
+9640 Automatische Berechnung der Gewindetiefe
+9641 Freigabe G-Code-Eingabe
+9642 Freigabe Lochkreisbohren
+9643 Freigabe Unterstützung angetr. Werkzeuge
+9644 Verweilz. unten, Gewindebohr.auf Lochkreis
+9645 Verweilz. oben, Gewindebohr. auf Lochkreis
+9646 Modus für Rückzugsabst. Absp. Außenbearb. 
+9647 Modus für Rückzugsabst. Absp. Innenbearb.
+9648 Rückzugsabstand Abspanen bei Außenbearb.
+9649 Rückzugsabstand Abspanen bei Innenbearb. 
+9650 Lage des Koordinatensystems
+9651 Werkzeugverwaltungskonzept
+9652 Werkzeugüberwachung
+9653 Freigabe 4. Achse für Bedienoberfläche
+9654 Nachkommastellen im Drehzahleingabefeld
+9655 Abhebebetrag beim Tieflochbohren
+9656 Abhebebetrag beim Ausdrehen
+9657 Abweichung kleinst mögl. Fräserrad.
+9658 Abweichung größt mögl. Fräserradius
+9659 Abhebewinkel beim Ausdrehen
+9660 Umschalten auf Bearbeitungsebene
+9661 Eingabe von kundenspez. M-Befehle
+9662 Anzahl der Getriebestufen
+9663 Anzeige Radius/Durchmesser für Werkzeug
+9664 Vorschub in mm/min
+9665 Vorschub in mm/U
+9666 Vorschub in mm/Zahn
+9667 Werkzeugvorwahl aktiv
+9668 M-Code Kühlmittel I und II
+9669 Eff. Fräserdurchmesser beim Planfräsen
+9670 Anfahrkreisrad. Schlicht. Konturtaschen
+9671 Default-Magazin Werkzeug beladen
+9672 Feste Platzkodierung
+9673 Nummer der Beladestation
+9674 Anzeige der Magazinliste
+9675 Kundenhochlaufbild
+9676 Pfad zu den Laufwerknamen im Verz.verw.
+9677 Pfad zu den Laufwerknamen im Verz.verw.
+9678 Pfad zu den Laufwerknamen im Verz.verw.
+9679 Pfad zu den Laufwerknamen im Verz.verw.
+9680 M-Code Kühlmittel I
+9681 M-Code Kühlmittel II
+9682 Modus für Rückzugsbetrag Ausdrehen 
+9683 Modus für Anfahrkreis Konturtaschen
+9684 M-Code für werkzeugspezifische Bits 1
+9685 M-Code für werkzeugspezifische Bits 2
+9686 M-Code für Kühlmittel aus
+9687 Default-Magazin Werkzeug umsetzen
+9688 Anzahl Getriebestufen für die 2. Spindel
+9690 OEM-Anzeigemaschinendatum 1
+9691 OEM-Anzeigemaschinendatum 2
+9703 Achsindex für 4. Achse
+9704 Achsindex für 5. Achse
+9705 Achsindex für Spindel
+9706 Zuordnung 4. Achse zu Geometrieachse
+9707 Zuordnung 5. Achse zu Geometrieachse
+9708 Achsindex für 2. Spindel
+9718 Einstellungen für ShopMill 2
+9719 Einstellungen für ShopMill
+9720 Freigabe B Achse
+9721 Freigabe Zylindermanteltransformation
+9722 Freigabe Handwerkzeuge
+9723 Freigabe Schwenkköpfe
+9724 Eilgangvorsch. Positionieren auf Kreisbahn
+9725 Freigabe schneller M-Befehle
+9726 Einheit Anzeige-Maschinendaten (Inch/mm)
+9727 Freigabe Unterstützung A/B-Achse
+9728 Anpassung der Drehrichtung A/B-Achse
+9729 Programm für Werkzeugwechsel im G-Code
+9739 M-Code für werkzeugspez. Funktion 1 EIN
+9740 M-Code für werkzeugspez. Funktion 1 AUS
+9741 M-Code für werkzeugspez. Funktion 2 EIN
+9742 M-Code für werkzeugspez. Funktion 2 AUS
+9743 M-Code für werkzeugspez. Funktion 3 EIN
+9744 M-Code für werkzeugspez. Funktion 3 AUS
+9745 M-Code für werkzeugspez. Funktion 4 EIN
+9746 M-Code für werkzeugspez. Funktion 4 AUS
+9747 Freigabe automatisches Werkstückmessen
+9748 Position man. Werkzeugmessen mit Festpunkt
+9749 Freigabe automatisches Werkzeugmessen
+9750 Meßeingang für Werkstückmeßtaster
+9751 Meßeingang für Werkzeugmeßtaster
+9752 max. Meßweg Werkstückmessen im Programm
+9753 max. Meßweg Werkst.messen im Handbetrieb
+9754 max. Meßweg Werkzeuglänge dreh. Spindel
+9755 max. Meßweg Werkzeugradius dreh. Spindel
+9756 Meßvorschub Werkstückmessen
+9757 Ebenenvorschub mit Kollisionsüberw.
+9758 Zustellvorschub mit Kollisionsüberw.
+9759 max. Umf.geschw. Werkz.messen dreh. Sp.
+9760 max. Drehz. Werkz.messen dreh. Spindel
+9761 Min.vorschub Werkz.messen dreh. Spindel
+9762 Meßgenauigk. Werkz.messen dreh. Spindel
+9763 Werkzeugmeßtastertyp
+9764 Zul. Achsrichtungen Werkz.meßtaster
+9765 Durchm. Werkzeugmeßtaster Längenmessung
+9766 Durchm. Werkzeugmeßtaster Radiusmessung
+9767 Zust. Werkz.tasteroberkan. Rad.messung
+9768 Ebenenanfahrrichtung Werkzeugmeßtaster
+9769 Vorschubfaktor 1 Werkz.messen dreh. Sp.
+9770 Vorschubfaktor 2 Werkz.messen dreh. Sp.
+9771 Max. Vorschub Werkz.messen dreh. Spindel
+9772 Messweg Werkzeugmessen stehende Spindel
+9773 Vorschub Werkzeugmessen stehende Spindel
+9774 Werkzeugmesstasterhersteller
+9775 Korrektur beim Werkzeugmessen dreh. Sp.
+9776 Einstellungen für Messzyklen
+9777 Freigabe der Zeitenanzeige
+9778 Messtasterlänge bezogen auf die Unterkante
+9779 Werkstückmesstaster ist Monotaster
+9802 Achsindex für C-Achse der Gegenspindel
+9803 Achsindex für 4. Achse
+9804 Achsindex für Hauptspindel
+9805 Achsindex für Werkzeugspindel
+9806 Achsindex für Gegenspindel
+9807 Achsindex für C-Achse
+9808 Achsindex für B-Achse
+9810 Anzahl Gänge der Hauptspindel
+9811 Anzahl Gänge der Werkzeugspindel
+9812 Anzahl Gänge der Gegenspindel
+9820 Lupenposition zum Werkzeug messen, 1.Achse
+9821 Lupenposition zum Werkzeug messen, 2.Achse
+9822 Angezeigte Drehrichtung Hauptspindel M3
+9823 Angezeigte Drehrichtung Gegenspindel M3
+9824 Anpass. Drehricht. C-Achse Hauptspindel M3
+9825 Anpass. Drehricht. C-Achse Gegenspindel M3
+9826 Hauptdrehrichtung für alle Drehwerkzeuge
+9827 Grundeinstell. Bearbeitungsrichtung Fräsen
+9828 Meßeingang Werkzeugmeßtaster Gegenspindel
+9829 Spindelfutterauswahl
+9830 Futtermaß Hauptspindel
+9831 Futtermaß Gegenspindel
+9832 Anschlagmaß Gegenspindel
+9833 Backenmaß Gegenspindel
+9836 Reitstockdurchmesser
+9837 Reitstocklänge
+9838 Grenzwert Werkzeuglänge X für 2. Revolver
+9840 Lupe unter Manuell: Messen Werkzeug
+9841 Schubladenfunktion bei Abstich freigeben
+9842 Freigabe Reitstock
+9843 Freigabe Spindel klemmen (C-Achse)
+9849 Parkposition der Y-Achse bei Gegenspindel
+9850 Rücklaufabstand bei Gewinde drehen
+9851 Freifahrposition Z für Gegenspindel
+9852 Gegenspindel: Weg fahren auf Festanschlag
+9853 Gegenspin.: Vorschub fahren a.Festanschlag
+9854 Gegenspin.: Kraft fahren auf Festanschlag
+9855 Einstellungen Gewindebohren
+9856 Einstellungen Gewindebohren mittig
+9857 Rückzugsweg vor Spannen nach Festanschlag
+9858 Rückzugsweg vor Abstich mit Gegenspindel
+9859 Weg für Abstichkontrolle
+9860 Vorschub für Abstichkontrolle
+9861 Kraft in Prozent für Abstichkontrolle
+9862 Maximaler Mittenversatz mittiges Bohren
+9863 Max. Eingabebereich Ausrichtwinkel Gamma
+9890 Schutzstufe Werkzeugmesstaster kalibrieren
+9897 Einstellungen ShopTurn manuelle Funktionen
+9898 Einstellungen für ShopTurn
+9899 Testflags interne ShopTurn-Diagnose
+9900 Klartexte anstatt MD-Bezeichner
+9950 Anzeigeoptionen allgemeine Maschinendaten
+9951 Indexfilter für allgemeine Maschinendaten
+9952 Anzeigeoptionen Achs-Maschinendaten
+9953 Indexfilter für Achs-Maschinendaten
+9954 Anzeigeoptionen Kanal-Maschinendaten
+9955 Indexfilter für Kanal-Maschinendaten
+9956 Anzeigeoptionen Antriebs-Maschinendaten
+9957 Indexfilter für Antriebs-Maschinendaten
+9958 Anzeigeoptionen Sinamics-Parameter
+9959 Indexfilter für Sinamics-Parameter
+9980 Interne Spracheinstellungen
+9990 MMC/HMI-SW-Optionen freischalten
+9991 MMC/HMI-Hilfesysteme freischalten
+9992 Optionen für HMI-Testautomat
+9993 Optionen fuer den Wizard
+9999 Testflags für interne Diagnose

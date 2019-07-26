@@ -1,0 +1,589 @@
+ 588 General NC machine data
+10000 Nome dell'asse macchina
+10002 Immagine logica assi macchina NCK
+10008 Nr. max. di assi controllati dal PLC
+10010 Canale valido nel gruppo di modi operativi
+10050 Clock base di sistema
+10059 Merker di allarme Profibus (solo interno
+10060 Fattore per il clock della regolazione di posizione
+10061 Clock regolatore di posizione
+10062 Traslazione del clock del regolatore di posizione
+10063 Timing efficace
+10065 Ritardo del riferimento di posizione
+10070 Fattore per il clock dell'interpolatore
+10071 Clock interpolatore
+10072 Rapporto divisione tra task IPO e task di comunicazione
+10073 Strategia per l'attivazione della comunicazione
+10074 Fattore task PLC rif.al ciclo principale
+10075 Tempo ciclo PLC
+10080 Fatt.di suddiv. del tempo di clock per rilevamento valore reale
+10082 Traslazione del punto di acquisizione del riferimento
+10083 Traslazione max.impostabile del punto di acquis.del riferimento
+10088 Ritardo reboot
+10089 Tempo di attesa per cancellazione impulsi con errore bus
+10090 Fattore per clock di sorveglianza
+10091 Visualizzazione tempo del clock di sorveglianza
+10092 Visualizzazione tempo di clock per confronto incrociato
+10093 Numero accessi file SPL
+10094 Livello di soppressione dell'allarme
+10095 Modi operativi 'Safety Integrated'
+10096 'Safety Integrated' funzioni di diagnosi
+10097 Reazione di stop per errori SPL
+10098 Fattore tempo di clock comunicaz.PROFIsafe
+10099 Tempo di clock comunicazione PROFIsafe
+10100 Tempo max. per il ciclo PLC
+10110 Tempo medio di tacitazione PLC
+10120 Tempo di sorveglianza per l'avviamento del PLC
+10130 Limitazione del tempo ciclo della comunicazione con l'HMI
+10131 Comportam. del refresh dello schermo in condiz.di sovraccarico
+10132 Tempo di sorveglianza per l'istruzione HMI nel partprogram
+10134 Nr.dei partner di comunicazione HMI contemporaneamente possibili
+10136 Modo di visualizzazione per posizione reale in SCP
+10140 Limite tempo ciclo del sub-task di comunicaz. con l'azionamento
+10150 Fattore per la comunicazione con l'azionamento
+10160 Fattore di comunicazione HMI
+10161 Configurazione della comunicazione
+10170 Limite di ritardo del task MMC
+10180 Fattore task MMC rif. ciclo preparativo
+10185 Sezione tempo di calcolo NCK
+10190 Tempo di cambio utensile per la simulazione
+10192 Tempo di attesa cambio gamma di accop.
+10200 Precisione di calcolo per posizioni lineari
+10210 Precisione di calcolo per posizioni angolari
+10220 Attivazione fattori di normalizzazione
+10230 Fattori di normalizzazione delle grandezze fisiche
+10240 Sistema base: metrico
+10250 Fattore di ricalcolo per INCH
+10260 Commutazione attiva del sistema base
+10270 Sistema di misura delle tabelle delle posizioni
+10280 Confronti > e < compatibili al SW6.3
+10284 Comportamento diverse variabili visualizz.
+10290 Unità fisiche dei dati utensile per cicli compilati
+10291 Unità fisica dei dati utensile SIEMENS-OEM
+10292 Unità fisiche dei dati dei taglienti per cicli compilati
+10293 Unità fisica dati di taglio SIEMENS-OEM
+10300 Numero degli ingressi NCK analogici attivi
+10310 Numero delle uscite NCK analogiche attive
+10320 Fattore di valutazione per gli ingressi NCK analogici
+10330 Fattore di valutazione per le uscite NCK analogiche
+10340 riservato
+10350 Numero dei byte di ingresso NCK digitali attivi
+10360 Numero dei byte di uscita NCK digitali attivi
+10361 Cortocircuito degli ingressi/uscite digitali
+10362 Assegnazione hardware degli ingressi NCK analogici veloci
+10364 Assegnazione hardware delle uscite NCK analogiche esterne
+10366 Assegnazione hardware degli ingressi NCK digitali esterni
+10368 Assegnazione hardware delle uscite NCK digitali esterne
+10380 Tempo di attualizz.periferie NCK esterne sincrone con il clock
+10382 Tempo di anticipo periferia NCK esterna con sincronismo di clock
+10384 Elaboraz. con sincronismo di clock della periferia NCK esterna
+10385 Indirizzo PROFIsafe modulo PROFIsafe master
+10386 Indirizzo PROFIsafe scheda di ingresso
+10387 Ind.PROFIsafe ind.PROFIsafe scheda uscita
+10388 Assegn.ingresso.$A_INSE a scheda PROFIsafe
+10389 Abbinamento uscita.$A_OUTSE a modulo PROFIsafe
+10390 Abbinamento ingresso dell'interfaccia SPL ext.
+10392 Abbinamento uscita interfaccia est. SPL
+10393 Indirizzi logici azionamenti SI
+10394 Nr.di byte di ingresso leggibili direttam. della periferia PLC
+10395 Indir.iniz.byte d'ingresso della periferia PLC leggibile dirett.
+10396 Nr.di byte di uscita della periferia PLC scrivibili direttamente
+10397 Ind.iniz.byte di uscita della periferia PLC scrivibile direttam.
+10398 Tempo di update per ciclo input PLCIO
+10399 Little-/Big-Endian per PLCIO
+10400 Numero dei byte di ingresso per i cicli compilati
+10410 Numero dei byte di uscita per i cicli compilati
+10420 Riservare uscite esterne per cicli compilati
+10430 Maschera hardware di debug per cicli compilati
+10450 Assegnazione delle camme software agli assi macchina
+10460 Tempo di anticipo o di ritardo sulle camme negative 1-16
+10461 Tempo di anticipo o di ritardo sulle camme positive 1-16
+10470 Assegnaz. HW per l'emissione delle camme 1-8 verso periferia NCK
+10471 Assegnaz.HW per l'emissione delle camme 9-16 verso periferia NCK
+10472 Assegn. HW per l'emissione delle camme 17-24 alla periferia NCK
+10473 Assegn. HW per l'emissione delle camme 25-32 alla periferia NCK
+10480 Maschera per emissione segnali camme con interrupt timer su NCU
+10485 Comportamento delle camme SW
+10490 Compensazione jitter camme
+10500 Indirizzo logico dello slot della periferia PROFIBUS
+10501 Lunghezza del settore di periferia PROFIBUS
+10502 Attributi della periferia PROFIBUS
+10510 Indirizzo logico dello slot della periferia PROFIBUS
+10511 Lunghezza del settore di periferia PROFIBUS
+10512 Attributi della periferia PROFIBUS
+10530 Assegnaz. hardware ingressi analogici per byte di comparaz.1
+10531 Assegnaz. hardware ingressi analogici per byte di comparaz.2
+10540 Parametrizzazione per byte di comparazione 1
+10541 Parametrizzazione per byte di comparazione 2
+10600 Sequenza di rotazione nei FRAME
+10602 Frames con commutaz. di assi geometrici
+10604 Limite campo di lavoro per commutazione degli assi geometrici
+10610 Asse di riferimento per specularità
+10612 Commutazione Mirror
+10613 Frame base NCU globali attivi dopo reset
+10615 Resettare i Frame base globali dopo Power On
+10617 Comportamento dei frame in sottoprogrammi SAVE
+10618 Settore di protezione per commutazione degli assi geometrici
+10619 Tolleranza per sorveglianza collisione
+10620 Nome degli angoli Eulero
+10624 Nome del vettore di distacco per orientam. relativo al percorso
+10626 Nome della distanza di sicurezza relativa con ORIPATH
+10630 Nome dei vettori ortogonali
+10640 Nome dei vettori direzionali
+10642 Nome vettore rotaz.
+10644 Nome componente vettore interm.
+10646 Identific.per la programmaz.di una 2.traiettoria di orientamento
+10648 Nome angolo apertura
+10650 Nome dei parametri di interpolazione
+10652 Nome dell'angolo per tratti di profilo
+10654 Nome del raggio per tratti di profilo
+10656 Nome dello smusso per tratti di profilo
+10660 Nome delle coordinate del punto intermedio con G2/G3
+10670 Nome dell'informazione di posizione
+10672 Nome informazione di posiz. degli assi
+10674 Programmazione del polinomio senza funzione G POLY
+10700 Livello di preelaborazione del programma
+10702 Impedire stop blocco singolo
+10704 Attivazione dell'avanzamento ciclo prova
+10706 Attivazione dell'esclusione di blocco
+10707 Modo test programma
+10708 Modo ricerca blocco
+10710 Dati setting da aggiornare
+10711 Istruzioni NC delle funzioni/opzioni non attive
+10712 Lista dei cod.NC con modif.di progettaz.
+10713 Funzione M con stop avanzamento
+10714 Funzione M per mandrino attiva dopo reset
+10715 Funzione M da sostituire con sottoprogramma
+10716 Nome sottoprogramma per sostituzione della funzione M
+10717 Nome ciclo di cambio utensile per sostituzione della funzione T
+10718 Sostituzione funzione M con parametri
+10719 Parametrizz. della sostituzione funzione T
+10720 Impostazione del modo operativo dopo Power On
+10722 Parametr. del comport. dello scambio assi
+10730 Funzionamento dei tasti di JOG
+10731 Effetto dei tasti JOG
+10735 Consentire Jog in Automatico
+10760 Modo funzionamento con G53, G153 e SUPA
+10780 Annullam.blocco di start durante editazione di un partprogram
+10800 1. Funzione M per sincr. canale
+10802 Ultima funzione M per la sincronizzazione canale
+10804 Funzione M per attivazione ASUP
+10806 Funzione M per disattivazione ASUP
+10808 Attivare programma di interrupt (ASUP)
+10810 Assegnazione degli ingressi di misura per G31 P..
+10812 Testa revolver d. con G68
+10814 Richiamo macro con funzione M
+10815 Nome sottoprogramma per richiamo macro con funzione M
+10816 Richiamo macro con funzione G
+10817 Nome sottoprogramma per richiamo macro con funzione G
+10818 Numero interrupt per start ASUP (M96)
+10820 Nr. interrupt per svincolo rapido (G10.6)
+10850 Numero max. di codici G OEM
+10880 Definizione del sistema di controllo da adattare
+10881 ISO_3 Mode: GCodeSystem
+10882 Lista istruz. G specifiche dell'utente di un linguaggio NC ext.
+10884 Valutazione di valori programmati senza punto decimale
+10886 Sistema di incremento nel modo linguaggio esterno
+10888 Numero di cifre per numero T in modalità ISO
+10890 Programma di cambio utensile con linguaggio esterno
+10892 Comportamento in interpolazione con G00
+10900 Numero di posizioni per tabella asse di divisione 1
+10910 Tabella posiz. di divisione 1
+10920 Numero di posizioni per tabella asse di divisione 2
+10930 Tabella posizione divisione 2
+10940 Impostazione per posizione di divisione
+11100 Numero delle funzioni ausiliarie distribuite nei gruppi FUNZ_AUX
+11110 Specificazione gruppi di funzioni ausil.
+11120 Funzione 'Dati utente programma globali' (PUD) attiva
+11140 sicurezza supplementare per blocchi GUD
+11160 Diritto di esecuzione per /_N_CST_DIR
+11161 Diritto di esecuzione per /_N_CMA_DIR
+11162 Diritto di esecuzione per /_N_CUS_DIR
+11165 Protez.scrittura per directory /_N_CST_DIR
+11166 Protez.scrittura per directory /_N_CMA_DIR
+11167 Protez.scrittura per directory /_N_CUS_DIR
+11170 Protezione contro scrittura per _N_SACCESS_DEF
+11171 Protezione contro scrittura per _N_MACCESS_DEF
+11172 Protezione contro scrittura per _N_UACCESS_DEF
+11200 Caricamento dei dati macchina standard al prossimo avviamento
+11210 Salvataggio dei soli dati macchina modificati
+11220 Comportamento in caso di errori file INI
+11230 Struttura dei file di salvataggio dei dati macchina
+11240 Numero SDB
+11241 Selezione sorgente SDB
+11250 Shutdownhandling Profibus
+11270 Attivazione dei valori di default per istruzioni NC
+11280 Modo di elaborazione dei file INI nella directory dei pezzi
+11285 Tipo del file con modello macchina.
+11290 Selezione directory in DRAM
+11291 Selezione delle directory nella DRAM
+11292 Configurazione del DRAM-filesystem
+11294 Configurazione dei file di Trace SIEM*
+11295 Tipo di memor. dei file di protocollo
+11297 Impedire il sovraccarico del livello di tempo IPO
+11298 Tempo di interruzione prep. livello temporale in secondi
+11300 INC e REF in funzionamento ad impulsi
+11310 Soglia per cambio direzione del volantino
+11320 Impulsi volantino per posiz. d'innesto
+11322 Impulsi volantino prof. per posiz. innesto
+11324 Rappresentazione del nr. di volantino nell'interconnessione VDI
+11330 Dimensione dell'incremento per INC/volantino
+11340 3° Volantino: tipo di azionamento
+11342 3. volantino: nr.azionamento/circuito di misura
+11344 3. volantino: ingresso sul modulo/scheda di misura
+11346 Volantino per rif. percorso o velocità
+11350 Segmento volantino
+11351 Modulo volantino
+11352 Collegamento volantino
+11353 Indirizzi logici degli slot del volantino
+11360 Segnali INC effettivi nel BAG
+11380 Test DM per modifica codice NCK o dati per Safety Integrated
+11382 Visualizz. INTEGER cella indirizzata
+11384 Visualizz. REAL della cella indirizzata
+11386 Impostazione INTEGER per cella indirizzata
+11388 Impostazione REAL per cella indirizzata
+11390 Sovrascritt. della cella indirizzata con MONITOR_INPUT_INT/REAL
+11398 Comportamento del server Axis-Var
+11400 Attivazione della funzione Trace interna
+11405 Attivazione delle funzioni Task Trace interne
+11410 Maschera di supporto per l'emissione di allarmi speciali
+11411 Attivazione di preallarmi
+11412 Reazione su allarme CHAN_NOREADY consentita
+11413 Parametri di allarme in emissione testo
+11414 Cancellazione allarmi NCSTART con CANCEL
+11415 Mascheramento dell'emissione allarmi
+11420 Dimensione del file di protocollo (kB)
+11430 Definizione del canale per digitalizzazione
+11432 Selezione della digitalizzazione a 3 assi o 3+2 assi
+11450 Ricerca parametrizzazione
+11460 Maschera Modo per pendolamento asincrono
+11470 Caratteristiche di riposizionamento
+11480 Dettaglio buffer del trace dati PLC in OB1
+11481 Dettaglio buffer trace dati PLC in OB35
+11482 Dettaglio buffer trace dati PLC in OB40
+11500 Azioni sincrone protette
+11510 Massimo carico IPO consentito
+11550 Definisce il comportamento in caso di stop
+11600 Definisce il comportamento del BAG
+11602 Ignorare le cause di stop per ASUP
+11604 Priorità dalle quali è attiva 'ASUP_START_MASK'
+11610 Attivazione di un programma ASUP specifico dell'utente
+11612 Livello di protezione di un programma ASUP specifico dell'utente
+11620 Nome del programma per PROG_EVENT
+11640 Sono consentiti buchi negli assi canale in AXCONF_MACHAX_USED
+11660 Numero di 'Cambi elettronici' possibili
+11700 Codice per scheda NC
+11717 Nome sottoprogramma per sostituzione della funzione D
+11750 Funzioni per accoppiamento valore master
+11752 Funzioni per movimento sincrono
+11754 Sostituz.istruzioni di accoppiam.attraverso cicli di lavorazione
+12000 Override avanzamento asse codificato in Gray
+12010 Valutazione dell'override di avanzamento per l'asse
+12020 Override avanzamento vettoriale codificato in Gray
+12030 Valutazione dell'override di avanzamento vettoriale
+12040 Override del rapido in codice Gray
+12050 Valutazione dell'override del rapido
+12060 Override mandrino in codice Gray
+12070 Valutazione dell'override mandrino
+12080 Velocita' di riferimento override
+12082 Definizione del riferimento dell'override del percorso
+12090 Scelta delle specifiche dell'override
+12100 Limitazione con override codificato in binario
+12200 Comportamento del movimento con override 0
+12202 Avanzamenti fissi per assi lineari
+12204 Avanzamenti fissi per assi rotanti
+12205 Avanzamenti fissi per mandrino
+12300 Lubrificazione centrale attiva
+12510 Numero NCU in un raggruppamento NCU
+12520 Numeri NCU per i quali sono attive le resist.di chius. del bus
+12540 Baudrate bus Link
+12550 numero massimo di ripetizioni per trasferimento telegramma
+12701 Assegnazione di un posto Container asse
+12702 Assegnazione di un posto Container asse
+12703 Assegnazione di un posto Container asse
+12704 Assegnazione di un posto Container asse
+12705 Assegnazione di un posto Container asse
+12706 Assegnazione di un posto Container asse
+12707 Assegnazione di un posto Container asse
+12708 Assegnazione di un posto Container asse
+12709 Assegnazione di un posto Container asse
+12710 Assegnazione di un posto Container asse
+12711 Assegnazione di un posto Container asse
+12712 Assegnazione di un posto Container asse
+12713 Assegnazione di un posto Container asse
+12714 Assegnazione di un posto Container asse
+12715  Assegnazione di un posto Container asse
+12716 Assegnazione di un posto Container asse
+12750 Identificatore container assi
+12970 Indir. logico iniziale degli indir. degli ingressi digitali PLC
+12971 Numero indirizzi degli ingressi digitali
+12974 Indirizzo logico iniziale degli indir. delle uscite digitali PLC
+12975 Numero indirizzi delle uscite digitali
+12978 Indir.logico iniziale degli indir. degli ingressi analogici PLC
+12979 Numero indirizzi degli ingres. analogici
+12982 Indiriz.logico iniziale degli indir. delle uscite analogiche PLC
+12983 Numero indirizzi delle uscite analogiche
+13000 Attivazione azionamento (611D)
+13010 Numero logico dell'azionamento
+13020 Cod. parte di potenza modulo di azionam.
+13030 Codice modulo
+13040 Identificativo del tipo di azionamento (1: VSA, 2: HSA, 3: LIN)
+13050 indirizzo logico azionamento
+13060 Tipo di telegramma standard per Profibus DP
+13070 Funzioni DP utilizzate
+13080 Modo operativo Profibus
+13100 Diagnosi accoppiamento azionamento
+13110 Trace Profibus degli slot di I/O
+13111 Impostazione del Trace Profibus
+13112 Dimensione massima del file di Trace in kByte
+13113 Attivazione del Trace Profibus
+13114 Condizione di trigger per il Trace Profibus
+13120 Indirizzo logico della SINAMICS-CU
+13150 Attivaz. emissione buffer anomalie e segnalazioni per Sinamics
+13200 Cambio di polarità del tastatore di misura
+13210 Tipo di misura per azionamenti decentralizzati
+13211 Sorgente dati per misure centrali con azionamenti Profibus
+13220 Tempo ritardo flessione tastatore fino al riconoscimento
+13300 Filtro per dati utili F - IN
+13301 Filtro per dati utili F - OUT
+13310 Ritardo visualizzazione allarme 27097
+14500 Numero di byte di ingresso (da PLC)
+14502 Numero di byte di uscita (a PLC)
+14504 Numero di dati utente (INT)
+14506 Numero di dati utente (HEX)
+14508 Numero di dati utente (FLOAT)
+14510 Dato utente (INT)
+14512 Dato utente (HEX)
+14514 Dato utente (FLOAT)
+14516 Dato utente (HEX)
+15700 Nome del sottoprogramma di sostituzione
+15702 Percorso di richiamo del sottoprogramma di sostituzione
+17200 info HMI globale (senza unità fisiche)
+17201 info stato HMI glob. (senza unità fisiche)
+17400 Informazione versione OEM
+17500 Nr.massimo di utensili sostitutivi
+17510 Comportamento dati utensile allo scarico
+17515 Comportamento dei dati utensile con RESETMON
+17520 Creazione nuovo utensile: preimpost. dati
+17530 Modifica dei dati utensile per identificazione HMI
+17540 tipi utensili consentiti
+17600 Dettaglio ottimizzaz.memoria Log con REORG
+17610 Livello di ottimizzazione di memoria del Log PowerFail
+17900 Impostazione segnali VDI
+18000 Aggiornamento dell'interfaccia PLC
+18030 Numero di serie dell'hardware
+18040 Versione ed eventualmente data della scheda PCMCIA
+18050 Dato di visualizzazione della memoria dinamica libera
+18060 Dato di visualizzazione della memoria statica libera
+18070 Dato di visualizzazione della memoria libera nella DUAL-PORT-RAM
+18072 Visualiz. memoria libera Memoria CC-MD
+18074 Dimensione max. buffer ad anello per diagnostica magazzino UT
+18075 Numero max. di portautensili per ogni TOA
+18076 Nr.max posti magazzino per ogni TOA con relazioni delle distanze
+18077 Nr. max. magazzini nella tabella distanze di un posto magazzino
+18078 Numero max. gerarchie definibili per tipi di posto magazzino
+18079 Nr. max. introduzioni consentite in gerarchia tipo posto magazz.
+18080 Riserva di memoria a stadi per la gestione utensili (SRAM)
+18082 Numero di utensili gestibili dall'NCK (SRAM)
+18084 Numero di magazzini gestibili dall'NCK (SRAM)
+18086 Numero di posti magazzino gestibili dall'NCK (SRAM)
+18088 Numero massimo di portautensili definibili.
+18090 Numero dei dati magazzino OEM (SRAM)
+18091 Tipo dei dati magazzino OEM (SRAM)
+18092 Numero dei dati del posto magazzino OEM (SRAM)
+18093 Tipo dei dati posto magazzino OEM (SRAM)
+18094 Numero dei dati utensili OEM (SRAM)
+18095 Tipo dei dati utensili OEM (SRAM)
+18096 Numero dei dati di ogni tagliente UT per cicli compilati (SRAM)
+18097 Tipo dei dati OEM ogni tagliente (SRAM)
+18098 Numero dei dati di sorveglianza di ogni UT per cicli compilati
+18099 Tipo dei dati di monitorizzaz.OEM (SRAM)
+18100 Correzioni utensili nel settore TO (SRAM)
+18102 Tipo di programmazione nr. D (SRAM)
+18104 Adattatore UT nel settore TO (SRAM)
+18105 Valore massimo del numero D (DRAM)
+18106 Numero massimo dei numeri D per utensile (DRAM)
+18108 Correzioni cumulat.nel settore TO (SRAM)
+18110 Numero max. di correzioni cumulative per tagliente
+18112 Proprietà delle correzioni cumulative nel settore TO (SRAM)
+18114 Assegnare orientam. inserti utensile
+18116 Numero di ambienti utensili nel settore TO (SRAM)
+18118 Numero dei file GUD nel Filesystem attivo (SRAM)
+18120 Numero dei nomi delle variabili utente globali (SRAM)
+18130 Nr. dei nomi delle variabili utente specifiche per canale (SRAM)
+18140 Nr. dei nomi delle variabili utente specifiche per assi (SRAM)
+18150 Spazio di memoria per valori delle variab. utente globali (SRAM)
+18160 Numero di macro (DRAM)
+18170 Numero di funzioni supplementari (cicli, DRAM)
+18180 Numero di parametri supplementari per cicli secondo DM 18170
+18190 Nr.di file per settori di protez.riferiti alla macchina (SRAM)
+18200 Numero dei dati magazzino OEM Siemens (SRAM)
+18201 Tipo dati magazzino OEM Siemens (SRAM)
+18202 Numero dei dati del posto magazzino OEM-Siemens (SRAM)
+18203 Tipo dei dati posto magazzino OEM-Siemens (SRAM)
+18204 Numero dei dati utensile OEM Siemens (SRAM)
+18205 Tipo dati utensili OEM Siemens (SRAM)
+18206 Numero dei dati OEM-Siemens per ogni tagliente (SRAM)
+18207 Tipo dei dati OEM-Siemens per ogni tagliente (SRAM)
+18208 Numero dei dati OEM Siemens di monitorizzazione (SRAM)
+18209 Tipo dati monitoriz.OEM Siemens (SRAM)
+18210 Memoria utente in DRAM [kB]
+18220 Memoria utente nella DUAL-PORT-RAM (DPR)
+18230 Memoria utente nella SRAM
+18231 Tecnologia per il tamponamento dei dati
+18232 Sistema: dimensione del file di Log in SRAM [kB]
+18233 Systema: salvataggio automatico dati persistenti
+18237 Dati di impostazione per cicli/visualizzazione in SRAM [kB]
+18238 Dati macchina dei cicli compilati in SRAM [kB]
+18240 Dimensione tabella Hash per LUD (DRAM)
+18242 Dimensione del blocco di memoria per valori LUD/GUD
+18250 Dimensione tabella Hash per dati specifici per canale (DRAM)
+18260 Dimensione tabella Hash per dati globali (DRAM)
+18270 Numero di sottodirectory (DRAM)
+18280 Numero di file per directory (DRAM)
+18290 Dimensione tabella Hash per i file di una directory (SRAM)
+18300 Dimensione tabella Hash per sottodirectory (SRAM)
+18310 Numero delle directory nel Filesystem passivo (SRAM)
+18320 Numero dei file nel Filesystem passivo (SRAM)
+18330 Lunghezza massima di un blocco NC (SRAM)
+18331 Riservato per FFS (DRAM)
+18332 Dimensione del FFS
+18342 Numero di punti di supporto per compensaz.della flessione (SRAM)
+18350 memoria minima per i partprogram (SRAM)
+18351 Dimensione della memoria dei partprogram (DRAM)
+18352 Memoria dell'utilizzatore finale per partprogram/cicli/file
+18353 Dimensione della memoria del costruttore macchina per cicli/file
+18354 Dimensione della memoria del costruttore NC per cicli/file
+18355 Dimensione di memoria per file temporanei
+18356 Dimensione della memoria per deposito temporaneo di file esterni
+18360 Dimensione buffer FIFO per l'elaborazione dell'esterno (DRAM)
+18362 Numero dei livelli di programma elaborabili contemp.dall'esterno
+18370 Numero massimo file protocollo
+18371 Numero liste dati standard ETPD.
+18372 Numero liste dati OEM ETPD
+18373 Numero dei dati servo per protocollo
+18374 Dimensione del buffer di un file di protocollo
+18375 User abilitati per sessione.
+18390 Procedimenti di compressione supportati.
+18400 Numero di tabelle di curve (SRAM)
+18402 Numero di segmenti di curve (SRAM)
+18403 Numero dei segmenti di curve lineari (SRAM)
+18404 Numero polinomi tabelle curve (SRAM)
+18406 Numero di tabelle delle curve (DRAM)
+18408 Numero di segmenti delle curve (DRAM)
+18409 Numero dei segmenti di curve lineari (DRAM)
+18410 Numero polinomi tabelle delle curve (DRAM)
+18450 Nr. max. di moduli CP
+18452 Nr. max. di valori master per CP
+18500 Dimensioni dello stack per il task di comunicazione ext. (DRAM)
+18502 Dimensioni dello stack di comunicazione in kB (DRAM)
+18510 Dimensioni dello stack per il task servo (DRAM)
+18512 Dimensione stack del task IPO (DRAM)
+18520 Dimensioni dello stack per il task azionamento (DRAM)
+18530 Dimensioni dello stack del task MMC
+18540 Dimensioni dello stack del task PLC (DRAM)
+18600 Traslazione fine con FRAME (SRAM)
+18601 Numero dei Frame utente globali predefiniti. (SRAM)
+18602 Numero dei Frame base globali. (SRAM)
+18660 Numero delle variabili GUD progettabili del tipo Real
+18661 Numero delle variabili GUD progettabili del tipo Integer
+18662 Numero delle variabili GUD progettabili del tipo Boolean
+18663 Numero delle variabili GUD progettabili del tipo Axis
+18664 variabili GUD progettabili del tipo Char
+18665 variabili GUD progettabili del tipo STRING
+18700 Dimensione della memoria delle variabili NCU-Link
+18710 Numero delle variabili di tempo globali per azioni sincrone
+18720 Riferimento dimensione buffer tra IPO e regolatore di posizione
+18780 Attivazione della comunicazione NCU-Link
+18781 Numero delle connessioni link interne
+18782 Numero di moduli NCU-Link
+18788 Maschera bit canale per la creazione di stazioni CC
+18790 Dimensione del buffer dei dati di Trace per NCU-Link
+18792 Specifica i contenuti dei file NCU-Link
+18794 Specifica trace dei segnali Vdi
+18800 Attivazione dei linguaggi NC esterni
+18860 Attivazione della registrazione dei dati di manutenzione
+18870 Nr. max. di catene cinematiche
+18880 numero max. di elementi della catena cinematica
+18890 Numero max. di elementi nei settori di protezione 3D
+18892 Nr. max. di elementi del settore di protezione
+18894 Nr. max. di gruppi del settore di protezione
+18896 Nr.max. locazioni di memoria temporanee per controllo collisione
+18897 Nr.max. bit di interfaccia per preattivazione settori di protez.
+18898 Tabella dei nomi per tipi dei settori di protezione
+18900 Reaz.del sist. per errore di calc. FPU
+18910 Inizializzazione di base FPU control
+18920 Maschera di Exception per errore di calcolo FPU
+18930 Percorso per generazione Corefile
+19000 Variante di sistema
+19010 Informazione di sistema
+19100 Dato opzionale
+19110 Dato opzionale
+19120 Dato opzionale
+19122 Dato opzionale
+19130 Dato opzionale
+19140 Dato opzionale
+19142 Dato opzionale
+19160 Dato opzionale
+19200 Dato opzionale
+19220 Dato opzionale
+19240 Dato opzionale
+19250 Dato opzionale
+19270 Dato opzionale
+19280 Dato opzionale
+19290 Dato opzionale
+19296 Dato opzionale
+19300 Dato opzionale
+19306 Dato opzionale
+19310 Dato opzionale
+19320 Dato opzionale
+19321 Dato opzionale
+19330 Dato opzionale
+19334 Dato opzionale
+19340 Dato opzionale
+19400 Dato opzionale
+19410 Dato opzionale
+19500 Dato opzionale
+19600 Dato opzionale
+19610 Dato opzionale
+19700 Dato opzionale
+19730 Dato opzionale
+19800 Dato opzionale
+19830 Dato opzionale
+19990 Parola chiave costruttore
+41010 Entità dell'incremento variabile in JOG
+41050 Funzionamento ad impulsi/continuo in JOG
+41100 JOG: avanzamento al giro / lineare
+41110 Velocità dell'asse in JOG
+41120 Avanzamento al giro degli assi in JOG
+41130 Velocità degli assi rotanti in JOG
+41200 Giri del mandrino in JOG
+41300 Abilitazione della tabella di compensazione
+41310 Fattore di ponderazione della tabella di compensazione
+41500 Punti di commutazione con fronte di discesa camma  1-8
+41501 Punti di commutazione con fronte di salita camma  1-8
+41502 Punti di commutazione con fronte di discesa camma  9-16
+41503 Punti di commutazione con fronte di salita camma  9-16
+41504 Punti di commutazione con fronte di discesa camma  17-24
+41505 Punti di commutazione con fronte di salita camma  17-24
+41506 Punti di commutazione con fronte di discesa camma  25-32
+41507 Punti di commutazione con fronte di salita camma  25-32
+41520 Tempo di anticipo per punti di commutazione '-' camme 1-8
+41521 Tempo di anticipo per punti di commutazione '+' camme 1-8
+41522 Tempo di anticipo per punti di commutazione '-' camme 9-16
+41523 Tempo di anticipo per punti di commutazione '+' camme 9-16
+41524 Tempo di anticipo per punti di commutazione '-' camme 17-24
+41525 Tempo di anticipo per punti di commutazione '+' camme 17-24
+41526 Tempo di anticipo per punti di commutazione '-' camme 25-32
+41527 Tempo di anticipo per punti di commutazione '+' camme 25-32
+41600 Valore di soglia del 1. comparatore
+41601 Valore di soglia del 2. comparatore
+41700 Richiesta rotazione container assi
+50010 Attivazione del test software
+50085 Tempo di sorveglianza inibizione interrupt
+50165 riservato
+50201 Simulazione impulsi di misura tramite uscita digitale
+50345 Trace parametri R
+50649 Debug the Gaps in $MC_AXCONF_MACHAX_USED
+50650 Fattore di ritardo per Reboot
+50900 Ritardo per l'allarme 8081

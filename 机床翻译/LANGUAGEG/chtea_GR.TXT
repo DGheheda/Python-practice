@@ -1,0 +1,527 @@
+ 526 Channel machine data
+20000 Kanalname
+20050 Zuordnung Geometrieachse zu Kanalachse
+20060 Geometrieachsname im Kanal
+20070 Maschinenachsnummer gültig im Kanal
+20080 Kanalachsname im Kanal
+20082 Default Achsname für Achsvariablen im Kanal
+20090 Löschstellung der Masterspindel im Kanal
+20092 Freigabe/Sperren des Spindelumsetzers.
+20094 M-Funktion für das Umschalten in den gesteuerten Achsbetrieb.
+20095 M-Funkt. für Umschalten in gesteuerten Achsbetrieb.(Ext. mode)
+20096 Bedeutung der Adresserweiterung bei T, M Werkzeugwechsel
+20098 Achse auf HMI anzeigen
+20100 Geometrieachse mit Planachsfunktion
+20106 Prog-Events ignorieren den Einzelsatz
+20107 Prog-Events ignorieren die Einlesesperre
+20108 ereignisgesteuerter Programmaufrufe
+20109 Eigenschaften der Prog-Events
+20110 Festlegung der Steuerungs-Grundstellung nach Reset/TP-Ende
+20112 Festlegung der Steuerungs-Grundstellung bei NC-START
+20114 Unterbrechung MDA durch Betriebsartwechsel
+20116 Interruptprogramm trotz Einlesesperre abarbeiten
+20117 Interruptprogramm trotz Einzelsatz komplett abarbeiten
+20118 Automatischen Geometrieachswechsel erlauben
+20120 Werkzeug Längenkorrektur im Hochlauf (Reset/TP-Ende)
+20121 Vorgewähltes Werkzeug bei RESET
+20122 Aktives Werkzeug bei RESET/START mit Werkzeugverwaltung
+20123 Vorgewählter Wert von $P_USEKT bei RESET
+20124 Werkzeughalter-Nummer
+20125 Fehlerbehandlung für die Funktion CUTMOD
+20126 Wirksamer Werkzeugträger bei RESET
+20127 CUTMOD bei POWERON initialisieren
+20128 Werkzeugwechselbefehle an PLC nach Satzsuchlauf
+20130 Werkzeugschneide Längenkorrektur im Hochlauf (Reset/TP-Ende)
+20132 Wirksame Summenkorrektur bei RESET
+20140 Transformationsdatensatz im Hochlauf (Reset/TP-Ende)
+20144 Funktionsanwahl der kinematischen Transformation
+20150 Löschstellung der G-Gruppen
+20152 Resetverhalten der G-Gruppen
+20154 Löschstellung der G-Gruppen im ISO-Mode
+20156 Resetverhalten der externen G-Gruppen
+20160 Anzahl der Sätze beim C-Spline
+20170 Maximale Verfahrlänge eines NC-Satzes bei Kompression
+20172 maximal erlaubte Abweichung des Bahnvorschubs bei Kompression
+20178 Maximale Verfahrlänge bei Glättung der Orientierung
+20180 Rundachsinkrement des orientierbaren Werkzeugträgers
+20182 Rundachsoffset des orientierbaren Werkzeugträgers
+20184 Nummer des Basiframes für Aufnahme des Tischoffsets.
+20188 Limit lineare Feinverschiebung TCARR
+20190 Limit der rotatorischen Feinverschiebung TCARR
+20200 Leersätze bei Fase/Radien
+20201 Verhalten Fase/Rundung
+20202 maximale Satzanzahl ohne Verfahrbewegung bei WAB
+20204 Richtungsumkehr bei WAB
+20210 Maximalwinkel für Ausgleichssätze bei Werkzeugradiuskorrektur
+20220 Maximaler Wert für DISC
+20230 Maximalwinkel für Schnittpunktberechnung bei WRK
+20240 Sätze für vorausschauende Konturberechnung bei WRK
+20250 maximale Satzanzahl ohne Verfahrbewegung bei WRK
+20252 Maximale Satzzahl mit Korrekturunterdrückung
+20254 Echtzeit-Werkzeugradiuskorrektur erlaubt
+20256 Schnittpunktverfahren für Polynome möglich
+20260 Geschwindigkeitsführung bei Spline
+20262 zulässiger relativer Fehler der Bahngeschwindigkeit bei Spline
+20270 Grundstellung der Werkzeugschneide ohne Programmierung
+20272 Grundstellung Summenkorrektur ohne Programm
+20310 Aktivierung der Werkzeugverwaltungsfunktionen
+20320 Zeitüberwachung für WZ im Werkzeughalter
+20350 Aktivierung der Werkzeugüberwachung. 0/1: Überwachung aus/ein.
+20360 Definition der Werkzeug-Parameter
+20370 Werkzeugtypnummer für Konturwerkzeuge
+20372 Checksumprüfung für Konturwerkzeuge
+20380 Behandlung der Werkzeuglängenkorrektur bei G43 / G44
+20382 Herausfahren der Werkzeuglängenkorrektur
+20384 Werkzeuglängenkorrektur in mehreren Achsen gleichzeitig
+20390 Aktivierung der Temperaturkompensation für Werkzeuglänge
+20392 Maximale Temperaturkompensation für Werkzeuglänge
+20396 Handradüberlagerung in Werkzeugrichtung
+20400 Lookahead Folgesatzgeschwindigkeit
+20430 Anzahl Override-Eckwerte bei Lookahead
+20440 Korrekturschalter-Eckwerte bei Lookahead
+20450 Entlastungsfaktor für die Blockzykluszeit
+20455 Sonderfunktionen des Look Ahead
+20460 Glättungsfaktor bei Look Ahead
+20462 Bahnglättung mit programmiertem Vorschub
+20464 Bahnverhalten
+20465 Adaption der Bahndynamik
+20470 Programmierbare Konturgenauigkeit
+20480 Verhalten des Überschleifens mit G64x
+20482 Mode des Kompressors
+20484 Kompressorleistung
+20488 Einstellung für Splineinterpolation
+20490 G641/G642 unabhängig vom Overload-Faktor
+20500 Minimale Zeit mit konstanter Geschwindigkeit
+20550 Genauhalt Bedingungen bei G00 und G01.
+20552 Genauhalt Bedingung bei G00-G01-Übergang
+20600 Bahnbezogener Maximalruck
+20602 Einfluss der Bahnkrümmung auf Bahndynamik
+20603 Einfluss der Bahnkrümmung auf Bahnruck
+20610 Beschleunigungsreserve für überlagerte Bewegungen
+20620 Begrenzung Handrad Inkrement für Geometrieachsen
+20621 Begrenzung Handrad Inkrement für Orientierungs-Achsen
+20622 Bahngeschwindigkeitsüberlagerung
+20623 Orientierungsgeschwindigkeitsüberlagerung
+20624 Festlegung des Verhaltens des Handradfahrens kanalspezifisch
+20650 Beschleunigungsverhalten der Achse beim Gewindeschneiden
+20660 Bestimmung des Rückzugswinkels (Gewindeschneiden)
+20700 NC-Startsperre ohne Referenzpunkt
+20730 Interpolationsverhalten bei G0
+20732 Interpolationsverhalten bei G00
+20734 Funktionsmaske für externe Sprache
+20750 G0-Logik bei G96, G961
+20800 Unterprogrammende an PLC
+20850 Ausgabe von M19 an die PLC bei SPOS/SPOSA
+20900 Kurventabellen mit Sprung der Folgeachse
+20905 Default Speichertyp für Kurventabellen
+21000 Kreisendpunktüberwachung Konstante
+21010 Kreisendpunktüberwachung Faktor
+21015 Endpunktüberwachung bei Evolvente
+21016 automatische Winkelbegrenzung bei Evolventen-Interpolation
+21020 Berücksichtigung des Werkzeugradius bei Arbeitsfeldbegrenzung
+21050 Ansprechschwelle für Kontur-Tunnel-Überwachung
+21060 Reaktion bei Ansprechen der Kontur-Tunnel-Überwachung
+21070 Zuordnung eines Analogausgangs für die Ausgabe des Konturfehlers
+21080 minimaler Winkel (Bahntangente / WZ-Orientierung) bei 3D-WRK
+21082 minimaler Winkel zw. Flächennormnormalenv. und WZ-Orientierung
+21084 minimaler Winkel zw. Flächennormalenvek. und Bahntang.-vektor
+21090 Maximalbetrag des zul. Voreilwinkels bei Orientierungsprogr.
+21092 Maximalbetrag des zul. Seitwärtswinkels bei Orientierungsprogr.
+21094 Einstellung für bahnrelative Orientierung ORIPATH
+21100 Winkeldefinition bei Orientierungsprogrammierung
+21102 Definition der Orientierungsachsen über G-Code
+21103 Def. der Orientierungswinkel über G-Code
+21104 G-Code für Orientierungsinterpolation
+21106 Koordinatensysteme beim kartesischen JOG
+21108 Verhalten bei Vektorinterpolation in Polposition
+21110 Koordinatensystem bei automatischer Framedefinition
+21120 Bezugsachsendefinition für Orientierungsachsen
+21130 Bezugsachsendefinition für Orientierungsachsen
+21150 Konventioneller Eilgang für Orientierungsachsen
+21155 Konventionelle Geschwindigkeit für Orientierungsachsen
+21160 Konventioneller Eilgang für Geometrieachsen
+21165 Konventionelle Geschwindigkeit für Geometrieachsen
+21170 Beschleunigung für Orientierungsachsen
+21180 Check Softwarelimits für Orientierungsachsen
+21186 Offset der TOCARR-Rundachsen aus NPV
+21190 Wirkungsweise der Korrektur in Werkzeugrichtung
+21194 Geschwindigkeit für die Online-Korrektur in Werkzeugrichtung
+21196 Beschleunigung für die Online-Korrektur in Werkzeugrichtung
+21200 Verfahrstrecke bei Schnellabheben von der Kontur
+21202 Schnellabheben mit Spiegeln
+21204 Stopverhalten beim Schnellabheben
+21210 HW-Zuordnung des ext. NCK-Eingangsbytes für NC-Progr.-Interrupts
+21220 Zuordnung der NCK-Peripherie für 'mehrere Vorschübe im Satz'
+21230 Speicherverhalten für 'mehrere Vorschübe im Satz'
+21240 geschützte Synchronaktionen
+21300 Synchronsp.paar-Festlg., Masch.achsnr: Folgesp.l[0], Leitsp.[1]
+21310 Kopplungsart im Synchronspindelbetrieb
+21320 Satzwechselverhalten im Synchronspindelbetrieb
+21330 Kopplungs-Abbruch-Verhalten:
+21340 Änderung der Kopplungsparameter nicht möglich
+21380 Verzögerungszeit ESR-Achsen
+21381 ESR-Zeit für interpolatorisches Bremsen
+21400 Versionsnummer des Digitalisierungspakets (SCAN-Link-Protokoll)
+21420 Achsanordnung des Fühlers beim Digitalisieren
+21422 Vorspannung in Z-Richtung für den Fühlerabgleich
+21424 Auflösung des Fühlers beim Digitalisieren
+21430 Mindestauslenkung für das Digitalisieren
+21432 Typischer Auslenkwert für das Digitalisieren
+21434 Auslenkung des Fühlers, bei dem Notaus ausgelöst wurde
+21436 Auslenkg. des Fühlers für Notaus Auslösung
+21440 In-Positionfenster beim Digitalisieren
+21450 Typische Eilganggeschwindigkeit beim Digitalisieren
+21460 Maximale Bahnbeschleunigung beim Digitalisieren
+21462 Max.  Bahnbeschl. b.  Positionieren im Digitalisiermodus
+21464 Maximale Bahnbeschleunigung bei Digitalisierfunktion
+21470 Proportionalfaktor für den Handbetrieb
+21472 Proportionalfaktor für Fühlernachregelung
+21474 Zeitkonstante für Fühlernachregelung
+21476 Vektor von der Werkzeug-Aufnahme zur Taststift-Aufnahme
+21500 Vert. Positionsoffset der Schleifachse bei Centerless-Schleifen
+21501 Horiz.  Positionsoffset der Schleifachse bei Centerless-Schleif.
+21502 vertikaler Positionsoffset Regelachse bei Centerless-Schleifen
+21504 Vertikaler Offset des Lineals bei Centerless-Schleifen
+21506 Horizontaler Offset des Lineals bei Centerless-Schleifen
+21508 Vertikal-Komponente des Lineal-Richtungsvektors für Q1
+21510 Horizontal-Komponente des Lineal-Richtungsvektors für Q1
+21512 Vertikal-Komponente des Lineal-Richtungsvektors für Q2
+21514 Horizontal-Komponente des Lineal-Richtungsvektors für Q2
+21516 Steigungswinkel des Lineals bei Centerless-Schleifen
+21518 Obere Berührgr. des Lineals mit Schleifteil bei Centerl.-Schl.
+21520 Untere Berührgr. des Lineals mit Schleifteil bei Centerl.-Schl.
+21522 Definition der Schleifspindel für Centerless-Schleifen
+21524 Definition der Regelspindel für Centerless-Schleifen
+21526 Sonderlogik für G0 bei Centerless-Schleifen
+22000 Hilfsfunktionsgruppe
+22010 Hilfsfunktionsart
+22020 Hilfsfunktionserweiterung
+22030 Hilfsfunktionswert
+22035 Ausgabe-Spezifikation
+22040 Vordefinierte Hilfsfunktionsgruppen.
+22050 Vordefinierte Hilfsfunktionsart
+22060 Vordefinierte Hilfsfunktionserweiterung
+22070 Vordefinierter Hilfsfunktionswert
+22080 Ausgabe-Spezifikation
+22100 Satzwechselverzögerung bei schnellen Hilfsfunktionen.
+22110 Datenformat der H-Hilfsfunktionen (Integer/Real)
+22200 Ausgabezeitpunkt der M-Funktionen
+22210 Ausgabezeitpunkt der S-Funktionen (Werte siehe MD 22200)
+22220 Ausgabezeitpunkt der T-Funktionen (Werte siehe MD 22200)
+22230 Ausgabezeitpunkt der H-Funktionen (Werte siehe MD 22200)
+22240 Ausgabezeitpunkt der F-Funktionen (Werte siehe MD 22200)
+22250 Ausgabezeitpunkt der D-Funktionen (Werte siehe MD 22200)
+22252 Ausgabezeitpunkt DL-Funktionen
+22254 Zusätzliche M-Funktion für Programm-Halt.
+22256 Zusätzliche M-Funktion für bedingten Halt.
+22260 Ausgabezeitpunkt der E-Funktionen.
+22300 Hilfsfunktionsausgabe nach Satzsuchlauf
+22400 S-Funktion über RESET hinaus wirksam
+22410 F-Funktion über RESET hinaus wirksam
+22420 Defaulteinstellung für FGROUP-Befehl
+22500 G-Funktionen an PLC
+22510 G-Codes, die bei Satzw./RESET an NCK-PLC-Nahtst. ausgeg. werden
+22512 Sende G-Befehle einer externen NC-Sprache an PLC
+22515 Verhalten der G-Gruppenübergabe an PLC
+22530 M-Code bei Werkzeugträgerwechsel
+22532 M-Code bei Umschaltung der Geometrieachsen
+22534 M-Code bei Transformationswechsel
+22550 Neue Werkzeugkorrektur bei M-Funktion
+22560 M-Funktion für Werkzeugwechsel
+22562 Verhalten bei Fehlern im Werkzeugwechsel.
+22600 Geschwindigkeit bei Suchlauf-Typ 5
+22601 Geschwindigkeitsfaktor Suchlauftyp 5
+22620 Grundstellung bei speziellen Starts
+22621 schaltet $MC_START_MODE_MASK_PRT frei
+22622 Teileprogrammstart via PLC erlauben.
+22680 Unterbrechungszeiger sperren
+22700 Diagnosedatenaufzeichnungs-Start mit TRACE_STARTTRACE_EVENT.
+22702 Bedingungen für den Start der Traceaufzeichnung
+22704 Bedingungen für den Stop der Traceaufzeichnung
+22706 CommandSequenzStep, mit dem die Aufzeichnung endet.
+22708 Wählt Trace-Inhalte aus.
+22710 Festlegung der Trace-Daten
+22712 Index für Trace-Aufzeichnungsdaten
+22714 Aktivierung der Diagnose
+22800 Aktivierung der Traceausgabe für Kompressor
+22900 Richtung (innen/aussen) in die der Schutzbereich 3 wirkt
+22910 Eingabefeinheit für Skalierungsfaktor
+22914 Aktivierung für axialen Skalierungsfaktor ( G51 )
+22920 Aktivierung fester Vorschübe F1 - F9
+22930 Zuordnung einer parallelen Kanalachse zur Geometrieachse
+24000 Framekomponenten für G58 und G59
+24002 Aktive kanalspezifische Basisframes nach Reset
+24004 Kanalspezifische Basisframes nach Power On zurücksetzen
+24006 Aktive Systemframes nach Reset
+24007 Löschen von Systemframes bei Reset
+24008 Systemframes nach Power On zurücksetzen
+24010 Resetmode für programmierbaren Frame
+24020 Positionen bei Frameunterdrückung
+24030 Einstellung des ENS-Koordinatensystems
+24040 Anpassungen von aktiven Frames
+24050 Speichern und aktivieren von Datenhaltungsframes
+24100 Definition der Transformation 1 im Kanal
+24110 Achszuordnung für die 1. Transformation im Kanal
+24120 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 1
+24130 Werkzeugbehandlung bei aktiver 1. Transformation
+24200 Definition der 2. Transformation im Kanal
+24210 Achszuordnung für Transformation 2
+24220 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 2
+24230 Werkzeugbehandlung bei aktiver 2. Transformation
+24300 Definition der 3. Transformation im Kanal
+24310 Achszuordnung für Transformation 3
+24320 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 3
+24330 Werkzeugbehandlung bei aktiver 3. Transformation
+24400 Definition der 4. Transformation im Kanal
+24410 Achszuordnung für die 4. Transformation im Kanal
+24420 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 4
+24426 Werkzeugbehandlung bei aktiver 4. Transformation
+24430 Typ der Transformation 5 im Kanal
+24432 Achszuordnung für Transformation 5
+24434 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 5
+24436 Werkzeugbehandlung bei aktiver 5. Transformation
+24440 Typ der Transformation 6 im Kanal
+24442 Achszuordnung für Transformation 6
+24444 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 6
+24446 Werkzeugbehandlung bei aktiver 6. Transformation
+24450 Typ der Transformation 7 im Kanal
+24452 Achszuordnung für Transformation 7
+24454 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 7
+24456 Werkzeugbehandlung bei aktiver 7. Transformation
+24460 Typ der Transformation 8 im Kanal
+24462 Achszuordnung für Transformation 8
+24464 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 8
+24466 Werkzeugbehandlung bei aktiver 8. Transformation
+24470 Typ der Transformation 9 im Kanal
+24472 Achszuordnung für Transformation 9
+24474 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 9
+24476 Werkzeugbehandlung bei aktiver 9. Transformation
+24480 Transformation 10 im Kanal
+24482 Achszuordnung für Transformation 10
+24484 Zuordnung Geometrieachsen zu Kanalachsen für Transformation 10
+24486 Werkzeugbehandlung bei aktiver 10. Transformation
+24500 Verschiebungsvektor der 5-Achstransformation 1
+24510 Positionsoffset der Rundachsen 1/2/3 für die 5-Achstrafo 1
+24520 Vorzeichen der Rundachse 1/2/3 für die 5-Achstransformation 1
+24530 Definition des Polbereichs für 5-Achstransformation 1
+24540 Endwinkeltoleranz bei Interpolation durch Pol für 5-Achstrafo
+24542 Endwinkeltoleranz bei Pol-Interpolation
+24550 Vektor des Basiswerkzeugs bei Aktivierung der 5-Achstrafo 1
+24558 Vektor kinematischer Versatz im Tisch
+24560 Vektor des kinematischen Versatzes der 1. 5-Achstrafo im Kanal
+24561 Vektor kinematischer Versatz
+24562 Offset des Schwenkpunktes der Rundachse bei 5-Achs-Trafo 1
+24564 Winkel  nutating-head bei 5 Achs-Transformation
+24566 Virtuelle Orientierungsachsen
+24570 Richtung der 1. Rundachse
+24572 Richtung der 2. Rundachse
+24573 Richtung der 3. Rundachse
+24574 Vektor der Werkzeuggrundorientierung bei 5-Achs-Transformation
+24576 Werkzeugnormalenvektor bei 6-Achs-Transformation
+24580 Orientierungsvektorrichtung für die erste 5-Achs-Trafo
+24582 TCARR-Nummer für die 1. 5-Achs-Transformation
+24585 Orientierungsachs-/Kanalachszuordnung Transformation 1
+24590 Offset der Transformations-Rundachsen aus NPV
+24600 Verschiebungsvektor der 2. 5-Achstransformation im Kanal
+24610 Positionsoffset der Rundachsen 1/2/3
+24620 Vorzeichen der Rundachse 1/2/3 für die 5-Achstransformation 2
+24630 Definition des Polbereichs für 5-Achstransformation 2
+24640 Endwinkeltoleranz bei Interpolation durch Pol für 5-Achstrafo
+24642 Endwinkeltoleranz bei Pol-Interpolation
+24650 Vektor des Basis-WZ bei Aktivierung der 5-Achstransformation 2
+24658 Vektor kinematischer Versatz im Tisch
+24660 Vektor des kinematischen Versatzes der 2. 5-Achstransformation
+24661 Vektor kinematischer Versatz
+24662 Offset des Schwenkpkt. der 2. 5-Achs-Trafo mit geschw. Lin.achse
+24664 Winkel nutating-head
+24666 Virtuelle Orientierungsachsen
+24670 Richtung der 1. Rundachse
+24672 Richtung der 2. Rundachse
+24673 Richtung der 3. Rundachse
+24674 Werkzeuggrundorientierung
+24676 Werkzeugnormalenvektor
+24680 Orientierungsvektorrichtung
+24682 TCARR-Nummer für die 2. 5-Achs-Transformation
+24685 Orientierungsachs-/Kanalachszuordnung Transformation 1
+24690 Offset der Transformations-Rundachsen aus NPV
+24700 Winkel zwischen kartesischer Achse und realer (schräger) Achse
+24710 Vektor des Basiswerkzeugs für die 1.TRAANG-Transformation
+24720 Geschwindigkeitsreserve für 1. TRAANG-Transformation
+24721 Beschleunigungsreserve der Parallelachse für 1. TRAANG-Trafo
+24750 Winkel zwischen kartesischer Achse und realer (schräger) Achse
+24760 Vektor des Basiswerkzeugs für die 2.TRAANG-Transformation
+24770 Geschwindigkeitsreserve für die 2. TRAANG-Transformation
+24771 Beschleunigungsreserve der Parallelachse für 2. TRAANG-Trafo
+24800 Offset der Rundachse für die 1. TRACYL-Transformation
+24805 Rundachs-Verschiebung TRACYL 1
+24808 Auswahl des TRACYL-Modes
+24810 Vorzeichen der Rundachse für die 1. TRACYL-Transformation
+24820 Vektor des Basiswerkzeugs für die 1.TRACYL-Transformation
+24850 Offset der Rundachse für die 2. TRACYL-Transformation
+24855 Rundachs-Verschiebung TRACYL 2
+24858 Auswahl des TRACYL-Modes
+24860 Vorzeichen der Rundachse für die 2. TRACYL-Transformation
+24870 Vektor des Basiswerkzeugs für die 2.TRACYL-Transformation
+24900 Offset der Rundachse für die 1. TRANSMIT-Transformation
+24905 Rundachs-Verschiebung TRANSMIT 1
+24910 Vorzeichen der Rundachse für die 1. TRANSMIT-Transformation
+24911 Einschränkung d. Arbeitsbereichs vor/hinter dem Pol, 1. TRANSMIT
+24920 Vektor des Basiswerkzeugs für die 1.TRANSMIT-Transformation
+24950 Offset der Rundachse für die 2. TRANSMIT-Transformation
+24955 Rundachs-Verschiebung TRANSMIT 2
+24960 Vorzeichen der Rundachse für die 2. TRANSMIT-Transformation
+24961 Einschränkung d. Arbeitsbereichs vor/hinter dem Pol, 2. TRANSMIT
+24970 Vektor des Basiswerkzeugs für die 2.TRANSMIT-Transformation
+24995 Transformationsverkettung
+24996 Transformationsverkettung
+24997 Transformationsverkettung
+24998 Transformationsverkettung
+26000 Hardware-Zuordnung für Eingangsbyte bei Hubsteuerung
+26002 Hardware-Zuordnung für Ausgangsbyte bei Hubsteuerung
+26004 Maske für schnelle Ausgangsbits
+26006 Maske für schnelle Eingangsbits
+26008 Festlegung der M-Funktionen
+26010 Festlegung der Stanz- und Nibbelachsen
+26012 Aktivierung der Stanz- und Nibbelfunktionen
+26014 Aktivierung der automatischen Wegaufteilung
+26016 Verhalten der Einzelachsen bei automatischer Wegaufteilung
+26018 Verzögerungszeit bei Nibbeln/Stanzen mit G603
+26020 Alarm bei Wackeln des Stanzsignales
+27100 Satzanzeige mit Absolutwerten parametrieren
+27200 HMI Info (ohne physikalische Einheit)
+27201 HMI Statusinfo (ohne physikalische Einheit)
+27202 HMI Info (linear Positionen)
+27203 HMI Statusinfo (linear Positionen)
+27204 HMI Info (linear Geschwindigkeiten)
+27205 HMI Statusinfo (linear Geschwindigkeiten)
+27206 HMI Info (Schnittgeschwindigkeiten)
+27207 HMI Statusinfo (Schnittgeschindigkeiten)
+27208 HMI Info (Vorschübe)
+27209 HMI Statusinfo (Vorschübe)
+27400 OEM Versionsinformation
+27800 Technologie im Kanal
+27860 Aktivierung der Programm-Laufzeit-Messung
+27880 Aktivierung der Werkstück-Zähler
+27882 Werkstückzählung mit anwenderdefiniertem M-Befehl
+27900 Prozentsatz des IPO-Puffers für Freigabe des Logfiles
+28000 Speichergröße für REORG (DRAM)
+28010 Anzahl der Bausteine für lokale Anwendervariablen bei REORG
+28020 Anzahl der lokalen Anwendervariablen (DRAM)
+28030 Anzahl der lokalen Anwendervariablen pro Programm (DRAM)
+28040 Speichergröße für lokale Anwendervariablen (DRAM)
+28050 Anzahl der kanalspezifischen R-Parameter (SRAM)
+28060 Anzahl der NC-Sätze im IPO-Puffer (DRAM)
+28070 Anzahl der Sätze für die Satzaufbereitung. (DRAM)
+28080 Anzahl der einstellbaren Frames (SRAM)
+28081 Anzahl Basisframes (SRAM)
+28082 Systemframes (SRAM)
+28083 Systemframes (SRAM)
+28085 Zuordnung einer TO-Einheit zu einem Kanal (SRAM)
+28090 Anzahl Satzelemente für Compile-Zyklen (DRAM)
+28100 Größe des Satzspeichers für Compile-Zyklen (DRAM), in kB
+28105 Heap-Speicher in kByte für Compile-Zyklen Applikationen (DRAM)
+28150 Anzahl Elemente für das Schreiben von PLC-Variablen
+28160 Anzahl Elemente zum Schreiben der NCU-Link-Variablen
+28180 Größe des Tracedatenpuffers
+28200 Anzahl der Dateien für kanalspezifische Schutzbereiche (SRAM)
+28210 Anzahl der gleichzeitig aktiven Schutzbereiche in einem Kanal
+28212 Elements für aktive Schutzbereiche (DRAM)
+28250 Anzahl Elemente für Ausdrücke in Synchronaktionen
+28251 Anzahl Elemente für Ausdrücke in Safety-Synchronaktionen
+28252 Anzahl der FCTDEF-Elemente
+28254 Dimension von $AC_PARAM.
+28255 $AC_PARAM[] wird im SRAM gespeichert.
+28256 Dimension von $AC_MARKER
+28257 $AC_MARKER[] wird im SRAM gespeichert.
+28258 Anzahl Zeitvariablen $AC_TIMER (DRAM)
+28260 Anzahl der FIFO-Variable für Synchronaktionen
+28262 FIFO-Variablen speichern ab R-Parameter
+28264 Länge der FIFO-Variablen $AC_FIFO1-$AC_FIFO10
+28266 Modus der FIFO-Bearbeitung
+28274 Anzahl $AC_SYSTEM_ PARAM für Bewegungssynchronaktionen
+28276 Anzahl $AC_SYSTEM_MARKER für Bewegungssynchronaktionen
+28290 Werkzeugradiuskorrektur für Konturwerkzeuge freigeben
+28300 Aktivierung der Protokollierung für einen User
+28301 Anzahl von OEM-Event-Typen ETP.
+28302 Anzahl von Standard-Event-Typen ETP.
+28400 Satzanzeige mit Absolutwerten aktivieren
+28402 Größe des Upload-Buffers dimensionieren
+28450 Puffer für Werkzeugdaten-Änderung (DRAM)
+28500 Stackgröße der Präparationtask (DRAM)
+28520 maximale Anzahl der Achspolynome pro Satz
+28530 Anzahl Speicherelemente zur Begrenzung der Bahngeschwindigkeit
+28535 Anzahl der Speicherelemente für Vorschubprofile
+28540 Anzahl Speicherelementen zur Darstellung der Bogenlängenfunktion
+28550 Verfuegbarer Speicher fuer interne Saetze
+28560 Restore von Daten nach einer Simulation
+28580 Einstellung für bahnrelative Orientierung ORIPATH
+28590 Einstellung für Orientierungsglättung
+28600 Anzahl koordinatensystem-spezifische Arbeitsfeldbegrenzungen
+29000 Optionsdatum
+42000 Startwinkel bei Gewinde
+42010 Beschleunigungsverhalten der Achse beim Gewindeschneiden
+42100 Probelaufvorschub
+42101 Mode für Testlauf Geschwindigkeit
+42110 Defaultwert für Bahnvorschub
+42120 Bahnvorschub in Anfahrsätzen
+42122 Zusätzlicher Eilgang-Override über Bedienung vorgebbar
+42125 synchronisation in Anfahrsätzen
+42140 Default Skalierungsfaktor für Adresse P
+42150 Default Rotationsfaktor für Adresse R
+42160 Feste Vorschübe F1 - F9
+42162 Werkzeugabstand des Doppelrevolverkopfes
+42200 Debugmode für SBL2 aktivieren
+42300 Übersetzung für Synchronspindelbetrieb, Zähler, Nenner
+42400 Verweilzeit für Stanzen und Nibbeln
+42402 Verzögerungszeit (Stanzen/Nibbeln) mit G603
+42404 Mindestzeit zwischen 2 Hüben in Sekunden
+42440 Nullpunktsverschiebungen in Frames
+42442 Werkzeuglängenkorrekturen
+42444 Aufsetzmodus nach Suchlauf mit Berechnung
+42450 Konturgenauigkeit
+42460 Mindestbahnvorschub bei CPRECON
+42465 maximale Konturabweichung beim Überschleifen
+42466 maximale Abweichung der WZ-orientierung beim Überschleifen
+42470 Ecken-Grenzwinkel für Kompressor
+42471 Minimaler Krümmungsradius
+42475 maximale Konturabweichung beim Kompressor
+42476 maximale Abweichung der Werkzeugorientierung beim Kompressor
+42477 maximale Abweichung der Werkzeugdrehung beim Kompressor
+42480 Alarmreaktion bei Werkzeugradiuskorrektur und Vorlaufstop
+42490 Abfahrverhalten der Werkzeugradiuskorrektur bei Vorlaufstop
+42494 An-/Abfahrverhalten bei 2-1/2D-Werkzeugradiuskorrektur
+42496 Verhalten der Werkzeugradiuskorrektur bei geschlossener Kontur
+42500 maximale Bahnbeschleunigung
+42502 Auswerten SD SC_SD_MAX_PATH_ACCEL
+42510 maximaler bahnbezogener Ruck als Settingdatum
+42512 Auswerten SD SD_MAX_PATH_JERK
+42520 Beginn der Vorschubreduzierung bei G62.
+42522 Ende der Vorschubreduzierung bei G62.
+42524 Override zur Vorschubreduzierung bei G62.
+42526 Eckenerkennung bei G62.
+42528 Vorschubabsenkung an Kreisen bei Werkzeugradiuskorrektur
+42600 Steuerung Umdrehungsvorschub in JOG
+42650 Koordinatensystem für kartesisches Handverfahren
+42660 Definition virtueller Kinematik für JOG
+42670 Wegstrecke zur Glättung der Orientierung
+42672 Toleranz zur Glättung der Orientierung
+42674 Wegstrecke zur Glättung der Orientierung beim Überschleifen
+42676 Toleranz zur Glättung der Orientierung beim Überschleifen
+42678 Toleranz zur Glättung der Orientierung
+42700 Programmpfad für externen Unterprogrammaufruf EXTCALL
+42750 Basissatzanzeige freigeben
+42800 Spindelnummernumsetzer.
+42900 Vorzeichenwechsel Werkzeuglänge beim Spiegeln
+42910 Vorzeichenwechsel Werkzeugverschleiß beim Spiegeln
+42920 Vorzeichen des Verschleißes bei Werkzeugen mit Schneidenlage
+42930 Vorzeichen des Verschleißes
+42935 Transformationen für Werkzeukomponenten
+42940 Wechsel der Werkzeuglängenkomponenten bei Ebenenwechsel
+42950 Zuordnung der Werkzeuglängenkompensation unabh. vom Werkzeugtyp
+42960 Temperaturkompensation bezogen auf das Werkzeug
+42970 Obergrenze des Korrekturwertes $AA_TOFF
+42974 Feinverschiebung TCARR ein / aus
+42980 Framdefinition bei TOFRAME, TOROT und PAROT
+42984 Modifikation von $P_AD[2] bzw. $P_AD[11]
+42990 maximale Anzahl der Sätze im Ipo-Puffer
+42995 Kegelwinkel
