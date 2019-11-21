@@ -17,4 +17,4 @@ def level_up():
             for u in i.keys():
                 if u == module_name:
                     print(os.popen("pip install --upgrade "+i[u]).read())
-level_up(
+level_up()
