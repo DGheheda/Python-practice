@@ -1,3 +1,4 @@
 {
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "sync.gist": "b6debcb3436897d41f6fab1ab858a78a"
 }
