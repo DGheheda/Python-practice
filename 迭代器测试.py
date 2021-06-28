@@ -1,5 +1,5 @@
 L=list()
-a=9999
+a=99999
 i=0
 while i < a:
     i+=1
