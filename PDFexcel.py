@@ -1,1 +1,0 @@
-pf=open('C:\Users\David\Desktop\618.pdf', 'rb')
