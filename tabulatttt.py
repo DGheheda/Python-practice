@@ -8,12 +8,12 @@ def convert(path):
     second_page=pdf.pages[6]
     table1=second_page.extract_tables()
     wbk = xlwt.Workbook()
-    sheet = wbk.add_sheet(title[17:44],cell_overwrite_ok=True)#修改工作簿名称
-    for i in range(len(table1[0][0])):
-        sheet.write(0,i,table1[0][0][i])
+    sheet = wbk.add_sheet(title[17:44])#修改工作簿名称
+    for i in range(len(table1[0][0])):#迭代第一行数据
+        sheet.write(0,i+1,table1[0][0][i])
         wbk.save('result.xls')
-    for i in range(len(table1[0][1])):
-        sheet.write(1,i,table1[0][1][i])
+    for i in range(len(table1[0][1])):#迭代第二行数据
+        sheet.write(1,i+1,table1[0][1][i])
         wbk.save('result.xls')
     return
 convert('618.pdf')
