@@ -11,6 +11,9 @@ def convert(path):
     sheet = wbk.add_sheet(title[17:44],cell_overwrite_ok=True)#修改工作簿名称
     for i in range(len(table1[0][0])):
         sheet.write(0,i,table1[0][0][i])
-        wbk.save('618.xls')
+        wbk.save('result.xls')
+    for i in range(len(table1[0][1])):
+        sheet.write(1,i,table1[0][1][i])
+        wbk.save('result.xls')
     return
 convert('618.pdf')
