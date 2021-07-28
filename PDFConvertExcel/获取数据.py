@@ -1,4 +1,4 @@
-from os import path
+import os
 import pdfplumber
 import xlwt
 path=r'20210723_100613_CloudPoint(报告 1).pdf'
