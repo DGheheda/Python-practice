@@ -1,7 +1,7 @@
 import os
 import pdfplumber
 import xlwt
-path=r'20210723_100613_CloudPoint(报告 1).pdf'
+path=r'PDFConvertExcel/20210723_100613_CloudPoint(报告 1).pdf'
 pdf=pdfplumber.open(path)
 def datatimeget():
     global pdf#从函数内参数改为全局函数，减少程序体积
@@ -22,8 +22,7 @@ def datatitleget():
         wbk.save('result.xls')
     wbk.save('result.xls')
     return
-def dataget():#填写数据
-
-    data1page=pdf.pages[6].extract_tables()[1][1]
-    return data1ge
-datatitleget()
+def dataget():
+    data1page=pdf.pages[6].extract_tables()[0][1]
+    data2page=pdf.pages[8].extract_tables()[0][1]
+    return data1page
