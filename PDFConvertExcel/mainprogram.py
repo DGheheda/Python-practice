@@ -33,12 +33,13 @@ wbk = xlwt.Workbook()
 sheet1 = wbk.add_sheet('3D 比较1',cell_overwrite_ok=True)
 sheet2 = wbk.add_sheet('半径尺寸1',cell_overwrite_ok=True)
 if 'backup' not in os.listdir(os.getcwd()):
-        backuppath=os.mkdir(os.getcwd()+r'\backup\\')#创建备份文件夹
+        backuppath=os.mkdir(os.getcwd()+r'/backup/')#创建备份文件夹
 for files in os.listdir(sourcepath):
-    pdf=pdfplumber.open(sourcepath+'\\'+files)    
+    pdf=pdfplumber.open(sourcepath+'/'+files)    
     if r'result.xls' not in os.getcwd():
         datatitleget()
     datayyget()
     row=row+1
-    print(sourcepath+'\\'+files)
-    print(r'../backup'+'\\'+files)
+    print(sourcepath+'/'+files)
+    print(r'./backup'+'/'+files)
+    shutil.move(sourcepath+'/'+files,'./backup')
