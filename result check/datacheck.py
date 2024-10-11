@@ -1,15 +1,13 @@
-<<<<<<< HEAD
 import csv
 import codecs
 from re import split
+class datacheck:
+    def __init__(self,eventpath) -> None:
+        pass
 with codecs.open(r'C:\Users\David\Desktop\Python-practice\result check\LI\20240506185821.DFQ','r',encoding='MacRoman') as cf:
     cfreader=csv.reader(cf,dialect='excel',delimiter=':',)
-    dict1={}
-    for i in cfreader:
-       if len(i)>0:
-            a=i[0]
-            print(a.split())
-        
-=======
-import chardet
->>>>>>> 24c4694f02186a72f77bbeb7da13f2d9217d7bc1
+    # dict1={}
+    # for i in cfreader:
+    #     if len(i)>0:
+    #         a=i[0]
+    #         print(a.split())
