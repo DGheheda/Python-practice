@@ -6,10 +6,10 @@ class Danzier(FileSystemEventHandler):
     def on_created(self, event: FileSystemEvent) -> None:
         if not event.is_directory:
            eventpath=event.src_path
-        return print(eventpath)
+        return print(event)
     
     def on_deleted(self, event: FileSystemEvent) -> None:#删除文件触发删除事件写入路径到log文件
-        return super().on_deleted(event) 
+        return super().on_deleted(event)
 
 observer=Observer()
 handler1=Danzier()
