@@ -1,5 +1,4 @@
-dfq_file=input('请在此处粘贴目标文件路径')
-def IstMassnehmen():
+def IstMassnehmen(dfq_file):
         with open(dfq_file, "rb") as f:
                lines = f.read().decode("ascii", errors="replace").splitlines()#line是一个列表 索引值对应每一行，空行视为一行
         target_string=lines[214]
@@ -7,4 +6,5 @@ def IstMassnehmen():
         return IstMass
 
 if __name__=="__main__":
-     IstMassnehmen()
+     dfq_file=input('请在此处粘贴目标文件路径')
+     print(IstMassnehmen(dfq_file))
