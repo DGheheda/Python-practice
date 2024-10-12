@@ -7,4 +7,4 @@ def IstMassnehmen():
         return IstMass
 
 if __name__=="__main__":
-     print(result_check.IstMassnehmen())
+     IstMassnehmen()
